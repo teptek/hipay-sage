@@ -1,0 +1,61 @@
+body {
+  background-color: #f0f0f0; }
+
+.logos-clients {
+  background-color: white; }
+
+.vc_row.vc_row-fluid.full#home-clients {
+  padding: 70px calc((100% - 1170px) / 2) 0; }
+
+.vc_row.wpb_row.vc_row-fluid.logos-clients, .vc_row.wpb_row.vc_row-fluid.logos-clients.logos-clients-last {
+  padding: 25px calc((100% - 1170px) / 2);
+  margin: 0 auto; }
+
+.vc_row.wpb_row.vc_row-fluid.logos-clients.logos-clients-last {
+  padding-bottom: 70px; }
+
+#home-clients {
+  background-color: white; }
+
+.page-header-darklayer {
+  opacity: 0.35; }
+
+.vc_col-sm-3 {
+  margin-left: 10px;
+  width: calc(25% - 10px); }
+
+.card {
+  min-height: 325px; }
+  .card .more-link {
+    display: block;
+    bottom: 25px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%; }
+
+.featured-customers {
+  background-color: white; }
+
+.main > .vc_row.wpb_row.featured-customers.vc_row-fluid:not(#subscribe) {
+  margin-bottom: 0; }
+
+@media screen and (max-width: 992px) {
+  div.card {
+    margin: 0 10px 20px;
+    width: calc(50% - 20px); }
+
+  .card .more-link {
+    position: inherit;
+    margin-top: 15px; } }
+@media screen and (max-width: 768px) {
+  div.card {
+    margin: 0 15px 25px;
+    width: calc(100% - 30px); }
+
+  .logos-clients .vc_col-sm-2 {
+    float: left;
+    margin-bottom: 15px;
+    width: 33.3333%; } }
+
+/*# sourceMappingURL=customers.css.map */

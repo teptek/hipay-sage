@@ -1,0 +1,73 @@
+@import "buttons";
+
+.modal {
+  .modal-dialog {
+    margin: 7% auto 0;
+  }
+  input, select, textarea {
+    border: 1px solid $grey;
+    @include border-radius(3px);
+    font-size: 1.4rem;
+    outline: medium none;
+    padding: 5px;
+  }
+  label {
+    font-size: 1.4rem;
+  }
+  .btn {
+    margin-top: 0;
+  }
+
+  .modal-header {
+    border-bottom: medium none;
+    padding: 15px 0 0;
+    .modal-title {
+      padding: 0;
+      text-align: center;
+    }
+    h5 {
+      text-align: center;
+    }
+  }
+  .modal-footer {
+    border-top: 1px solid $grey;
+    padding: 15px 0 0;
+    display: table;
+    width: 100%;
+    .wpcf7-submit {
+      @extend .btn;
+      @include btn-color($green);
+      margin-top: 0;
+    }
+    .btn {
+      margin-top: 0;
+    }
+  }
+  small {
+    font-size: 1.2rem;
+    float: left;
+    padding: 10px 20px;
+    width: 100%;
+    color: $black;
+    font-weight: 300;
+  }
+  .col-md-6 {
+    input {
+      width: 100%;
+    }
+    select {
+      padding: 7px 0 6px;
+      width: 100%;
+    }
+    span[class*="captcha"] {
+      float: right;
+      width: calc(100% - 72px);
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal .modal-dialog {
+    margin: 25px 15px;
+  }
+}

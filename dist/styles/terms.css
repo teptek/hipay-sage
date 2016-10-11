@@ -1,0 +1,32 @@
+.wpb_wrapper {
+  text-align: left; }
+  .wpb_wrapper p {
+    max-width: 100%; }
+  .wpb_wrapper h1, .wpb_wrapper h2 {
+    margin-top: 40px;
+    margin-bottom: 0; }
+  .wpb_wrapper h1:first-child {
+    margin-top: 0; }
+
+b {
+  display: block;
+  margin-top: 25px; }
+
+.page-header {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/$black+0,555555+100 */
+  background: #2c383d;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #2c383d 0%, #555555 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #2c383d 0%, #555555 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #2c383d 0%, #555555 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$black, endColorstr='#555555',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  height: 320px; }
+
+a {
+  font-weight: 500; }
+
+/*# sourceMappingURL=terms.css.map */

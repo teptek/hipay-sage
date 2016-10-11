@@ -1,0 +1,188 @@
+@import "../common/_variables";
+
+.page-header {
+  background-image: linear-gradient(-45deg, #0DBFD9 3%, #00d2f2 18%, #00caee 31%, #00c7ec 37%, #00b0df 70%, #007cc1 91%, #005a94 100%);
+  //background-color: $black;
+  background-size: cover;
+  background-position: center bottom;
+  border-bottom: medium none;
+  margin: 0;
+  padding-bottom: 0;
+  display: table;
+  height: 420px;
+  width: 100%;
+  h1 {
+    color: #ffffff;
+    letter-spacing: -0.025em;
+    margin-top: 70px;
+    position: relative;
+    z-index: 1;
+    font-size: 2.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  small {
+    color: #ffffff;
+    font-size: $font-size;
+    font-weight: 300;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .page-header-content {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+  }
+  .page-description {
+    font-size: 1.55rem;
+    opacity: 0.75;
+    position: relative;
+    z-index: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.page-header-darklayer {
+  background-color: #000000;
+  height: 420px;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+}
+
+.text960 {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.panel-half {
+  text-align: left;
+  padding: 0;
+  width: 100%;
+  .container {
+    background-color: #ffffff;
+    @include border-radius(3px);
+    padding: 0;
+  }
+  p {
+    text-align: left;
+  }
+  img {
+    max-height: 450px;
+    width: auto;
+  }
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    text-align: left;
+  }
+  &.text-side {
+    background-color: #ffffff;
+    text-align: center;
+    .wpb_wrapper {
+      padding-left: 40px;
+    }
+  }
+  .col-md-6:not(.text-side) {
+    @include border-radius(0 3px 3px 0);
+    display: block;
+    overflow: hidden;
+  }
+}
+
+.vc_row.vc_row-fluid, .row {
+  background-repeat: no-repeat;
+  background-size: cover;
+  &.full {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+  &.full-blue {
+    @extend .full;
+    h1, h2, h3, h4, h5, h6 {
+      color: #fff;
+    }
+    background-color: $blue;
+    .full-txt {
+      color: #ffffff;
+      margin: 0 auto;
+      max-width: 960px;
+    }
+  }
+  &.full-half {
+    text-align: left;
+    width: 100%;
+    padding: 0;
+    .vc_column_container, .vc_col-sm-6, .col-md-6 {
+      display: table;
+      .vc_column-inner {
+        display: table-cell;
+        height: 100%;
+        padding: 0;
+        vertical-align: middle;
+        p {
+          text-align: left;
+        }
+        img {
+          max-height: 475px;
+          width: auto;
+        }
+        h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+          text-align: left;
+        }
+      }
+      &.text-side {
+        background-color: #ffffff;
+        text-align: left;
+      }
+      &:not(.text-side) {
+        display: block;
+        overflow: hidden;
+        .vc_column-inner {
+          background-size: cover;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.vc_row-fluid {
+  @include container-fixed;
+
+  @media (min-width: $screen-sm-min) {
+    width: $container-sm;
+  }
+  @media (min-width: $screen-md-min) {
+    width: $container-md;
+  }
+  @media (min-width: $screen-lg-min) {
+    width: $container-lg;
+  }
+
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+.vc_col-sm-12 {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .page-header {
+    height: 320px;
+    h1 {
+      margin-top: 35px;
+    }
+  }
+  .page-header-darklayer {
+    height: 320px;
+  }
+}

@@ -1,0 +1,53 @@
+article.post {
+  margin-top: 10px;
+  padding: 30px 0;
+  border-bottom: 1px solid #ebebeb; }
+  article.post header {
+    margin-bottom: 5px; }
+  article.post:last-child {
+    padding-bottom: 70px; }
+
+.main > .container {
+  padding-bottom: 70px; }
+
+#post-not-found {
+  margin-top: 70px; }
+  #post-not-found h1 {
+    font-size: 24px;
+    margin: 0 0 10px; }
+
+.item-list li:first-child {
+  padding-top: 0; }
+
+.articles-feed h2 {
+  margin-bottom: 25px; }
+
+.sidebar .sidebar-link {
+  background-color: transparent;
+  border-color: -moz-use-text-color -moz-use-text-color #dddddd;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-style: none none solid;
+  border-width: 0;
+  cursor: pointer;
+  display: table;
+  font-weight: 500;
+  padding: 3px 0;
+  font-size: 1.2rem;
+  text-align: left;
+  width: calc(100% - 100px);
+  text-transform: uppercase; }
+  .sidebar .sidebar-link:hover {
+    color: #007cc1;
+    text-decoration: none; }
+
+@media screen and (max-width: 992px) {
+  h2 {
+    text-align: center; }
+
+  .sidebar .sidebar-link {
+    text-align: center;
+    width: 100%; } }
+
+/*# sourceMappingURL=documentation.css.map */

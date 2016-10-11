@@ -1,0 +1,142 @@
+@import "../common/_mixins";
+@import "../common/_variables";
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  background-color: $black;
+  border: medium none;
+  & > li {
+    & > a {
+      color: $main-txt;
+      font-family: $main-font;
+      font-size: 1.2rem;
+      padding: 6px 20px;
+      font-weight: 500;
+    }
+    & > .dropdown-menu {
+      background-color: rgba(0, 0, 0, 0);
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      display: block;
+      margin: 0;
+      padding: 5px 0;
+      position: relative;
+      width: 100%;
+      & > li {
+        &.active {
+          & > a, & > a:hover, & > a:focus {
+            background-color: $background-grey;
+            color: $blue;
+          }
+        }
+        & > a {
+          padding: 4px 25px 4px 30px;
+        }
+      }
+    }
+  }
+  & > .active {
+    & > a {
+      background-color: $black-light;
+      color: $black;
+      &:hover, &:focus {
+        background-color: $black-light;
+        color: $black;
+      }
+    }
+  }
+}
+
+header.nav-down {
+  .dropdown-menu > li {
+    & > a {
+      color: rgba(255, 255, 255, 0.7);
+      &:hover, &:focus {
+        background-color: $black-light;
+        color: #ffffff;
+      }
+    }
+    & > .dropdown-menu {
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      & > li {
+        &.active {
+          & > a, & > a:hover, & > a:focus {
+            background-color: $black-light;
+            color: #ffffff;
+          }
+        }
+        & > a {
+          color: rgba(255, 255, 255, 0.35);
+          &:hover, &:focus {
+            background-color: $black-light;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+
+header:not(.nav-down) {
+  .navbar-nav > li > .dropdown-menu {
+    @include border-radius(3px);
+    background-color: #ffffff;
+    margin: -25px 0;
+    & > li {
+      & > a {
+        color: $black;
+        &:hover, &:focus {
+          color: $blue;
+          opacity: 1;
+        }
+      }
+      &.current-menu-item {
+        & > a {
+          background-color: #dddddd;
+        }
+      }
+    }
+  }
+}
+
+header {
+  .dropdown-toggle {
+    .caret {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header, header:not(.nav-down), header.nav-down  {
+    .dropdown-menu {
+      li.menu-item {
+        & > a {
+          font-size: 1.8rem;
+        }
+      }
+      li.current-menu-parent {
+        & > a {}
+      }
+      li.current-menu-item {
+        & > a {
+          background-color: transparent;
+          opacity: 1;
+          font-size: 1.8rem;
+          color: $blue-mobile;
+        }
+      }
+    }
+    .dropdown:hover .dropdown-menu {
+      display: none;
+    }
+  }
+}

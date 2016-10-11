@@ -1,0 +1,111 @@
+@import "common/variables";
+@import "common/mixins";
+
+body {
+  background-color: $background-grey;
+}
+
+h5 {
+  padding-bottom: 40px;
+}
+
+.invest-links {
+
+  a {
+    text-align: center;
+    border-radius: 3px;
+    color: $black;
+    display: table;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    width: inherit;
+    line-height: 1.1;
+    padding: 0;
+    font-weight: 500;
+    img {
+      display: block;
+      height: 53px;
+      margin: 0 auto;
+      max-width: 55px;
+      padding-bottom: 20px;
+      width: auto;
+    }
+    &:hover, &:focus {
+      color: $blue;
+      opacity: 1;
+    }
+    &#board_director {
+
+    }
+    &#leadership {
+
+    }
+    &#regulation {
+
+    }
+    &#shareprice {
+
+    }
+    &#publications {
+
+    }
+    &#financial_calendar {
+
+    }
+  }
+}
+
+.page-header {
+  background-color: $black;
+}
+
+.timeline {
+  padding: 40px 0 60px;
+}
+
+.main {
+  img {
+    height: auto;
+    width: 100%;
+  }
+  & > .row {
+    margin: 70px 0;
+  }
+}
+
+.col-md-6 {
+  margin-right: 50px;
+  width: calc(50% - 50px);
+}
+
+.timeline .timeline-bar {
+  left: 155px;
+  top: 50px;
+}
+
+@media screen and (max-width: 992px) {
+  h5 {
+    padding-bottom: 0;
+  }
+  .blog-list {
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .invest-links {
+    .vc_column_container {
+      float: left;
+      width: 33.333%;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .invest-links {
+    .vc_column_container {
+      float: left;
+      width: 50%;
+    }
+  }
+}

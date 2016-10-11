@@ -1,0 +1,83 @@
+// Search form
+
+@import "../common/_mixins";
+@import "../common/_variables";
+
+.search-form {
+  @extend .form-inline;
+}
+.search-form label {
+  font-weight: normal;
+  @extend .form-group;
+}
+.search-form .search-field {
+  @extend .form-control;
+}
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-default;
+}
+
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+div.wpcf7-validation-errors, div.wpcf7-mail-sent-ok {
+  border: medium none;
+}
+
+.wpcf7-not-valid-tip, .wpcf7-response-output, .wpcf7-mail-sent-ok {
+  font-family: $main-font;
+  font-size: 12px;
+}
+
+.terms-content {
+  margin-top: 25px;
+  color: #888888;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  input {
+    margin-right: 8px;
+    width: initial;
+  }
+  a {
+    font-weight: 500;
+  }
+}
+
+.wpcf7-recaptcha {
+  display: table;
+  padding: 25px 15px;
+}
+
+.wpcf7-form-control-wrap {
+  display: table;
+  position: relative;
+  width: 100%;
+}
+
+.modal-footer {
+  .btn {
+    margin-top:  0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body, .modal {
+    .modal-footer {
+      input.wpcf7-submit {
+        margin-left: 0 !important;
+        margin-top: 10px;
+        width: 100%;
+      }
+      button[data-dismiss] {
+        width: 100%;
+      }
+    }
+  }
+}

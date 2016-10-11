@@ -1,0 +1,140 @@
+.timeline {
+  background-color: $black;
+  padding: 60px 0;
+  text-align: center;
+  .container {
+    position: relative;
+  }
+  .timeline-bar {
+    background-color: #555;
+    height: 2px;
+    position: absolute;
+    left: 11.5%;
+    top: 35px;
+    width: 73%;
+  }
+  .timeline-point {
+    @include border-radius(30px);
+    background-color: $blue-mobile;
+    -webkit-box-shadow: 0 0 0 4px rgba(255,255,255,0.1);
+    -moz-box-shadow: 0 0 0 4px rgba(255,255,255,0.1);
+    box-shadow: 0 0 0 4px rgba(255,255,255,0.1);
+    display: block;
+    height: 11px;
+    margin: 0 auto 15px;
+    width: 11px;
+  }
+  .timeline-date {
+    .meta {
+      font-weight: 300;
+      margin: 0;
+    }
+  }
+  .timeline-title {
+    display: block;
+    padding: 0 0 15px;
+    h4 {
+      color: #ffffff;
+      font-size: 14px;
+      padding: 0;
+    }
+  }
+  &.timeline-white {
+    background-color: white;
+    border-bottom: 2px solid $grey;
+    .meta {
+      color: $blue;
+      opacity: 0.5;
+      font-weight: 400;
+    }
+    .timeline-bar {
+      background-color: #000000;
+      opacity: 0.065;
+    }
+    .timeline-title {
+      h4 {
+        color: $dark-blue;
+      }
+    }
+    .timeline-point {
+      background-color: $dark-blue;
+    }
+    .timeline-point {
+      background-color: $blue;
+      -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.065);
+      -moz-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.065);
+      box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.065);
+    }
+  }
+}
+
+.vertical-timeline {
+  margin-left: 5px;
+  width: calc(100% - 5px);
+  li {
+    border-bottom: 1px dashed #cccccc;
+    h4 {
+      padding-bottom: 0;
+    }
+  }
+  .article-title {
+    left: 18px;
+    position: relative;
+    top: -12px;
+    &:hover, &:focus {
+      opacity: 1;
+      h4 {
+        color: $blue;
+      }
+    }
+    .meta {
+      margin-bottom: 5px;
+    }
+  }
+  .timeline-bar {
+    background-color: $grey;
+    height: 330px;
+    position: absolute;
+    top: 70px;
+    width: 2px;
+  }
+  .timeline-point {
+    @include border-radius(30px);
+    background-color: $blue;
+    -webkit-box-shadow: 0 0 0 4px $background-grey;
+    -moz-box-shadow: 0 0 0 4px $background-grey;
+    box-shadow: 0 0 0 4px $background-grey;
+    display: block;
+    height: 8px;
+    width: 8px;
+    left: -3px;
+    position: relative;
+  }
+  &.item-list li {
+    padding: 20px 0 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .timeline {
+    h5 {
+      margin: 0 auto 25px;
+    }
+    &.timeline-white {
+      .timeline-point {
+        display: none;
+      }
+      .timeline-bar {
+        display: none;
+      }
+    }
+    .timeline-title {
+      padding: 0 0 5px;
+    }
+    & > .container > div[class*="col-md-"] {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,159 @@
+@import "common/variables";
+@import "common/mixins";
+@import "common/header-block";
+
+body {
+  background-color: $background-grey;
+}
+
+p.meta {
+  font-size: 1.1rem;
+  margin-bottom: 3px;
+}
+
+.main > .container {
+  padding-top: 40px;
+}
+
+.wrap {
+  margin-top: 70px;
+}
+
+article {
+  background-color: #fff;
+  border-bottom: 2px solid $grey;
+  @include border-radius(3px);
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.category-media, .category-media-en {
+  .article-tag {
+    background-color: $blue-turk;
+    &::after {
+      border-color: rgba(0, 0, 0, 0) darken($blue-turk, 10%) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    }
+  }
+}
+
+.category-cp, .category-cp-en {
+  .article-tag {
+    background-color: $green-turk;
+    &::after {
+      border-color: rgba(0, 0, 0, 0) darken($blue-turk, 10%) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    }
+  }
+}
+
+.page-template-cp {
+  .article-content {
+    padding: 30px 25px 25px;
+    width: 100%;
+  }
+}
+
+.article-content {
+  float: left;
+  padding: 30px 25px 25px 0;
+  width: calc(100% - 135px);
+  a, b, strong {
+    &:not(.tag) {
+      font-family: $serif;
+    }
+  }
+  a[class*="btn"] {
+    font-family: $main-font;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .post_content {
+    p, span {
+      font-size: 1.2rem;
+      font-weight: 300 !important;
+    }
+  }
+  .more-link {
+    &:not(.tag) {
+      display: block;
+      font-family: $main-font;
+      font-size: 12px;
+      font-weight: 400;
+      margin-top: 15px;
+    }
+  }
+}
+
+.article-title {
+  h3 {
+    padding: 0 0 15px;
+  }
+}
+
+.article-thumbnail {
+  float: left;
+  height: 80px;
+  margin: 25px 30px 25px 25px;
+  width: 80px;
+  img {
+    @include border-radius(3px);
+    height: auto;
+    width: 100%;
+  }
+}
+
+.main {
+  //margin-top: 60px;
+}
+
+.col-md-8 {
+  max-width: 800px;
+}
+
+.articles-feed, .last-articles-blog {
+  margin-top: 20px;
+  @include transition(margin-top);
+}
+
+.last-articles-blog {
+  position: fixed;
+  &.up {
+    margin-top: -50px;
+    @include transition(margin-top);
+  }
+}
+
+.cat-name {
+  display: none;
+  margin: 0 0 15px 5px;
+}
+
+@media screen and (max-width: 992px) {
+  .cat-name {
+    display: block;
+  }
+  header {
+    .btn-menu-anim {
+      padding: 20px 0 15px;
+    }
+    .navbar-brand {
+      margin: 22px 0 0;
+    }
+  }
+  article {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .articles-feed {
+    padding: 0;
+  }
+  .article-content {
+    padding: 15px;
+    width: 100%;
+  }
+  .article-thumbnail {
+    margin: 15px;
+  }
+}
+

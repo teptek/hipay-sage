@@ -1,0 +1,40 @@
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Colors
+$brand-primary:         #007cc1;
+$blue:                  #007cc1;
+$blue-tpp:              #005a94;
+$blue-mobile:           #00abe5;
+$green:                 #50b652;
+$black:                 #2c383d;
+$black-light:           #414c50;
+$grey:                  #dddddd;
+$grey-c:                #cccccc;
+$grey-txt:              #616A6E;
+$main-txt:              lighten($black, 30%);
+$light-grey-txt:        #888888;
+$background-grey:       #f0f0f0;
+$medium-grey:           #aaaaaa;
+$background-blue:       #e5f2f9;
+$dark-blue:             #19425c;
+
+$orange:                #f17430;
+$green-turk:            #2ab79a;
+$dark-red:              #a9534d;
+$blue-turk:             #009dbf;
+
+$main-font:             "Gotham SSm A","Helvetica Neue",Helvetica,Arial,sans-serif,sans-serif;
+$serif:                 "Gotham SSm A","Helvetica Neue",Helvetica,Arial,sans-serif,sans-serif;
+$read-txt:              #616a6e;
+
+$border:                1px solid #dddddd;
+
+$font-size:             1.6rem;
+$font-text:             2.2rem;
+$h1:                    42px;
+$h2:                    2.8rem;

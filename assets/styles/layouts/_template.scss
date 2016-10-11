@@ -1,0 +1,92 @@
+@import "../common/_mixins";
+@import "../common/_variables";
+
+.template {
+  .wpb_content_element {
+    & > .wpb_wrapper {
+      display: table;
+      padding: 0;
+      width: 100%;
+      & > div {
+        .bg {
+          @include brightness(1);
+          @include transition-multi(transform 1.5s ease 0s, filter 1.5s ease 0s);
+        }
+        &:hover, &:focus {
+          .bg {
+            transform: scale(1.02);
+            @include brightness(0.75);
+            @include transition-multi(transform 1.5s ease 0s, filter 1.5s ease 0s);
+          }
+          .img-link {
+            opacity: 1;
+            @include transition-multi(opacity 0.5s ease 0s);
+          }
+          h1, h2, h3, h4, h5, h6 {
+            margin-top: 0;
+            @include transition-multi(margin-top 0.5s ease 0s);
+          }
+        }
+      }
+    }
+  }
+}
+
+.template-content {
+  cursor: pointer;
+  color: #ffffff;
+  display: table-cell;
+  overflow: hidden;
+  position: relative;
+  vertical-align: middle;
+  z-index: 1;
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    @include transition-multi(margin-top 0.5s ease 0s);
+  }
+  .img-link {
+    border: 1px solid #ffffff;
+    @include border-radius(3px);
+    color: #ffffff;
+    display: table;
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 4px 14px;
+    font-size: 14px;
+    font-family: $main-font;
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    @include transition-multi(opacity 0.5s ease 0s);
+  }
+  .bg {
+    background-size: cover;
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  .vc_column-inner {
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .template.vc_row.vc_row-fluid {
+    width: 100%;
+    [class*="vc_col-sm"] {
+      width: 100%;
+    }
+  }
+  .template .wpb_wrapper > .template-content {
+    height: 400px;
+  }
+}

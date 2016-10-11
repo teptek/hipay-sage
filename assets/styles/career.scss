@@ -1,0 +1,228 @@
+@import "common/variables";
+@import "common/mixins";
+
+body {
+  background-color: $background-grey;
+}
+
+p {
+  text-align: justify;
+}
+
+.page-header-darklayer {
+  opacity: 0.38;
+}
+
+#career-intro.vc_row.wpb_row.vc_row-fluid:not(#subscribe) {
+  margin-bottom: 50px;
+}
+
+#career-intro {
+  background-color: white;
+  p {
+    margin: 0 auto;
+    max-width: 720px;
+    text-align: center;
+    &.intro-txt {
+      margin-bottom: 25px;
+      text-align: justify;
+    }
+  }
+}
+
+.filter-name {
+  margin-top: 0;
+}
+
+#job-offers-sticky-wrapper {
+  float: left;
+  & > #job-offers {
+    @include transition(top);
+  }
+}
+
+.nav-down + div.wrap {
+  #job-offers-sticky-wrapper {
+    &.is-sticky {
+      & > #job-offers {
+        top: 138px !important;
+        @include transition(top);
+      }
+    }
+  }
+}
+
+
+#job-offers {
+  float: left;
+  display: table;
+  padding-top: 10px;
+  width: 220px;
+  & > li {
+    display: table;
+    font-weight: 500;
+    padding: 0 0 5px;
+    text-align: left;
+    text-transform: uppercase;
+    &:hover, &:focus {
+      opacity: 1;
+      color: $blue;
+    }
+  }
+}
+
+.masonry-filter {
+  margin-bottom: 0;
+  text-align: center;
+  .btn {
+    &.active, &:active {
+      //border: 2px solid $blue;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      color: $blue;
+    }
+  }
+}
+
+#masonry-container {
+  float: right;
+  margin-bottom: 40px;
+  width: calc(100% - 220px);
+  [class*="col-md"] {
+    padding: 0;
+  }
+  .item{
+    background-color: #fff;
+    @include border-radius(3px);
+    margin-bottom: 25px;
+    min-height: 360px;
+    border-bottom: 2px solid #dddddd;
+  }
+
+  .item-content {
+    font-size: 1.4rem;
+    padding: 15px 25px 25px;
+    text-align: left;
+  }
+
+  h3 {
+    padding: 25px 25px 0;
+    font-size: 1.4rem;
+    text-align: left;
+  }
+
+  small {
+    background-color: $blue;
+    @include border-radius(7px 7px 10px 0);
+    color: #ffffff;
+    display: table;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 30px auto 0;
+    padding: 2px 10px;
+    text-align: center;
+    width: initial;
+  }
+
+  .category-carrieres-marketing {
+    @include article-tag($orange);
+  }
+  .category-carrieres-it {
+    @include article-tag($green-turk);
+  }
+  .category-carrieres-sales {
+    @include article-tag($blue-turk);
+  }
+  .category-carrieres-finance {
+    @include article-tag($blue-mobile);
+  }
+  .category-carrieres-administration {
+    @include article-tag($green);
+  }
+
+  .category-carrieres-partners {
+    @include article-tag($blue-tpp);
+  }
+
+  .category-carrieres-customers {
+    @include article-tag($blue-mobile);
+  }
+
+  .category-carrieres-others {
+    @include article-tag($grey-txt);
+  }
+
+  .category-carrieres-bi {
+    @include article-tag($blue);
+  }
+
+  .job-link-container {
+    bottom: 25px;
+    position: absolute;
+    width: 100%;
+  }
+
+  .job-link {
+    background-color: transparent;
+    @include border-radius(3px);
+    border: 1px solid lighten($blue, 5%);
+    bottom: 0;
+    color: $blue;
+    display: table;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 0 0 25px;
+    padding: 3px 10px;
+  }
+  .col-md-4 {
+    width: calc(33.3333% - 25px);
+  }
+}
+
+iframe {
+  border: medium none;
+}
+
+@media screen and (max-width: 992px) {
+  article {
+    & > section {
+      .vc_row-fluid {
+        padding-bottom: 60px !important;
+      }
+    }
+  }
+  #masonry-container {
+    margin-bottom: 0;
+    .col-md-4 {
+      margin-bottom: 25px;
+      width: 100%;
+    }
+    .item {
+      min-height: inherit;
+    }
+    .job-link-container {
+      bottom: inherit;
+      margin-bottom: 25px;
+      position: relative;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #masonry-container {
+    width: 100%;
+  }
+  #job-offers-sticky-wrapper {
+    margin-bottom: 40px;
+  }
+  #job-offers {
+    position: relative !important;
+    width: 100%;
+    top: 0 !important;
+  }
+  .nav-down + div.wrap #job-offers-sticky-wrapper.is-sticky > #job-offers {
+    top: 0 !important;
+  }
+}

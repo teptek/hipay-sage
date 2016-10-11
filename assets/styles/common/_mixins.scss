@@ -1,0 +1,82 @@
+@import "_variables";
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin btn-color($color) {
+  background-color: $color;
+  color: #ffffff;
+  &:focus, &:hover, &:active {
+    background-color: darken( $color, 10% );
+    color: #ffffff;
+    outline: medium none;
+    //@include transition(opacity);
+  }
+}
+
+@mixin btn-color-empty($color) {
+  background-color: transparent;
+  border: 2px solid $color;
+  color: $color;
+  &:focus, &:hover, &:active {
+    border: 2px solid darken( $color, 10% );
+    color: darken( $color, 10% );
+    outline: medium none;
+    //@include transition(opacity);
+  }
+}
+
+@mixin transition($css) {
+  -webkit-transition: $css 0.3s ease 0s;
+  -moz-transition: $css 0.3s ease 0s;
+  -ms-transition: $css 0.3s ease 0s;
+  -o-transition: $css 0.3s ease 0s;
+  transition: $css 0.3s ease 0s;
+}
+
+@mixin transition-multi($css...) {
+  -webkit-transition: $css;
+  -moz-transition: $css;
+  -ms-transition: $css;
+  -o-transition: $css;
+  transition: $css;
+}
+
+@mixin monochrome($number) {
+  -webkit-filter: saturate($number);
+  -moz-filter: saturate($number);
+  filter: saturate($number);
+}
+
+@mixin brightness($number) {
+  -moz-filter: brightness($number);
+  -webkit-filter: brightness($number);
+  filter: brightness($number);
+}
+
+@mixin gallery-columns ($col) {
+  .gallery-columns-#{$col} {
+    .gallery-item {
+      @extend .col-md-#{$col};
+      margin-bottom: 2px;
+      img {
+        height: auto;
+        padding: 12px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@mixin article-tag ($color) {
+  .article-tag {
+    background-color: $color;
+    &::after {
+      border-color: rgba(0, 0, 0, 0) darken($color, 10%) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    }
+  }
+}

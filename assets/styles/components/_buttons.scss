@@ -1,0 +1,147 @@
+@import "../common/_mixins";
+@import "../common/_variables";
+
+.btn, button {
+  @include border-radius(3px);
+  border: medium none;
+  font-family: $main-font;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 14px 18px;
+  height: initial;
+  margin-top: 25px;
+  width: initial;
+  outline: medium none;
+  white-space: normal;
+  opacity: 1;
+  //@include transition(opacity);
+
+  &.green {
+    @include btn-color($green);
+  }
+
+  &.blue {
+    @include btn-color($blue);
+  }
+
+  &.blue-mobile {
+    @include btn-color($blue-mobile);
+  }
+
+  &.blue-tpp {
+    background-color: $blue-tpp;
+    color: #ffffff;
+    &:focus, &:hover, &:active {
+      background-color: $blue;
+      outline: medium none;
+      //@include transition(opacity);
+    }
+  }
+  &.white {
+    background-color: white;
+    color: $blue;
+    &:focus, &:hover, &:active {
+      background-color: darken( white, 10% );
+      outline: medium none;
+      //@include transition(opacity);
+    }
+  }
+  &.empty {
+    background-color: transparent;
+    border: 2px solid;
+    padding: 8px 16px;
+    &.green {
+      @include btn-color-empty($green);
+    }
+
+    &.blue {
+      @include btn-color-empty($blue);
+    }
+
+    &.blue-mobile {
+      @include btn-color-empty($blue-mobile);
+    }
+
+    &.blue-tpp {
+      @include btn-color-empty($blue-tpp);
+    }
+
+    &.white {
+      @include btn-color-empty(#ffffff);
+    }
+  }
+
+  &.large {
+    padding: 16px 32px;
+  }
+
+  &.square {
+    @include border-radius(3px);
+    padding: 16px 24px;
+  }
+  &.small {
+    padding: 10px 16px;
+  }
+  &.btn-default {
+    background-color: #ebebeb;
+  }
+  .btn-blue-empty-rounded {
+    border: 2px solid $blue;
+    border-radius: 30px;
+    font-size: 1.4rem;
+    padding: 10px 12px;
+    &:hover, &:focus {
+      color: darken($blue, 20%);
+      border: 2px solid darken($blue, 20%);
+    }
+  }
+  &:focus, &:hover, &:active {
+    opacity: 1;
+    outline: medium none;
+  }
+}
+
+.img-link, .other-link {
+  border: 1px solid #ffffff;
+  @include border-radius(3px);
+  color: #ffffff;
+  display: table;
+  font-weight: 500;
+  margin: 0 auto;
+  padding: 3px 10px;
+  font-size: 12px;
+  font-family: $main-font;
+  margin-top: 10px;
+  &:hover, &:focus {
+    color: #ffffff;
+  }
+}
+
+.pager {
+  margin: 0 0 40px;
+  li {
+    & > a, & > span {
+      background-color: transparent;
+      border: medium none;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 400;
+      padding: 0;
+      &:hover, &:focus {
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .btn, button {
+    &.green, &.blue, &.white, &.blue-mobile, &.blue-tpp {
+      //font-size: 18px;
+      //padding: 16px 34px;
+    }
+  }
+}

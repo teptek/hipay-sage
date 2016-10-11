@@ -1,0 +1,199 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "news.css": {
+      "files": [
+        "styles/news.scss"
+      ],
+      "main": true
+    },
+    "feed.css": {
+      "files": [
+        "styles/feed.scss"
+      ],
+      "main": true
+    },
+    "invest.css": {
+      "files": [
+        "styles/invest.scss"
+      ],
+      "main": true
+    },
+    "sitemap.css": {
+      "files": [
+        "styles/sitemap.scss"
+      ],
+      "main": true
+    },
+    "home.css": {
+      "files": [
+        "styles/home.scss"
+      ],
+      "main": true
+    },
+    "home_test.css": {
+      "files": [
+        "styles/home_test.scss"
+      ],
+      "main": true
+    },
+    "products.css": {
+      "files": [
+        "styles/products.scss"
+      ],
+      "main": true
+    },
+    "professional.css": {
+      "files": [
+        "styles/professional.scss"
+      ],
+      "main": true
+    },
+    "marketplace.css": {
+      "files": [
+        "styles/marketplace.scss"
+      ],
+      "main": true
+    },
+    "bourse.css": {
+      "files": [
+        "styles/bourse.scss"
+      ],
+      "main": true
+    },
+    "enterprise.css": {
+      "files": [
+        "styles/enterprise.scss"
+      ],
+      "main": true
+    },
+    "single-job.css": {
+      "files": [
+        "styles/single-job.scss"
+      ],
+      "main": true
+    },
+    "single.css": {
+      "files": [
+        "styles/single.scss"
+      ],
+      "main": true
+    },
+    "leadership.css": {
+      "files": [
+        "styles/leadership.scss"
+      ],
+      "main": true
+    },
+    "events.css": {
+      "files": [
+        "styles/events.scss"
+      ],
+      "main": true
+    },
+    "terms.css": {
+      "files": [
+        "styles/terms.scss"
+      ],
+      "main": true
+    },
+    "signup.css": {
+      "files": [
+        "styles/signup.scss"
+      ],
+      "main": true
+    },
+    "career.css": {
+      "files": [
+        "styles/career.scss"
+      ],
+      "main": true
+    },
+    "customers.css": {
+      "files": [
+        "styles/customers.scss"
+      ],
+      "main": true
+    },
+    "contact.css": {
+      "files": [
+        "styles/contact.scss"
+      ],
+      "main": true
+    },
+    "about.css": {
+      "files": [
+        "styles/about.scss"
+      ],
+      "main": true
+    },
+    "case-study.css": {
+      "files": [
+        "styles/case-study.scss"
+      ],
+      "main": true
+    },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "maps-config.js": {
+      "files": [
+        "scripts/maps-config.js"
+      ]
+    },
+    "amconfig.js": {
+      "files": [
+        "scripts/amconfig.js"
+      ]
+    },
+    "classie.js": {
+      "files": [
+        "scripts/classie.js"
+      ]
+    },
+    "multipleFilterMasonry.js": {
+      "files": [
+        "scripts/multipleFilterMasonry.js"
+      ]
+    },
+    "fixed-scroll-listener.js": {
+      "files": [
+        "scripts/fixed-scroll-listener.js"
+      ]
+    },
+    "masonry-config.js.js": {
+      "files": [
+        "scripts/masonry-config.js"
+      ]
+    },
+    "home-test.js": {
+      "files": [
+        "scripts/home-test.js"
+      ]
+    },
+    "infinite-scroll-config.js": {
+      "files": [
+        "scripts/infinite-scroll-config.js"
+      ]
+    }
+  },
+  "config": {
+    "devUrl": "http://wpdev.hipay.com"
+  }
+}

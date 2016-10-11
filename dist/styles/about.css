@@ -1,0 +1,69 @@
+.page-header-darklayer {
+  opacity: 0.25; }
+
+p {
+  text-align: justify; }
+
+h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: -0.015em; }
+
+#expertise {
+  text-align: left;
+  background: #00899b;
+  background: -moz-linear-gradient(-45deg, #00899b 0%, #005a94 100%);
+  background: -webkit-linear-gradient(-45deg, #00899b 0%, #005a94 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #00899b 0%, #005a94 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00899b', endColorstr='$blue-tpp',GradientType=1 );
+  padding: 120px 0; }
+  #expertise h5 {
+    padding-bottom: 5px;
+    color: white;
+    opacity: 0.5; }
+  #expertise h1, #expertise h2, #expertise h3, #expertise p {
+    color: white; }
+
+p {
+  font-size: 1.6rem; }
+
+#missions img {
+  max-width: 50px; }
+#missions .wpb_text_column > .wpb_wrapper {
+  border: 1px solid #cbecff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  padding: 15px; }
+  #missions .wpb_text_column > .wpb_wrapper h4 {
+    font-size: 1.6rem;
+    padding-bottom: 15px; }
+
+.missions-txt strong {
+  display: block;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  text-align: center;
+  width: 100%; }
+
+.about-map {
+  text-align: center; }
+  .about-map img {
+    max-width: 520px;
+    opacity: 0.6; }
+
+@media screen and (max-width: 992px) {
+  #expertise {
+    padding: 60px 0; }
+
+  .vc_column-inner h1, .vc_column-inner h2, .vc_column-inner h3, .vc_column-inner h4 {
+    padding: 0; }
+
+  #missions .vc_column_container {
+    margin-bottom: 10px; } }
+
+/*# sourceMappingURL=about.css.map */

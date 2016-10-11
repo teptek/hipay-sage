@@ -1,0 +1,143 @@
+@import "../common/_mixins";
+@import "../common/_variables";
+
+.wrap {
+  margin-top: 70px;
+}
+
+header {
+  background-color: $black;
+  //border-bottom: 1px solid #ebebeb;
+  top: 0;
+  @include transition-multi(top 0.5s ease 0s, padding 0.3s ease 0s);
+
+  .navbar-brand {
+    //background-image: url("../images/hipay-color.svg");
+    //background-position: center top;
+    //background-repeat: no-repeat;
+    //background-size: 96px auto;
+
+    height: 37px;
+    margin: 18px 0 0;
+    @include transition-multi(height 0.3s ease 0s, margin 0.3s ease 0s);
+
+    & > svg {
+      & > path {
+        fill: #fff;
+        @include transition(fill);
+      }
+    }
+  }
+
+  .nav > li {
+    padding: 10px 0;
+    @include transition-multi(padding 0.3s ease 0s, background-color 0.3s ease 0s);
+    & > a {
+      color: $grey-txt;
+      &:hover, &:focus {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0);
+        border: medium none;
+        opacity: 1;
+      }
+    }
+    &.sub-menu {
+      margin-top: 10px;
+    }
+    &:hover, &:focus {
+      color: #fff;
+    }
+    &.current-menu-parent, &.current-menu-item {
+      & > a {
+        color: #fff;
+        opacity: 1;
+      }
+    }
+  }
+  .nav-secondary {
+    & > li:last-child {
+      & > a {
+        background-color: $blue;
+        border: medium none;
+        color: #fff;
+        opacity: 1;
+        padding: 8px 16px;
+        @include transition-multi(background-color 0.3s ease 0s, opacity 0.3s ease 0s);
+        &:focus, &:hover, &:active {
+          opacity: 0.75;
+          outline: medium none;
+          @include transition(opacity);
+        }
+      }
+    }
+  }
+  .dropdown-menu > li {
+    & > a {
+      color: rgba(255, 255, 255, 0.7);
+      &:hover, &:focus {
+        background-color: $black-light;
+        color: #ffffff;
+      }
+    }
+    & > .dropdown-menu {
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      & > li {
+        &.active {
+          & > a, & > a:hover, & > a:focus {
+            background-color: $black-light;
+            color: #ffffff;
+          }
+        }
+        & > a {
+          color: rgba(255, 255, 255, 0.35);
+          &:hover, &:focus {
+            background-color: $black-light;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+
+header:not(.nav-down) .navbar-nav > li {
+  .dropdown-menu {
+    background-color: $black;
+    border: medium none;
+    margin: 0;
+    @include border-radius(0);
+    & > li {
+      &.current-menu-item {
+        & > a, &.active, &:hover, &:focus {
+          background-color: $black-light;
+          color: #ffffff;
+        }
+      }
+      & > a {
+        color: rgba(255, 255, 255, 0.7);
+        &.active, &:hover, &:focus {
+          background-color: $black-light;
+          color: #ffffff;
+        }
+      }
+      & > .dropdown-menu {
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+        & > li {
+          &.active {
+            & > a, & > a:hover, & > a:focus {
+              background-color: $black-light;
+              color: #ffffff;
+            }
+          }
+          & > a {
+            color: rgba(255, 255, 255, 0.35);
+            &:hover, &:focus {
+              background-color: $black-light;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

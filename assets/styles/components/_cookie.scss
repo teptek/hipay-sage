@@ -1,0 +1,18 @@
+@import "../common/_mixins";
+@import "../common/_variables";
+
+#cookie-notice {
+  .button.bootstrap {
+    @extend .btn;
+    @extend .blue;
+    text-transform: uppercase;
+    margin: 15px 0 0 0;
+    display: block;
+  }
+  #cn-accept-cookie {
+    width: initial;
+    display: table;
+    margin: 15px auto 0;
+    padding: 6px 12px;
+  }
+}

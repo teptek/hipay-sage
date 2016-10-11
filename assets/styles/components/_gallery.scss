@@ -1,0 +1,15 @@
+@import "../common/_mixins";
+@import "../common/_variables";
+
+.gallery-columns-6 {
+  .gallery-item {
+    @extend .col-md-2;
+    margin-bottom: 2px;
+    img {
+      height: auto;
+      padding: 12px;
+      width: 100%;
+    }
+  }
+}
+

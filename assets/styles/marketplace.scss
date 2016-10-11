@@ -1,0 +1,25 @@
+@import "common/variables";
+@import "common/mixins";
+
+.page-header-darklayer {
+  opacity: 0.63;
+}
+
+#marketplace-scheme {
+  max-width: 720px;
+}
+
+.marketplace-usp {
+  img {
+    width: 55px;
+  }
+  .full-txt {
+    font-size: 1.4rem;
+    opacity: 1;
+    text-align: justify;
+  }
+}
+
+#marketplace-licenses {
+  background-color: $background-grey;
+}

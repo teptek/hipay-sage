@@ -1,0 +1,49 @@
+.single {
+  background-color: #fff; }
+  .single .main .page-header {
+    background-position: center center;
+    height: 415px; }
+  .single .main > .container {
+    font-family: "Gotham SSm A", "Helvetica Neue", Helvetica, Arial, sans-serif, sans-serif;
+    color: #616a6e;
+    font-size: 1.8rem;
+    font-weight: 200;
+    line-height: 1.75em;
+    margin: 120px auto;
+    width: 700px; }
+    .single .main > .container a:not(.tag), .single .main > .container b:not(.tag), .single .main > .container strong:not(.tag) {
+      font-family: "Gotham SSm A", "Helvetica Neue", Helvetica, Arial, sans-serif, sans-serif; }
+    .single .main > .container h1 {
+      font-size: 32px;
+      padding: 0; }
+    .single .main > .container .tag-section {
+      display: block;
+      margin-top: 15px; }
+    .single .main > .container section {
+      padding: 1.75em 0 0; }
+      .single .main > .container section a {
+        font-weight: 400;
+        letter-spacing: -0.01em; }
+        .single .main > .container section a span {
+          font-weight: 400;
+          letter-spacing: -0.01em; }
+    .single .main > .container p {
+      letter-spacing: 0.01rem;
+      margin: 0 0 1.75em; }
+
+body:not(.category-blog) .main > .container {
+  margin: 0 auto 40px; }
+body:not(.category-blog) .other-articles .article-content, body:not(.category-blog) .other-articles.vc_row.vc_row-fluid .article-content {
+  -webkit-transition: background-color 0.3s ease 0s;
+  -moz-transition: background-color 0.3s ease 0s;
+  -ms-transition: background-color 0.3s ease 0s;
+  -o-transition: background-color 0.3s ease 0s;
+  transition: background-color 0.3s ease 0s; }
+  body:not(.category-blog) .other-articles .article-content:hover, body:not(.category-blog) .other-articles .article-content:focus, body:not(.category-blog) .other-articles.vc_row.vc_row-fluid .article-content:hover, body:not(.category-blog) .other-articles.vc_row.vc_row-fluid .article-content:focus {
+    -webkit-transition: background-color 0.3s ease 0s;
+    -moz-transition: background-color 0.3s ease 0s;
+    -ms-transition: background-color 0.3s ease 0s;
+    -o-transition: background-color 0.3s ease 0s;
+    transition: background-color 0.3s ease 0s; }
+
+/*# sourceMappingURL=single.-empty-img.css.map */

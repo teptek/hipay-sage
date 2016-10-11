@@ -1,0 +1,29 @@
+@import "common/variables";
+@import "common/mixins";
+
+body {
+  background-color: $background-grey;
+  font-size: 1.6rem;
+}
+
+.page-header {
+  height: 400px;
+  h1 {
+    font-size: 42px;
+  }
+}
+
+[class*="vc_custom"] {
+  background-position: center center;
+}
+
+@media screen and (max-width: 992px) {
+  .main {
+    img {
+      width: 100%;
+      &.ico {
+        max-width: 100px;
+      }
+    }
+  }
+}

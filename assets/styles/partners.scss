@@ -1,0 +1,30 @@
+@import "common/variables";
+@import "common/mixins";
+
+.partners-logos {
+  border-top: 1px dashed $grey-c;
+  padding-top: 70px;
+}
+
+.page-header-darklayer {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 768px) {
+  .partners-logos {
+    padding-top: 25px;
+    .vc_col-sm-2 {
+      float: left;
+      margin: 0;
+      width: 33.333%;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .partners-logos {
+    .vc_col-sm-2 {
+      width: 50%;
+    }
+  }
+}

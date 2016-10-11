@@ -1,0 +1,118 @@
+@import "common/variables";
+@import "common/mixins";
+
+.page-header-darklayer {
+  opacity: 0.55;
+}
+
+#professional-usp {
+  img {
+    display: table;
+    margin: 0 auto;
+    max-height: 50px;
+    width: auto;
+  }
+  .full-txt {
+    font-size: 1.4rem;
+    opacity: 1;
+    text-align: justify;
+    width: calc(100% - 50px);
+  }
+  h3 {
+    display: table;
+    padding: 25px 0 15px;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+#pro-pricing {
+  background-color: $background-grey;
+  text-align: left;
+  h2 {
+    margin-bottom: 5px;
+  }
+  table {
+    background-color: #ffffff;
+    border-bottom: 2px solid $grey;
+    @include border-radius(6px);
+    display: table;
+    margin: 40px auto 0;
+    max-width: 720px;
+    padding: 10px;
+    text-align: left;
+  }
+  .vc_column-inner {
+    & > .wpb_wrapper {
+      & > .wpb_content_element:first-child {
+        margin-bottom: 70px;
+      }
+    }
+  }
+}
+
+#pro-api {
+  position: relative;
+  padding-bottom: 90px;
+  padding-top: 90px;
+  background-position: center center;
+  .wpb_wrapper {
+    float: left;
+    text-align: left;
+    h1, h2, h3 {
+      margin-top: 25px;
+      text-align: left;
+    }
+  }
+  .pro-api-txt {
+    z-index: 1;
+    h2, h3, p {
+      color: white;
+    }
+
+  }
+  .darklayer {
+    background-color: #000000;
+    height: 100%;
+    left: 0;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+  }
+}
+
+.vc_row.vc_row-fluid.dashboard-render {
+  padding: 70px 0 0 calc((100% - 1170px) / 2);
+  .dashboard-render-txt > .vc_column-inner {
+    padding-top: 70px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #pro-api .wpb_wrapper {
+    float: inherit;
+  }
+  #pro-api-txt {
+    margin: 0;
+    width: 100%;
+    &.vc_row.vc_row-fluid p {
+      text-align: left;
+    }
+    h2 {
+      margin: 0;
+      text-align: left !important;
+      width: 100%;
+    }
+  }
+  .vc_row.vc_row-fluid.dashboard-render .dashboard-render-txt > .vc_column-inner {
+    padding-top: 0;
+    width: 100%;
+  }
+  .vc_row.vc_row-fluid.dashboard-render .dashboard-render-txt p {
+    margin-bottom: 0 !important;
+  }
+  .vc_row.vc_row-fluid h2 {
+    max-width: 100% !important;
+    padding: 0;
+  }
+}

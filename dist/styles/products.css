@@ -1,0 +1,67 @@
+body {
+  background-color: #f0f0f0; }
+
+.page-header-darklayer {
+  opacity: 0.6; }
+
+#offer-container {
+  display: block;
+  padding-top: 40px; }
+  #offer-container .vc_column-inner img {
+    max-width: 40px;
+    margin: 0 auto; }
+
+.vc_col-sm-4 > .vc_column-inner {
+  padding: 0 7px; }
+
+.wpb_text_column {
+  min-height: 700px;
+  padding: 40px 25px; }
+
+h4 {
+  margin-bottom: 0;
+  margin-top: 25px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 1.6rem; }
+
+.offer-title-txt {
+  font-family: "Gotham SSm A", "Helvetica Neue", Helvetica, Arial, sans-serif, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  padding: 0;
+  text-align: center; }
+
+a.btn {
+  display: table;
+  margin: 25px auto 0; }
+
+.offer-content {
+  border-top: 1px dashed #ccc;
+  margin-top: 25px;
+  padding: 40px 0 0; }
+  .offer-content p, .offer-content li {
+    font-family: "Gotham SSm A", "Helvetica Neue", Helvetica, Arial, sans-serif, sans-serif;
+    font-size: 1.6rem;
+    line-height: 2; }
+  .offer-content li {
+    background-image: url("../images/check.svg");
+    background-position: -2px 0;
+    background-repeat: no-repeat;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    padding: 0 0 15px 25px; }
+
+.wpb_content_element {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px; }
+
+.products-submit {
+  bottom: 25px;
+  left: 0;
+  position: absolute;
+  width: 100%; }
+
+/*# sourceMappingURL=products.css.map */

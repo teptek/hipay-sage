@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,eAAgB;EACd,UAAU,EAAE,kBAAkB;EAC9B,WAAW,EAAE,IAAI;;AAGnB,sBAAuB;EACrB,OAAO,EAAE,GAAG;;AAGd,oCAAqC;EACnC,eAAgB;IACd,WAAW,EAAE,IAAI;IACjB,4BAAa;MACX,KAAK,EAAE,IAAI;MACX,MAAM,EAAE,CAAC;MACT,KAAK,EAAE,OAAO;AAKpB,oCAAqC;EAEjC,4BAAa;IACX,KAAK,EAAE,GAAG",
+"sources": ["../../assets/styles/partners.scss"],
+"names": [],
+"file": "partners.css"
+}
