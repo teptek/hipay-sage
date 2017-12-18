@@ -7,34 +7,60 @@ $sidebar-sm-columns:    4;
 
 // Colors
 $brand-primary:         #007cc1;
-$blue:                  #007cc1;
-$blue-tpp:              #005a94;
-$blue-mobile:           #00abe5;
-$green:                 #50b652;
+
+$blue-light:            #00C4D7;
+$blue-mobile:           #00a5e1;
+
 $black:                 #2c383d;
 $black-light:           #414c50;
+
 $grey:                  #dddddd;
 $grey-c:                #cccccc;
 $grey-txt:              #616A6E;
-$main-txt:              lighten($black, 30%);
 $light-grey-txt:        #888888;
 $background-grey:       #f0f0f0;
+$background-blue:       #ecf0f9;
 $medium-grey:           #aaaaaa;
+
+$main-txt:              lighten($black, 30%);
+
 $background-blue:       #e5f2f9;
 $dark-blue:             #19425c;
 
-$orange:                #f17430;
+// main colors
+$blue:                  #00a5e1;
+$yellow:                #ffba00;
+$blue-teal:             #79e2d3;
+
+// secondary colors
+$midnight-blue:         #00507f;
+$think-purple:          #947bff;
+$sky-blue:              #5bc8ef;
+$orange:                #ff874c;
+$cool-grey:             #bbbcbc;
+$charcoal-grey:         #75787b;
+$green:                 #4ee58b;
+
 $green-turk:            #2ab79a;
 $dark-red:              #a9534d;
+$red:                   #cc5500;
 $blue-turk:             #009dbf;
 
-$main-font:             "Gotham SSm A","Helvetica Neue",Helvetica,Arial,sans-serif,sans-serif;
-$serif:                 "Gotham SSm A","Helvetica Neue",Helvetica,Arial,sans-serif,sans-serif;
+$blue-green:            #74e3d3;
+$teal-dark:             #32A9B8;
+$teal:                  #79E2D3;
+
+$main-font:             "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif:                 "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $read-txt:              #616a6e;
 
 $border:                1px solid #dddddd;
 
+$font-size-xsm:         1.3rem;
+$font-size-sm:          1.5rem;
 $font-size:             1.6rem;
 $font-text:             2.2rem;
 $h1:                    42px;
 $h2:                    2.8rem;
+
+$event-module-height:   38px;

@@ -1,0 +1,1 @@
+jQuery(document).ready(function(o){o('[data-toggle="popover"]').popover().on("click",function(e){o(".size-full").not(this).popover("hide")})});

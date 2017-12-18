@@ -2,159 +2,469 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f360326c-e18b-4950-9341-a8f6f706b680" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/404.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/archive.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/author-bio.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/comments.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/content-link.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/content-none.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/content-page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/content-search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/css/editor-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/css/ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/css/ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/genericons/COPYING.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/genericons/Genericons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/genericons/Genericons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/genericons/Genericons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/genericons/Genericons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/genericons/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/genericons/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/genericons/genericons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/inc/back-compat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/inc/custom-header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/inc/customizer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/inc/template-tags.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/js/color-scheme-control.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/js/customize-preview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/js/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/js/html5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/js/keyboard-image-navigation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/js/skip-link-focus-fix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/languages/twentyfifteen.pot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/single.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfifteen/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/404.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/archive.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/author.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/category.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/comments.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/content-aside.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/content-audio.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/content-featured-post.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/content-gallery.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/content-image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/content-link.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/content-none.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/content-page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/content-quote.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/content-video.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/css/editor-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/css/ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/featured-content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/genericons/COPYING.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/genericons/Genericons-Regular.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/genericons/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/genericons/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/genericons/font/genericons-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/genericons/font/genericons-regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/genericons/font/genericons-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/genericons/font/genericons-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/genericons/genericons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/images/pattern-dark.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/images/pattern-light.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/inc/back-compat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/inc/custom-header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/inc/customizer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/inc/featured-content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/inc/template-tags.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/inc/widgets.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/js/customizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/js/featured-content-admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/js/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/js/html5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/js/keyboard-image-navigation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/js/slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/languages/twentyfourteen.pot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/page-templates/contributors.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/page-templates/full-width.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/sidebar-content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/sidebar-footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/single.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/tag.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentyfourteen/taxonomy-post_format.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/404.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/archive.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/comments.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/css/editor-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/css/ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/css/ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/css/ie8.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/genericons/COPYING.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/genericons/Genericons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/genericons/Genericons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/genericons/Genericons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/genericons/Genericons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/genericons/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/genericons/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/genericons/genericons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/inc/back-compat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/inc/customizer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/inc/template-tags.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/js/color-scheme-control.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/js/customize-preview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/js/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/js/html5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/js/keyboard-image-navigation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/js/skip-link-focus-fix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/languages/twentysixteen.pot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/searchform.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/sidebar-content-bottom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/single.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/template-parts/biography.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/template-parts/content-none.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/template-parts/content-page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/template-parts/content-search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/template-parts/content-single.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../twentysixteen/template-parts/content.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hipay-sage" afterPath="$PROJECT_DIR$/../hipay-sage" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enterprise-ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/fraud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/intelligence-ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/marketplace-ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/omnichannel-ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/professional-ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3ds.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/applepay.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/arrow-right-orange.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/arrow-right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/browser.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/carousel-down.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/carousel-up.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/ico-calendar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/ico-view.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/intelligence-main-ico.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/intelligence-monitor-ico.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/ressources-download-ico.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/ressources-read-ico.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/ressources-video-ico.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/star.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/videos.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scripts/charts-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scripts/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scripts/ressources-masonry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scripts/slick-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/applepay.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/belfius.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/branding.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/common/_font-rubik.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/common/_header-left-cta.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/components/_subscribe.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/home-1.1.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/home-alt.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/intelligence.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/payment-methods.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/pos.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/ressources.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/sentinel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/simple.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/tag.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/thankyou.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/belfius.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/branding.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact-confirmation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cp-en.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cp-it.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/browser.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ico-calendar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/star.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/ressources-masonry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentation_en.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event_module.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/cryptico-key.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/ga.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/google-conversion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/gradient.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/heap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/hotjar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/hs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/hubspot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home-1.1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intelligence.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/invest-home_fr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/content/en.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/content/fr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/content/it.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/de_DE.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/de_DE.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/de_DE_formal.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/de_DE_formal.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/es_ES.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/es_ES.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/es_MX.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/es_MX.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/it_IT.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/it_IT.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/nl_NL.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/nl_NL.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/pt_BR.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/pt_BR.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/pt_PT.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lang/pt_PT.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/css.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partners.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/payment-methods.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pos.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product-page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ressources.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentinel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/intelligence-data-ico.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/intelligence-main-ico.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/intelligence-monitor-ico.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/intelligence-points-svg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/intelligence-scheme.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svg/intelligence-science-ico.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/content-job.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/last-articles.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/logo-tri.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/logo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/subscribe-form-en.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/subscribe-form-fr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thankyou.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothamblack.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothamblack.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothamblack.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothamblack.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothamblack.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothambold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothambold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothambold.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothambold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothambold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothambook.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothambook.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothambook.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothambook.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothamlight.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothamlight.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothamlight.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothamlight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothamlight.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothammed.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothammed.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothammed.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothammed.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/gothammed.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/check.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/franklin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/hipay-color.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/hipay_fullservice.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/hipay_fullservice_m.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/hipay_mobile.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/hipay_mobile_m.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linkedin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/home-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/infinite-scroll-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/maps-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/home_test.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact_back.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothamblack.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothamblack.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothamblack.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothamblack.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothamblack.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothambold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothambold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothambold.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothambold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothambold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothambook.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothambook.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothambook.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothambook.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothamlight.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothamlight.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothamlight.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothamlight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothamlight.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothammed.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothammed.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothammed.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothammed.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/gothammed.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/check.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/franklin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/hipay-color.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/hipay_fullservice.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/hipay_fullservice_m.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/hipay_mobile.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/hipay_mobile_m.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/linkedin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/amconfig.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/classie.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/customizer.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/fixed-scroll-listener.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/home-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/home-test.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/infinite-scroll-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/infinite-scroll-config.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/jquery.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/maps-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/maps-config.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/masonry-config.js.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/multipleFilterMasonry.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/.cookie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/.cookie.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/about.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/about.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/bourse.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/career.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/case-study.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/contact.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/customers.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/enterprise.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/events.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/feed.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/feed.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fullservice-solutions.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/fullservice-solutions.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/home.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/home_test.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/invest.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/leadership.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/marketplace.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/news.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/products.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/professional.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/signup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/single-empty-img.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/single-empty-img.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/single-job.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/single-job.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/single.-empty-img.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/single.-empty-img.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/single.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/sitemap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/terms.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/css-url.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/modal-newsletter.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/.gitkeep" afterPath="$PROJECT_DIR$/assets/images/intelligence-data-ico.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/styles/about.scss" afterPath="$PROJECT_DIR$/assets/styles/company.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/scripts/masonry-config.js.js" afterPath="$PROJECT_DIR$/dist/scripts/masonry-config.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation.php" afterPath="$PROJECT_DIR$/documentation_fr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/11d9600781bc0bac9678a7a6ef756341621e5962/_font.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/11d9600781bc0bac9678a7a6ef756341621e5962/_font.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/11d9600781bc0bac9678a7a6ef756341621e5962/_global.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/11d9600781bc0bac9678a7a6ef756341621e5962/_global.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/11d9600781bc0bac9678a7a6ef756341621e5962/_header-block.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/11d9600781bc0bac9678a7a6ef756341621e5962/_header-block.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/11d9600781bc0bac9678a7a6ef756341621e5962/_mixins.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/11d9600781bc0bac9678a7a6ef756341621e5962/_mixins.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/11d9600781bc0bac9678a7a6ef756341621e5962/_nav-breakpoint.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/11d9600781bc0bac9678a7a6ef756341621e5962/_nav-breakpoint.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/11d9600781bc0bac9678a7a6ef756341621e5962/_variables.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/11d9600781bc0bac9678a7a6ef756341621e5962/_variables.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/31429085ad32eed10c67ff470597a9c3496658ed/_footer.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/31429085ad32eed10c67ff470597a9c3496658ed/_footer.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/31429085ad32eed10c67ff470597a9c3496658ed/_header.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/31429085ad32eed10c67ff470597a9c3496658ed/_header.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/31429085ad32eed10c67ff470597a9c3496658ed/_pages.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/31429085ad32eed10c67ff470597a9c3496658ed/_pages.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/31429085ad32eed10c67ff470597a9c3496658ed/_posts.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/31429085ad32eed10c67ff470597a9c3496658ed/_posts.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/31429085ad32eed10c67ff470597a9c3496658ed/_sidebar.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/31429085ad32eed10c67ff470597a9c3496658ed/_sidebar.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/31429085ad32eed10c67ff470597a9c3496658ed/_template.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/31429085ad32eed10c67ff470597a9c3496658ed/_template.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/31429085ad32eed10c67ff470597a9c3496658ed/_tinymce.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/31429085ad32eed10c67ff470597a9c3496658ed/_tinymce.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_buttons.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_buttons.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_comments.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_comments.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_cookie.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_cookie.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_dropdown.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_dropdown.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_forms.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_forms.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_gallery.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_gallery.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_grid.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_grid.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_infinite-scroll.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_infinite-scroll.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_item-list.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_item-list.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_items.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_items.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_modal.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_modal.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_other_articles.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_other_articles.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_table.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_table.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_tag.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_tag.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_timeline.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_timeline.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_wp-classes.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/3d47aff5a09cdb1888cbab0e5b776ce2d8cce93d/_wp-classes.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/5b768c4c5fe3eb0af3a72e49ebd03aac5da2fa98/_bootstrap.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/5b768c4c5fe3eb0af3a72e49ebd03aac5da2fa98/_bootstrap.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/about.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/about.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/bourse.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/bourse.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/career.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/career.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/case-study.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/case-study.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/contact.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/contact.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/customers.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/customers.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/documentation.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/documentation.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/enterprise.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/enterprise.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/events.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/events.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/feed.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/feed.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/home.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/home.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/home_test.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/home_test.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/invest.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/invest.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/leadership.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/leadership.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/main.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/main.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/marketplace.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/marketplace.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/news.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/news.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/partners.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/partners.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/products.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/products.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/professional.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/professional.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/signup.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/signup.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/single-job.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/single-job.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/single.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/single.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/sitemap.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/sitemap.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/terms.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/b1c4518e0aade9b90ee241c7649301942e827feb/terms.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_alerts.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_alerts.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_background-variant.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_background-variant.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_border-radius.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_border-radius.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_buttons.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_buttons.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_center-block.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_center-block.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_clearfix.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_clearfix.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_forms.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_forms.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_gradients.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_gradients.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_grid-framework.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_grid-framework.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_grid.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_grid.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_hide-text.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_hide-text.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_image.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_image.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_labels.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_labels.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_list-group.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_list-group.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_nav-divider.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_nav-divider.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_nav-vertical-align.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_nav-vertical-align.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_opacity.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_opacity.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_pagination.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_pagination.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_panels.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_panels.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_progress-bar.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_progress-bar.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_reset-filter.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_reset-filter.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_reset-text.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_reset-text.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_resize.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_resize.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_responsive-visibility.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_responsive-visibility.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_size.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_size.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_tab-focus.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_tab-focus.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_table-row.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_table-row.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_text-emphasis.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_text-emphasis.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_text-overflow.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_text-overflow.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_vendor-prefixes.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/cae8ea33d2bf2a63dd198c84c971f428d87d4e45/_vendor-prefixes.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_alerts.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_alerts.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_badges.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_badges.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_breadcrumbs.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_breadcrumbs.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_button-groups.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_button-groups.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_buttons.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_buttons.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_carousel.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_carousel.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_close.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_close.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_code.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_code.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_component-animations.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_component-animations.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_dropdowns.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_dropdowns.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_forms.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_forms.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_glyphicons.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_glyphicons.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_grid.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_grid.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_input-groups.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_input-groups.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_jumbotron.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_jumbotron.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_labels.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_labels.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_list-group.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_list-group.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_media.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_media.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_mixins.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_mixins.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_modals.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_modals.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_navbar.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_navbar.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_navs.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_navs.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_normalize.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_normalize.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_pager.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_pager.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_pagination.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_pagination.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_panels.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_panels.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_popovers.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_popovers.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_print.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_print.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_progress-bars.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_progress-bars.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_responsive-embed.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_responsive-embed.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_responsive-utilities.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_responsive-utilities.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_scaffolding.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_scaffolding.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_tables.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_tables.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_thumbnails.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_thumbnails.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_tooltip.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_tooltip.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_type.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_type.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_utilities.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_utilities.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_variables.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_variables.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_wells.scssc" afterPath="$PROJECT_DIR$/assets/styles/.sass-cache/e161f197320240558198f44d01cb4f23051dafe1/_wells.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.php" afterPath="$PROJECT_DIR$/404.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/manifest.json" afterPath="$PROJECT_DIR$/assets/manifest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scripts/main.js" afterPath="$PROJECT_DIR$/assets/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/career.scss" afterPath="$PROJECT_DIR$/assets/styles/career.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/case-study.scss" afterPath="$PROJECT_DIR$/assets/styles/case-study.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/common/_font.scss" afterPath="$PROJECT_DIR$/assets/styles/common/_font.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/common/_global.scss" afterPath="$PROJECT_DIR$/assets/styles/common/_global.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/common/_header-block.scss" afterPath="$PROJECT_DIR$/assets/styles/common/_header-block.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/common/_mixins.scss" afterPath="$PROJECT_DIR$/assets/styles/common/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/common/_variables.scss" afterPath="$PROJECT_DIR$/assets/styles/common/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_buttons.scss" afterPath="$PROJECT_DIR$/assets/styles/components/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_cookie.scss" afterPath="$PROJECT_DIR$/assets/styles/components/_cookie.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_dropdown.scss" afterPath="$PROJECT_DIR$/assets/styles/components/_dropdown.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_forms.scss" afterPath="$PROJECT_DIR$/assets/styles/components/_forms.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_grid.scss" afterPath="$PROJECT_DIR$/assets/styles/components/_grid.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_items.scss" afterPath="$PROJECT_DIR$/assets/styles/components/_items.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_modal.scss" afterPath="$PROJECT_DIR$/assets/styles/components/_modal.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_other_articles.scss" afterPath="$PROJECT_DIR$/assets/styles/components/_other_articles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_table.scss" afterPath="$PROJECT_DIR$/assets/styles/components/_table.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/components/_tag.scss" afterPath="$PROJECT_DIR$/assets/styles/components/_tag.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/contact.scss" afterPath="$PROJECT_DIR$/assets/styles/contact.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/customers.scss" afterPath="$PROJECT_DIR$/assets/styles/customers.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/documentation.scss" afterPath="$PROJECT_DIR$/assets/styles/documentation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/enterprise.scss" afterPath="$PROJECT_DIR$/assets/styles/enterprise.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/events.scss" afterPath="$PROJECT_DIR$/assets/styles/events.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/feed.scss" afterPath="$PROJECT_DIR$/assets/styles/feed.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/home.scss" afterPath="$PROJECT_DIR$/assets/styles/home.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/invest.scss" afterPath="$PROJECT_DIR$/assets/styles/invest.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/layouts/_footer.scss" afterPath="$PROJECT_DIR$/assets/styles/layouts/_footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/layouts/_header.scss" afterPath="$PROJECT_DIR$/assets/styles/layouts/_header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/layouts/_pages.scss" afterPath="$PROJECT_DIR$/assets/styles/layouts/_pages.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/leadership.scss" afterPath="$PROJECT_DIR$/assets/styles/leadership.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/main.scss" afterPath="$PROJECT_DIR$/assets/styles/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/marketplace.scss" afterPath="$PROJECT_DIR$/assets/styles/marketplace.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/news.scss" afterPath="$PROJECT_DIR$/assets/styles/news.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/partners.scss" afterPath="$PROJECT_DIR$/assets/styles/partners.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/products.scss" afterPath="$PROJECT_DIR$/assets/styles/products.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/professional.scss" afterPath="$PROJECT_DIR$/assets/styles/professional.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/signup.scss" afterPath="$PROJECT_DIR$/assets/styles/signup.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/single-job.scss" afterPath="$PROJECT_DIR$/assets/styles/single-job.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/single.scss" afterPath="$PROJECT_DIR$/assets/styles/single.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base.php" afterPath="$PROJECT_DIR$/base.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog.php" afterPath="$PROJECT_DIR$/blog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/career.php" afterPath="$PROJECT_DIR$/career.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.php" afterPath="$PROJECT_DIR$/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cp.php" afterPath="$PROJECT_DIR$/cp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data-career.php" afterPath="$PROJECT_DIR$/data-career.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/amconfig.js" afterPath="$PROJECT_DIR$/dist/scripts/amconfig.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/classie.js" afterPath="$PROJECT_DIR$/dist/scripts/classie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/customizer.js" afterPath="$PROJECT_DIR$/dist/scripts/customizer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/fixed-scroll-listener.js" afterPath="$PROJECT_DIR$/dist/scripts/fixed-scroll-listener.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/jquery.js" afterPath="$PROJECT_DIR$/dist/scripts/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/main.js" afterPath="$PROJECT_DIR$/dist/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/multipleFilterMasonry.js" afterPath="$PROJECT_DIR$/dist/scripts/multipleFilterMasonry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/bourse.css.map" afterPath="$PROJECT_DIR$/dist/styles/bourse.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/career.css.map" afterPath="$PROJECT_DIR$/dist/styles/career.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/case-study.css.map" afterPath="$PROJECT_DIR$/dist/styles/case-study.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/contact.css.map" afterPath="$PROJECT_DIR$/dist/styles/contact.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/customers.css.map" afterPath="$PROJECT_DIR$/dist/styles/customers.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/documentation.css" afterPath="$PROJECT_DIR$/dist/styles/documentation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/documentation.css.map" afterPath="$PROJECT_DIR$/dist/styles/documentation.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/enterprise.css.map" afterPath="$PROJECT_DIR$/dist/styles/enterprise.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/events.css.map" afterPath="$PROJECT_DIR$/dist/styles/events.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/home.css.map" afterPath="$PROJECT_DIR$/dist/styles/home.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/home_test.css" afterPath="$PROJECT_DIR$/dist/styles/home_test.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/invest.css.map" afterPath="$PROJECT_DIR$/dist/styles/invest.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/leadership.css.map" afterPath="$PROJECT_DIR$/dist/styles/leadership.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/main.css.map" afterPath="$PROJECT_DIR$/dist/styles/main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/marketplace.css.map" afterPath="$PROJECT_DIR$/dist/styles/marketplace.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/news.css.map" afterPath="$PROJECT_DIR$/dist/styles/news.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/partners.css" afterPath="$PROJECT_DIR$/dist/styles/partners.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/partners.css.map" afterPath="$PROJECT_DIR$/dist/styles/partners.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/products.css.map" afterPath="$PROJECT_DIR$/dist/styles/products.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/professional.css.map" afterPath="$PROJECT_DIR$/dist/styles/professional.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/signup.css.map" afterPath="$PROJECT_DIR$/dist/styles/signup.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/single.css.map" afterPath="$PROJECT_DIR$/dist/styles/single.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/sitemap.css.map" afterPath="$PROJECT_DIR$/dist/styles/sitemap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enterprise.php" afterPath="$PROJECT_DIR$/enterprise.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/event.php" afterPath="$PROJECT_DIR$/event.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invest-home.php" afterPath="$PROJECT_DIR$/invest-home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lang/content.php" afterPath="$PROJECT_DIR$/lang/content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lang/fr_FR.mo" afterPath="$PROJECT_DIR$/lang/fr_FR.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lang/fr_FR.po" afterPath="$PROJECT_DIR$/lang/fr_FR.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lang/nav.php" afterPath="$PROJECT_DIR$/lang/nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/setup.php" afterPath="$PROJECT_DIR$/lib/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/wp_bootstrap_navwalker.php" afterPath="$PROJECT_DIR$/lib/wp_bootstrap_navwalker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news-home.php" afterPath="$PROJECT_DIR$/news-home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page.php" afterPath="$PROJECT_DIR$/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signup.php" afterPath="$PROJECT_DIR$/signup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-job.php" afterPath="$PROJECT_DIR$/single-job.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sitemap.php" afterPath="$PROJECT_DIR$/sitemap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/content-single.php" afterPath="$PROJECT_DIR$/templates/content-single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/content.php" afterPath="$PROJECT_DIR$/templates/content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/footer.php" afterPath="$PROJECT_DIR$/templates/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/head.php" afterPath="$PROJECT_DIR$/templates/head.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/header.php" afterPath="$PROJECT_DIR$/templates/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/newsletter-modal.php" afterPath="$PROJECT_DIR$/templates/newsletter-modal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/next-post.php" afterPath="$PROJECT_DIR$/templates/next-post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/page-header.php" afterPath="$PROJECT_DIR$/templates/page-header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/previous-post.php" afterPath="$PROJECT_DIR$/templates/previous-post.php" />
     </list>
     <ignored path="hipay-sage-1.2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -166,6 +476,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -175,11 +486,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/styles/layouts/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="2173">
+              <caret line="266" column="18" selection-start-line="266" selection-start-column="18" selection-end-line="266" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -188,62 +499,62 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/styles/marketplace.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/about.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/components/_items.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/home.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/components/_timeline.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/components/_item-list.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/invest.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/leadership.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/documentation.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/bourse.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/partners.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/career.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/products.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/professional.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/common/_global.scss" />
-        <option value="$PROJECT_DIR$/templates/timeline.php" />
-        <option value="$PROJECT_DIR$/news-home.php" />
-        <option value="$PROJECT_DIR$/assets/styles/news.scss" />
-        <option value="$PROJECT_DIR$/blog.php" />
-        <option value="$PROJECT_DIR$/cp.php" />
         <option value="$PROJECT_DIR$/assets/styles/feed.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/events.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/components/_forms.scss" />
+        <option value="$PROJECT_DIR$/dist/styles/feed.css" />
+        <option value="$PROJECT_DIR$/assets/styles/common/_header-left-cta.scss" />
+        <option value="$PROJECT_DIR$/page.php" />
+        <option value="$PROJECT_DIR$/lib/extras.php" />
+        <option value="$PROJECT_DIR$/templates/header.php" />
+        <option value="$PROJECT_DIR$/assets/styles/components/_subcribe.scss" />
         <option value="$PROJECT_DIR$/assets/styles/components/_grid.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/signup.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/components/_modal.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/components/_buttons.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/customers.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/single.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/enterprise.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/layouts/_pages.scss" />
-        <option value="$PROJECT_DIR$/assets/scripts/main.js" />
-        <option value="$PROJECT_DIR$/assets/styles/components/_dropdown.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/layouts/_header.scss" />
-        <option value="$PROJECT_DIR$/404.php" />
-        <option value="$PROJECT_DIR$/assets/manifest.json" />
-        <option value="$PROJECT_DIR$/templates/css-url.php" />
-        <option value="$PROJECT_DIR$/assets/styles/case-study.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/components/_other_articles.scss" />
-        <option value="$PROJECT_DIR$/templates/footer.php" />
-        <option value="$PROJECT_DIR$/assets/styles/contact.scss" />
-        <option value="$PROJECT_DIR$/contact.php" />
-        <option value="$PROJECT_DIR$/lang/content.php" />
-        <option value="$PROJECT_DIR$/sitemap.php" />
-        <option value="$PROJECT_DIR$/assets/styles/layouts/_footer.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/sitemap.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/common/_font-config.scss" />
+        <option value="$PROJECT_DIR$/sentinel.php" />
+        <option value="$PROJECT_DIR$/assets/styles/common/_variables.scss" />
+        <option value="$PROJECT_DIR$/assets/styles/common/_font-rubik.scss" />
+        <option value="$PROJECT_DIR$/assets/styles/common/_global.scss" />
         <option value="$PROJECT_DIR$/assets/styles/main.scss" />
+        <option value="$PROJECT_DIR$/assets/styles/layouts/_pages.scss" />
+        <option value="$PROJECT_DIR$/dist/styles/sentinel.css" />
+        <option value="$PROJECT_DIR$/assets/scripts/main.js" />
+        <option value="$PROJECT_DIR$/ext/ga.js" />
+        <option value="$PROJECT_DIR$/assets/styles/sentinel.scss" />
+        <option value="$PROJECT_DIR$/base.php" />
         <option value="$PROJECT_DIR$/templates/head.php" />
-        <option value="$PROJECT_DIR$/assets/styles/components/_cookie.scss" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/event_module.php" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/assets/images/arrow-right-orange.svg" />
+        <option value="$PROJECT_DIR$/assets/styles/components/_subscribe.scss" />
+        <option value="$PROJECT_DIR$/assets/styles/intelligence.scss" />
+        <option value="$PROJECT_DIR$/home.php" />
+        <option value="$PROJECT_DIR$/dist/scripts/popover.js" />
+        <option value="$PROJECT_DIR$/dist/scripts/slick-config.js" />
+        <option value="$PROJECT_DIR$/assets/styles/layouts/_header.scss" />
+        <option value="$PROJECT_DIR$/assets/scripts/slick-config.js" />
+        <option value="$PROJECT_DIR$/assets/styles/home.scss" />
+        <option value="$PROJECT_DIR$/home-1.1.php" />
+        <option value="$PROJECT_DIR$/lib/setup.php" />
+        <option value="$PROJECT_DIR$/dist/styles/home-1.1.css" />
+        <option value="$PROJECT_DIR$/assets/styles/partners.scss" />
+        <option value="$PROJECT_DIR$/dist/styles/partners.css" />
+        <option value="$PROJECT_DIR$/assets/styles/home-1.1.scss" />
+        <option value="$PROJECT_DIR$/lib/css.php" />
+        <option value="$PROJECT_DIR$/assets/styles/common/_mixins.scss" />
+        <option value="$PROJECT_DIR$/assets/manifest.json" />
+        <option value="$PROJECT_DIR$/dist/styles/applepay.css" />
+        <option value="$PROJECT_DIR$/applepay.php" />
+        <option value="$PROJECT_DIR$/assets/styles/applepay.scss" />
+        <option value="$PROJECT_DIR$/templates/logo-tri.php" />
+        <option value="$PROJECT_DIR$/lang/content/en.php" />
+        <option value="$PROJECT_DIR$/lang/content/fr.php" />
+        <option value="$PROJECT_DIR$/lang/content/it.php" />
+        <option value="$PROJECT_DIR$/templates/footer.php" />
+        <option value="$PROJECT_DIR$/assets/styles/layouts/_footer.scss" />
+        <option value="$PROJECT_DIR$/assets/styles/components/_modal.scss" />
+        <option value="$PROJECT_DIR$/dist/styles/main.css" />
       </list>
     </option>
   </component>
@@ -261,10 +572,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1041" />
+    <option name="width" value="1672" />
+    <option name="height" value="949" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -311,7 +621,20 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="hipay-sage-1.2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scratches" />
     </panes>
   </component>
@@ -320,7 +643,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -331,22 +654,22 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets/styles/common" />
+      <recent name="$PROJECT_DIR$/lang" />
       <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$/assets/styles/pages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dist/fonts" />
-      <recent name="$PROJECT_DIR$/assets/styles/common" />
+      <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/styles" />
-      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets/scripts" />
     </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -374,19 +697,6 @@
       <scripts />
       <node-interpreter value="project" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
       <method />
     </configuration>
   </component>
@@ -433,53 +743,282 @@
       <workItem from="1476087972366" duration="7214000" />
       <workItem from="1476172418077" duration="555000" />
       <workItem from="1476198194532" duration="161000" />
-      <workItem from="1476198408693" duration="376000" />
+      <workItem from="1476198408693" duration="1679000" />
+      <workItem from="1476260024387" duration="8287000" />
+      <workItem from="1476346972427" duration="3742000" />
+      <workItem from="1476435230867" duration="8239000" />
+      <workItem from="1476691114553" duration="7695000" />
+      <workItem from="1476783376130" duration="3189000" />
+      <workItem from="1476800224425" duration="4150000" />
+      <workItem from="1476860333737" duration="4087000" />
+      <workItem from="1476880253823" duration="11887000" />
+      <workItem from="1476896955910" duration="118000" />
+      <workItem from="1476948694901" duration="5326000" />
+      <workItem from="1476969811506" duration="1173000" />
+      <workItem from="1477040214028" duration="537000" />
+      <workItem from="1477054958361" duration="8290000" />
+      <workItem from="1477297381973" duration="12616000" />
+      <workItem from="1477384080921" duration="9329000" />
+      <workItem from="1477471548515" duration="9253000" />
+      <workItem from="1477488466528" duration="8687000" />
+      <workItem from="1477556390846" duration="4320000" />
+      <workItem from="1477580939464" duration="5110000" />
+      <workItem from="1477641796906" duration="18387000" />
+      <workItem from="1478074921171" duration="11779000" />
+      <workItem from="1478164956539" duration="15203000" />
+      <workItem from="1478266859536" duration="7839000" />
+      <workItem from="1478511392490" duration="10471000" />
+      <workItem from="1478540107972" duration="634000" />
+      <workItem from="1478595809840" duration="12538000" />
+      <workItem from="1478681164642" duration="8246000" />
+      <workItem from="1479118875249" duration="2112000" />
+      <workItem from="1479218996579" duration="4587000" />
+      <workItem from="1479391457129" duration="2214000" />
+      <workItem from="1479487029258" duration="3274000" />
+      <workItem from="1479808078960" duration="888000" />
+      <workItem from="1479892467744" duration="596000" />
+      <workItem from="1479978759358" duration="2036000" />
+      <workItem from="1479982794092" duration="407000" />
+      <workItem from="1479996548850" duration="1574000" />
+      <workItem from="1480008936286" duration="590000" />
+      <workItem from="1480064309796" duration="2095000" />
+      <workItem from="1480431737044" duration="687000" />
+      <workItem from="1480498105755" duration="3548000" />
+      <workItem from="1480601310120" duration="3145000" />
+      <workItem from="1480674040027" duration="857000" />
+      <workItem from="1480675237950" duration="3241000" />
+      <workItem from="1480935227480" duration="1662000" />
+      <workItem from="1481194917079" duration="3322000" />
+      <workItem from="1481621273243" duration="3567000" />
+      <workItem from="1481646424411" duration="2438000" />
+      <workItem from="1481724933110" duration="2340000" />
+      <workItem from="1481794817798" duration="2645000" />
+      <workItem from="1482138852071" duration="797000" />
+      <workItem from="1482397486626" duration="2491000" />
+      <workItem from="1482833209491" duration="29000" />
+      <workItem from="1482859278532" duration="745000" />
+      <workItem from="1482934280008" duration="184000" />
+      <workItem from="1482934479370" duration="11053000" />
+      <workItem from="1482948640006" duration="521000" />
+      <workItem from="1483002384857" duration="6546000" />
+      <workItem from="1483443814914" duration="3374000" />
+      <workItem from="1483551274060" duration="1995000" />
+      <workItem from="1483610988891" duration="11508000" />
+      <workItem from="1484578663157" duration="5377000" />
+      <workItem from="1484643523280" duration="10324000" />
+      <workItem from="1484746613368" duration="826000" />
+      <workItem from="1485176780572" duration="819000" />
+      <workItem from="1485270908770" duration="3085000" />
+      <workItem from="1485336680428" duration="2858000" />
+      <workItem from="1485426581518" duration="7070000" />
+      <workItem from="1485508793747" duration="4060000" />
+      <workItem from="1485781671523" duration="1853000" />
+      <workItem from="1485789305454" duration="898000" />
+      <workItem from="1485850749420" duration="192000" />
+      <workItem from="1485874367668" duration="553000" />
+      <workItem from="1485936161099" duration="2126000" />
+      <workItem from="1485962538726" duration="5603000" />
+      <workItem from="1486024532390" duration="12358000" />
+      <workItem from="1486112513993" duration="7330000" />
+      <workItem from="1486371261380" duration="2111000" />
+      <workItem from="1486380049555" duration="175000" />
+      <workItem from="1486457496267" duration="6386000" />
+      <workItem from="1486657435583" duration="1253000" />
+      <workItem from="1486997677922" duration="871000" />
+      <workItem from="1487062676233" duration="5818000" />
+      <workItem from="1487080205977" duration="1892000" />
+      <workItem from="1487179823132" duration="748000" />
+      <workItem from="1487235682848" duration="8293000" />
+      <workItem from="1487590671783" duration="1037000" />
+      <workItem from="1487596620957" duration="686000" />
+      <workItem from="1487663608736" duration="1824000" />
+      <workItem from="1487864059130" duration="766000" />
+      <workItem from="1487932999796" duration="5768000" />
+      <workItem from="1489404418400" duration="943000" />
+      <workItem from="1489421069042" duration="1026000" />
+      <workItem from="1489422131931" duration="2072000" />
+      <workItem from="1489575844847" duration="27000" />
+      <workItem from="1490015769519" duration="803000" />
+      <workItem from="1490117388132" duration="243000" />
+      <workItem from="1490171334954" duration="10737000" />
+      <workItem from="1490261665572" duration="6349000" />
+      <workItem from="1490371444028" duration="191000" />
+      <workItem from="1490600687563" duration="2380000" />
+      <workItem from="1490687872657" duration="5368000" />
+      <workItem from="1490774175926" duration="15621000" />
+      <workItem from="1491809913551" duration="2659000" />
+      <workItem from="1491818645133" duration="9880000" />
+      <workItem from="1491895171739" duration="1000000" />
+      <workItem from="1491925031578" duration="2767000" />
+      <workItem from="1491981770278" duration="5790000" />
+      <workItem from="1492071788914" duration="1168000" />
+      <workItem from="1492095719559" duration="8854000" />
+      <workItem from="1492156453971" duration="718000" />
+      <workItem from="1492618926106" duration="699000" />
+      <workItem from="1492677687005" duration="2279000" />
+      <workItem from="1492786538015" duration="2593000" />
+      <workItem from="1493136420028" duration="640000" />
+      <workItem from="1493191521215" duration="1395000" />
+      <workItem from="1493305746496" duration="618000" />
+      <workItem from="1493714884733" duration="3044000" />
+      <workItem from="1493718598458" duration="9313000" />
+      <workItem from="1493797721974" duration="9598000" />
+      <workItem from="1493831543155" duration="161000" />
+      <workItem from="1493882955883" duration="955000" />
+      <workItem from="1494832160912" duration="8849000" />
+      <workItem from="1494865435490" duration="2884000" />
+      <workItem from="1494920168641" duration="10785000" />
+      <workItem from="1494942489063" duration="1823000" />
+      <workItem from="1494946808678" duration="284000" />
+      <workItem from="1494947227760" duration="13713000" />
+      <workItem from="1495003628318" duration="17587000" />
+      <workItem from="1495043056168" duration="2185000" />
+      <workItem from="1496308432190" duration="587000" />
+      <workItem from="1496735142551" duration="14640000" />
+      <workItem from="1496820656738" duration="14794000" />
+      <workItem from="1496912496925" duration="8602000" />
+      <workItem from="1496994025826" duration="599000" />
+      <workItem from="1497012993603" duration="2308000" />
+      <workItem from="1497272056693" duration="8250000" />
+      <workItem from="1497347609408" duration="2401000" />
+      <workItem from="1497426396223" duration="11177000" />
+      <workItem from="1497512286847" duration="10516000" />
+      <workItem from="1497858193609" duration="12706000" />
+      <workItem from="1497948048947" duration="8626000" />
+      <workItem from="1498031032578" duration="10789000" />
+      <workItem from="1498134583979" duration="9925000" />
+      <workItem from="1498480261281" duration="2776000" />
+      <workItem from="1498550874115" duration="2934000" />
+      <workItem from="1498576200516" duration="3683000" />
+      <workItem from="1498635143125" duration="6931000" />
+      <workItem from="1498721632409" duration="4366000" />
+      <workItem from="1498807900555" duration="1804000" />
+      <workItem from="1499097610835" duration="722000" />
+      <workItem from="1499153435430" duration="599000" />
+      <workItem from="1499246274109" duration="1975000" />
+      <workItem from="1499256837720" duration="796000" />
+      <workItem from="1499342223521" duration="1248000" />
+      <workItem from="1499413697312" duration="599000" />
+      <workItem from="1499785444285" duration="4120000" />
+      <workItem from="1499848179012" duration="1000" />
+      <workItem from="1500554205680" duration="4156000" />
+      <workItem from="1500570516199" duration="29000" />
+      <workItem from="1500649937669" duration="953000" />
+      <workItem from="1500890476709" duration="803000" />
+      <workItem from="1500968770810" duration="331000" />
+      <workItem from="1501503384907" duration="5396000" />
+      <workItem from="1501571460385" duration="13920000" />
+      <workItem from="1501592121372" duration="7828000" />
+      <workItem from="1501747115295" duration="3952000" />
+      <workItem from="1501765835233" duration="623000" />
+      <workItem from="1502874938399" duration="6219000" />
+      <workItem from="1502956496835" duration="3077000" />
+      <workItem from="1503041256723" duration="39000" />
+      <workItem from="1503058704342" duration="6389000" />
+      <workItem from="1503302192289" duration="6416000" />
+      <workItem from="1503320428711" duration="5785000" />
+      <workItem from="1503327663606" duration="5045000" />
+      <workItem from="1503391388292" duration="5752000" />
+      <workItem from="1504011040674" duration="3107000" />
+      <workItem from="1504024363946" duration="192000" />
+      <workItem from="1504083698670" duration="918000" />
+      <workItem from="1504103059487" duration="1199000" />
+      <workItem from="1504164618552" duration="6084000" />
+      <workItem from="1504252299651" duration="611000" />
+      <workItem from="1504683878210" duration="2399000" />
+      <workItem from="1504866523849" duration="620000" />
+      <workItem from="1505116890372" duration="589000" />
+      <workItem from="1505146870518" duration="621000" />
+      <workItem from="1505203742802" duration="632000" />
+      <workItem from="1505832816120" duration="1848000" />
+      <workItem from="1505897984068" duration="1872000" />
+      <workItem from="1505998223193" duration="10650000" />
+      <workItem from="1506067481299" duration="17776000" />
+      <workItem from="1506324914449" duration="15163000" />
+      <workItem from="1506356371040" duration="847000" />
+      <workItem from="1506413018609" duration="2388000" />
+      <workItem from="1506438858547" duration="7184000" />
+      <workItem from="1506582484898" duration="62000" />
+      <workItem from="1506582613095" duration="1879000" />
+      <workItem from="1506585232761" duration="730000" />
+      <workItem from="1506585987458" duration="7188000" />
+      <workItem from="1506601559349" duration="3054000" />
+      <workItem from="1506610152775" duration="152000" />
+      <workItem from="1506928834492" duration="2806000" />
+      <workItem from="1507016669858" duration="598000" />
+      <workItem from="1508142563226" duration="2397000" />
+      <workItem from="1508485577533" duration="599000" />
+      <workItem from="1508683597521" duration="1811000" />
+      <workItem from="1508858190613" duration="233000" />
+      <workItem from="1510320610170" duration="652000" />
+      <workItem from="1510580932960" duration="5253000" />
+      <workItem from="1510653589761" duration="13038000" />
+      <workItem from="1510735655206" duration="8415000" />
+      <workItem from="1510837089078" duration="1778000" />
+      <workItem from="1510909240028" duration="1136000" />
+      <workItem from="1511168702441" duration="3446000" />
+      <workItem from="1511345723630" duration="272000" />
+      <workItem from="1511520599941" duration="7000" />
+      <workItem from="1511864258589" duration="1629000" />
+      <workItem from="1513347159190" duration="594000" />
+      <workItem from="1513348028274" duration="17000" />
+      <workItem from="1513353588977" duration="3120000" />
+      <workItem from="1513587978623" duration="3327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234123000" />
+    <option name="totallyTimeSpent" value="1158667000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="23" width="1920" height="1041" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1672" height="949" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33865815" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32502708" sideWeight="0.5676251" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37239262" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270202" sideWeight="0.49022165" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29411766" sideWeight="0.48711658" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32502708" sideWeight="0.43237486" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31572628" sideWeight="0.42822087" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32828283" sideWeight="0.49478486" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3116727" sideWeight="0.40490797" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2700893" sideWeight="0.4339723" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29411766" sideWeight="0.5128834" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32589287" sideWeight="0.37646434" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.47231096" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40336135" sideWeight="0.35136896" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32949308" sideWeight="0.6235357" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3675115" sideWeight="0.6308649" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.48296058" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3675115" sideWeight="0.3691351" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.37646434" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3156682" sideWeight="0.4339723" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32373273" sideWeight="0.23516111" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4516129" sideWeight="0.36517808" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28168264" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30186546" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.47231096" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35368663" sideWeight="0.40305257" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -504,372 +1043,390 @@
           <url>file://$PROJECT_DIR$/signup.php</url>
           <line>11</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lib/setup.php</url>
+          <line>157</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/styles/news.scss">
+    <entry file="file://$PROJECT_DIR$/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3375">
-          <caret line="225" column="7" selection-start-line="225" selection-start-column="7" selection-end-line="225" selection-end-column="7" />
+        <state relative-caret-position="45">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_grid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="188" column="5" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/signup.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/single.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/customers.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_modal.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_comments.scss">
+    <entry file="file://$PROJECT_DIR$/dist/scripts/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_buttons.scss">
+    <entry file="file://$PROJECT_DIR$/assets/styles/intelligence.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="75">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/layouts/_pages.scss">
+    <entry file="file://$PROJECT_DIR$/dist/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        <state relative-caret-position="330">
+          <caret line="0" column="28926" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="12515" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/enterprise.scss">
+    <entry file="file://$PROJECT_DIR$/assets/styles/components/_subscribe.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="354" column="5" selection-start-line="354" selection-start-column="5" selection-end-line="354" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="275" column="78" selection-start-line="275" selection-start-column="78" selection-end-line="275" selection-end-column="78" />
+        <state relative-caret-position="435">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="215" column="23" selection-start-line="215" selection-start-column="23" selection-end-line="215" selection-end-column="23" />
+        <state relative-caret-position="459">
+          <caret line="190" column="5" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/page-header.php">
+    <entry file="file://$PROJECT_DIR$/assets/scripts/popover.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state relative-caret-position="60">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-311">
-          <caret line="10" column="102" selection-start-line="10" selection-start-column="102" selection-end-line="10" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_dropdown.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/entry-meta.php">
+    <entry file="file://$PROJECT_DIR$/dist/scripts/popover.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/setup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1350">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-career.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enterprise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/career.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/css-url.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="40" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="78" column="60" selection-start-line="78" selection-start-column="60" selection-end-line="78" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_other_articles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/case-study.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <caret line="0" column="73" selection-start-line="0" selection-start-column="73" selection-end-line="0" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/layouts/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="524" column="64" selection-start-line="524" selection-start-column="64" selection-end-line="524" selection-end-column="64" />
+        <state relative-caret-position="508">
+          <caret line="445" column="13" selection-start-line="445" selection-start-column="13" selection-end-line="445" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1477">
-          <caret line="180" column="22" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="217" column="43" selection-start-line="217" selection-start-column="43" selection-end-line="217" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/assets/scripts/slick-config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.php">
+    <entry file="file://$PROJECT_DIR$/dist/scripts/slick.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="60" column="78" selection-start-line="60" selection-start-column="78" selection-end-line="60" selection-end-column="78" />
+        <state relative-caret-position="0">
+          <caret line="0" column="2154" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog.php">
+    <entry file="file://$PROJECT_DIR$/dist/scripts/slick-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="184" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="235" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/slick.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/wrapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/ico-view.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ico-view.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="669" selection-start-line="0" selection-start-column="669" selection-end-line="0" selection-end-column="669" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="334" column="0" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/partners.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="0" column="2727" selection-start-line="0" selection-start-column="2727" selection-end-line="0" selection-end-column="5454" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/images/ico-view.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="0" column="521" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="567" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/home-1.1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="0" column="28276" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28395" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/invest.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/partners.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-1.1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event_module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="286" column="24" selection-start-line="286" selection-start-column="24" selection-end-line="286" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/sentinel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1455">
+          <caret line="97" column="17" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentinel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="73" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/applepay.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/applepay.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-704">
+          <caret line="0" column="2216" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="11879" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/home-1.1.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applepay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/applepay.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/logo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/common/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/content/fr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="182" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/content/it.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="181" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/content/en.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="181" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/setup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bourse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/common/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="2" column="45" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="320667" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/components/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/logo-tri.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="143" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/layouts/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="235" column="23" selection-start-line="235" selection-start-column="23" selection-end-line="235" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/feed.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/events.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="128" column="5" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/common/_font-config.scss" />
-    <entry file="file://$PROJECT_DIR$/dist/fonts/507692/01BC18BF42156ECDD.eot" />
-    <entry file="file://$PROJECT_DIR$/assets/styles/common/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/common/_font.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_cookie.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/common/_global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/sitemap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sitemap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/assets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="2173">
+          <caret line="266" column="18" selection-start-line="266" selection-start-column="18" selection-end-line="266" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
   <component name="webServersAuthStorage">
-    <data>AAAAsIRwVdCXG27087K7/HC3g+RbXP5fKMbk0zY47Aj7UOFav8NnVZWiL1Fx9ls5t//zaYUW1aUlXUumogkZF6avUuTlinfuXKJF+UzDD2uZjfXbYbWY+ehmiYa8POtmTy6CimX5D2tW0tS0j8yWcBQiwgAKfbl5FDg3x953JWGr3qWjFsVKZozDR1XflEFMaX/4khkAk+8UwVtmNHO/wLE0WhQ6HVB4o9+A5PCUFQSLsrsfK6RFYA+sCFUDIhKWzGRi0Q==</data>
+    <data>AAAAsMqUuMATpPculTA0WaJpQHO7RuJ83SZDDOccoi+DAKpsZXkbmf/O86aIEa94T+HfLsNC/Qe3NG9/skjAJFGULLZ9WjLHupHxxLPiUuFeehEoy+yhWdlZ6l3cNECmC6pqrCvIUNYc3rv9J8x7YaPaVI7ZSrlj9YuY2cfwHtijScXzUMqF/O7VvFbNkhkHEaRpJS7KtEGUeHrkbyy5aSnr8+MTXhiQmWG0FhdtJSSiq6LmxJVhec2n6sMHOAxin2v6/A==</data>
   </component>
 </project>

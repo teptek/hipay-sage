@@ -49,11 +49,11 @@ article.post {
     display: table;
     font-weight: 500;
     padding: 3px 0;
-    font-size: 1.2rem;
+    font-size: $font-size-xsm;
     text-align: left;
     width: calc(100% - 100px);
     text-transform: uppercase;
-    &:hover {
+    &:hover, &:focus {
       color: $blue;
       text-decoration: none;
     }

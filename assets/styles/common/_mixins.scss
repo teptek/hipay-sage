@@ -1,5 +1,43 @@
 @import "_variables";
 
+@mixin brand-gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00c4d7+0,00acdc+100 */
+  background: rgb(0,196,215); /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(0,196,215,1) 0%, rgba(0,172,220,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(0,196,215,1) 0%,rgba(0,172,220,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(0,196,215,1) 0%,rgba(0,172,220,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c4d7', endColorstr='#00acdc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+@mixin brand-gradient-2 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1ca7df+0,7de1d3+100 */
+  background: rgb(28,167,223); /* Old browsers */
+  background: -moz-linear-gradient(45deg, rgba(28,167,223,1) 0%, rgba(125,225,211,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(28,167,223,1) 0%,rgba(125,225,211,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgba(28,167,223,1) 0%,rgba(125,225,211,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ca7df', endColorstr='#7de1d3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+@mixin dark-blue-gradient {
+  /* Rectangle 4: */
+  background-image: linear-gradient(-39deg, #425780 0%, #1B273C 94%, #182438 100%);
+}
+
+@mixin violet-gradient {
+  /* Rectangle 11: */
+  background-image: linear-gradient(-40deg, #C86DD7 0%, #3023AE 100%);
+}
+
+@mixin check {
+  background-image: url(/wp-content/themes/hipay-sage-1.2/dist/images/check.svg);
+  background-position: 0 5px;
+  background-repeat: no-repeat;
+  background-size: 15px auto;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  line-height: 1.2;
+}
+
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
@@ -9,10 +47,10 @@
 
 @mixin btn-color($color) {
   background-color: $color;
-  color: #ffffff;
+  color: rgba(0,0,0,0.4);
   &:focus, &:hover, &:active {
     background-color: darken( $color, 10% );
-    color: #ffffff;
+    color: rgba(0,0,0,0.4);
     outline: medium none;
     //@include transition(opacity);
   }
@@ -79,4 +117,12 @@
       border-color: rgba(0, 0, 0, 0) darken($color, 10%) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
     }
   }
+}
+
+@mixin saturate ($num) {
+  filter: saturate($num);
+  -webkit-filter: saturate($num);
+  -moz-filter: saturate($num);
+  -o-filter: saturate($num);
+  -ms-filter: saturate($num);
 }

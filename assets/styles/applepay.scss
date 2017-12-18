@@ -1,0 +1,473 @@
+@import "common/variables";
+@import "common/mixins";
+
+.page-header {
+  .container, .vc_row.vc_row-fluid {
+    width: 100%;
+  }
+  .page-header-darklayer {
+    display: none;
+  }
+  h1 {
+    margin-bottom: 15px;
+    font-size: 3.4rem;
+  }
+}
+
+h2 {
+  font-weight: 500;
+}
+
+.ios-map {
+  img {
+    width: 480px;
+  }
+}
+
+br {
+  margin-bottom: initial !important;
+}
+
+.vc_row.vc_row-fluid.full.ios-checkout {
+  @include violet-gradient;
+  padding-bottom: 275px;
+  position: relative;
+  overflow: hidden;
+  h2, p, strong {
+    color: white;
+  }
+  .checkout-img {
+    position: absolute;
+    left: 55%;
+    width: 638px;
+  }
+  .checkout-txt {
+    text-align: left;
+    padding: 70px 40px 0 0;
+    img {
+      margin-bottom: 35px;
+    }
+  }
+}
+
+.vc_row.vc_row-fluid.ios-touch-id {
+  background-color: white;
+  @include border-radius(6px);
+  width: 870px;
+  float: none;
+  margin-top: -120px;
+  padding: 65px 40px;
+  box-shadow: 0 12px 12px 2px rgba(0,0,0,0.06), 0 5px 18px 4px rgba(0,0,0,0.07), 0 7px 4px 0 rgba(0,0,0,0.07);
+  margin-bottom: -112px;
+  position: relative;
+  z-index: 1;
+  p, strong {
+    color: $black;
+  }
+  p {
+    max-width: 100%;
+  }
+  .vc_row.vc_row-fluid {
+    width: 100%;
+  }
+  .touch-id-ico {
+    padding-right: 40px;
+    margin-top: 60px;
+    width: 160px;
+    .vc_column-inner {
+      padding: 0;
+    }
+  }
+  .touch-id-txt {
+    border-left: 1px solid #ddd;
+    padding-left: 40px;
+    width: calc(100% - 160px);
+    .vc_column-inner {
+      padding: 0;
+    }
+  }
+}
+
+.vc_row.vc_row-fluid.ios-coverage {
+  position: relative;
+  padding-bottom: 200px;
+  h2 {
+    margin-top: 25px;
+  }
+  h3 {
+    color: $dark-blue;
+    font-size: 2.2rem;
+  }
+  ul {
+    li {
+     @include check;
+      color: $dark-blue;
+    }
+  }
+  .america-map, .europe-map, .asia-map {
+    position: relative;
+    img {
+      position: absolute;
+      z-index: -1;
+    }
+  }
+  .america-map {
+    top: 70px;
+    left: 120px;
+  }
+  .europe-map {
+    left: 75px;
+    top: 120px;
+    ul {
+      display: inline-table;
+      margin-right: 40px;
+    }
+  }
+  .asia-map {
+    top: 50px;
+    left: 50px;
+  }
+  .ios-map-world {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 120px;
+    p {
+      max-width: 992px;
+    }
+  }
+}
+
+.vc_row.vc_row-fluid.full.ios-sdk {
+  padding-top: 190px;
+  background-image: linear-gradient(-180deg, #F7F9FD 18%, #EBF0F9 100%);
+  .ios-sdk-img {
+    text-align: center;
+    .wp-video {
+      box-shadow: 0 2px 16px 0 rgba(0,0,0,0.14);
+      @include border-radius(3px);
+      max-width: 300px;
+      margin: 0 auto;
+      border: 2px solid #fff;
+    }
+    .mejs-container .mejs-controls {
+      display: none;
+    }
+    .mejs-overlay.mejs-layer.mejs-overlay-play {
+      background-color: rgba(0,0,0,0.5);
+    }
+    button {
+      background-color: transparent;
+      border: 1px solid $orange;
+      color: $orange;
+      padding: 2px 10px;
+      font-size: 1.1rem;
+      img {
+        border: none;
+        margin-right: 5px;
+      }
+    }
+  }
+  .ios-sdk-txt {
+    text-align: left;
+    max-width: 550px;
+    padding-top: 70px;
+    img {
+      margin-bottom: 30px;
+    }
+    a {
+      font-size: 11px;
+      color: $orange;
+      letter-spacing: 0.46px;
+      text-transform: uppercase;
+      margin-top: 25px;
+      display: table;
+    }
+  }
+}
+
+.vc_row.vc_row-fluid.full.ios-features {
+  text-align: left;
+  color: white;
+  @include dark-blue-gradient;
+  h2, p, strong {
+    color: white;
+  }
+  h2 {
+    text-align: left;
+    line-height: 1;
+    float: left;
+    margin: 10px 0 0 30px;
+    br {
+      line-height: 0;
+    }
+  }
+  .ios-features-title {
+    margin-bottom: -60px;
+    p {
+      float: left;
+    }
+  }
+  table {
+    tr {
+      td {
+        max-width: 500px;
+        &:first-child {
+          font-weight: 400;
+        }
+        a {
+          color: white;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .currencies-tables {
+    float: right;
+    padding: 40px;
+    @include border-radius(6px);
+    background-color: white;
+    width: 380px;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.20);
+    top: -140px;
+    position: relative;
+    h3 {
+      text-align: left;
+    }
+    table {
+      text-align: left;
+      width: 50%;
+      float: left;
+      td {
+        color: $dark-blue;
+        padding: 4px 0 0 10px;
+        display: inline-block;
+        a {
+          color: white;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  .features-a, .features-b {
+    padding-right: 40px;
+    td {
+      line-height: 1.4;
+      vertical-align: top;
+      padding-bottom: 10px;
+      &:first-child {
+        padding-right: 25px;
+      }
+    }
+  }
+  .features-b {
+    border-left: 1px solid #9BA4B5;
+    padding-left: 10px;
+  }
+}
+
+.vc_row.vc_row-fluid.ios-link {
+  img {
+    max-width: 320px;
+  }
+  .vc_col-sm-6 {
+    text-align: left;
+    .vc_column-inner {
+      text-align: center;
+      max-width: 320px;
+      padding: 0;
+      margin: 0 25px;
+    }
+    &:first-child {
+      .vc_column-inner {
+        float: right;
+      }
+    }
+    a {
+      font-size: 11px;
+      color: $orange;
+      letter-spacing: 0.46px;
+      text-transform: uppercase;
+    }
+    h3 {
+      font-size: 1.6rem;
+      max-width: 240px;
+      margin: 25px auto 10px;
+      padding: 0;
+    }
+  }
+}
+
+.vc_row.vc_row-fluid > .vc_col-sm-6.subscribe-text h2 {
+  margin-top: 13px;
+  font-weight: 400;
+}
+
+.subscribe-green .btn.large.white, .subscribe-green .comment-form input.large.white[type="submit"], .comment-form .subscribe-green input.large.white[type="submit"], .subscribe-green .search-form .large.white.search-submit, .search-form .subscribe-green .large.white.search-submit, .subscribe-green .modal .modal-footer .large.white.wpcf7-submit, .modal .modal-footer .subscribe-green .large.white.wpcf7-submit, .subscribe-green .hbspt-form .modal-footer .large.white.wpcf7-submit, .hbspt-form .modal-footer .subscribe-green .large.white.wpcf7-submit, .subscribe-green #cookie-notice .large.white.button.bootstrap, #cookie-notice .subscribe-green .large.white.button.bootstrap {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .vc_row.vc_row-fluid.full.ios-checkout .checkout-txt {
+    padding: 0 40px 0 0;
+  }
+  .vc_row.vc_row-fluid.full.ios-checkout {
+    padding-bottom: 150px;
+  }
+  .vc_row.vc_row-fluid.ios-touch-id {
+    margin: -120px 25px -112px;
+    width: calc(100% - 50px);
+    .touch-id-ico {
+      margin-bottom: 0;
+    }
+  }
+  .vc_row.vc_row-fluid.full.ios-sdk .ios-sdk-img {
+    margin-bottom: 0;
+  }
+  .vc_row.vc_row-fluid .ios-sdk-img.vc_col-sm-6 p {
+    text-align: center;
+  }
+  .vc_row.vc_row-fluid.ios-coverage {
+    padding-bottom: 40px;
+    .vc_col-sm-4 {
+      top: inherit;
+      left: inherit;
+    }
+    .europe-map ul {
+      margin-bottom: 0;
+    }
+    h3 {
+      text-align: left;
+    }
+  }
+  .vc_row.vc_row-fluid.full.ios-features .currencies-tables {
+    padding: 25px 15px;
+    width: 280px;
+    top: -200px;
+    h3 {
+      text-align: left;
+      float: left !important;
+      margin-left: 10px;
+    }
+  }
+  .vc_row.vc_row-fluid.full.ios-features h2 {
+    padding-top: 10px;
+  }
+  .vc_row.vc_row-fluid.full.ios-features .ios-features-title {
+    margin-bottom: -110px;
+  }
+  .vc_row.vc_row-fluid.full.ios-features .ios-features-title p {
+    margin-right: 20px;
+  }
+  .vc_row.vc_row-fluid.ios-link > .vc_col-sm-6 p {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .vc_row.vc_row-fluid.full.ios-checkout .checkout-txt {
+    padding: 0 15px;
+  }
+  .vc_row.vc_row-fluid.full.ios-checkout {
+    padding-bottom: 120px;
+    .checkout-img {
+      position: relative;
+      left: 0;
+      width: 100%;
+    }
+  }
+  .vc_row.vc_row-fluid.ios-touch-id {
+    margin: -70px auto 0;;
+    width: calc(100% - 30px);
+    padding: 40px 25px;
+  }
+  .vc_row.vc_row-fluid.ios-touch-id .touch-id-ico {
+    padding-right: 0;
+    margin-top: 0;
+    width: 100%;
+    img {
+      margin-bottom: 25px;
+      width: 140px;
+    }
+  }
+  .vc_row.vc_row-fluid.ios-touch-id .touch-id-txt {
+    border-left: none;
+    padding: 0 15px;
+    width: 100%;
+  }
+  .vc_row.vc_row-fluid.full.ios-sdk {
+    padding-top: 70px;
+  }
+  .vc_row.vc_row-fluid.full.ios-sdk .ios-sdk-txt {
+    text-align: left;
+    max-width: inherit;
+    padding-top: 40px;
+    a {
+      display: block;
+    }
+  }
+  .vc_row.vc_row-fluid.ios-coverage h3 {
+    text-align: center;
+  }
+  .vc_row.vc_row-fluid.ios-coverage ul li {
+    background-image: none;
+    padding-left: 0;
+    padding-bottom: 0;
+    text-align: center;
+  }
+  .vc_row.vc_row-fluid.ios-coverage .europe-map ul {
+    display: block;
+    margin-right: 0;
+  }
+  .vc_row.vc_row-fluid.full.ios-features .currencies-tables {
+    padding: 25px 15px;
+    width: 280px;
+    top: 0;
+    margin: 0 auto;
+  }
+  .vc_row.vc_row-fluid.full.ios-features .ios-features-title {
+    margin-bottom: 40px;
+  }
+  .vc_row.vc_row-fluid.full.ios-features .currencies-tables {
+    padding: 25px 15px;
+    width: 280px;
+    top: 0;
+    margin: 30px auto 0;
+    float: inherit;
+    display: table;
+  }
+  .vc_row.vc_row-fluid.ios-coverage {
+    padding-bottom: 0;
+    .ios-map-world {
+      display: none;
+    }
+  }
+  .vc_row.vc_row-fluid.full.ios-features .ios-features-title p {
+    margin-right: 0;
+    width: 100%;
+  }
+  .vc_row.vc_row-fluid.full.ios-features h2 {
+    text-align: center;
+    line-height: 1;
+    float: inherit;
+    margin: 0 auto 0;
+    display: table;
+    padding-top: 20px;
+  }
+  .vc_row.vc_row-fluid.full.ios-features .features-b {
+    border-left: none;
+    padding-left: 0;
+  }
+  .vc_row.vc_row-fluid.ios-link .vc_col-sm-6 .vc_column-inner {
+    text-align: center;
+    max-width: 100%;
+    padding: 0;
+  }
+  .vc_row.vc_row-fluid.ios-link .vc_col-sm-6:first-child .vc_column-inner {
+    margin: 0 0 40px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}

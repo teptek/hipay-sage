@@ -75,26 +75,6 @@
   $(document).ready(UTIL.loadEvents);
 
 
-
-
-  //header anim
-
-
-  //var shrinkHeader = 50;
-  //$(window).scroll(function() {
-  //  var scroll = getCurrentScroll();
-  //  if ( scroll >= shrinkHeader ) {
-  //    $('header').addClass('header-anim');
-  //  }
-  //  else {
-  //    $('header').removeClass('header-anim');
-  //  }
-  //});
-  //function getCurrentScroll() {
-  //  return window.pageYOffset || document.documentElement.scrollTop;
-  //}
-
-
   // navigation
 
   $(".btn-menu-anim").click(function(){
@@ -182,10 +162,17 @@
     window.location.href = $(this).attr('data-href');
   });
 
-  $('.home .page-header-content a, .page-template-career #job-offers').click(function(event){
+  $('.home .page-header-content .btn.anim, .page-template-career #job-offers, .page-header-content .btn.downscroll').click(function(event){
     event.preventDefault();
     $("html, body").animate({
       scrollTop: $(window).height()
+    }, "slow");
+  });
+
+  $('.page-template-invest-home .financial-agenda').click(function(event){
+    event.preventDefault();
+    $("html, body").animate({
+      scrollTop: $(".timeline-white").offset().top
     }, "slow");
   });
 

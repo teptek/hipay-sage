@@ -32,65 +32,25 @@ require('lang/content.php');
                     <h4 class="modal-title" id="myModalLabel"><?php echo $job_title; ?></h4>
                 </div>
                 <div class="modal-body">
-                    <iframe src="https://hi-media-openhire.silkroad.com/epostings/submit.cfm?fuseaction=app.presubmission&amp;jobid=<?php echo $current_id; ?>&amp;company_id=30038&amp;version=5" height="320" width="100%"></iframe>
+                    <iframe src="https://hipay-openhire.silkroad.com/epostings/submit.cfm?fuseaction=app.presubmission&amp;jobid=<?php echo $current_id; ?>&amp;company_id=30038&amp;version=5" height="320" width="100%"></iframe>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="container">
-        <div class="col-md-8 job-content">
-
-            <div class="job-title">
-                <h1><?php echo $job_title; ?></h1>
-                <small><?php echo $job_category; ?></small>
-            </div>
-
-            <div class="job-description">
-                <h3><?php echo $job_description_txt; ?></h3>
-                <?php echo $job_description; ?>
-            </div>
-
-            <div class="job-skills">
-                <h3> <?php echo $job_skills_txt; ?></h3>
-                <?php echo $job_skills; ?>
-            </div>
-
-            <button class="btn-blue-full-squared" data-target="#myModal" data-toggle="modal" type="button">
-                <?php echo $job_apply_txt; ?>
-            </button>
-
-        </div>
-        <div class="col-md-4 last-articles-blog">
-
-            <h4>Les dernières offres d'emploi</h4>
-
-            <ul class="item-list">
-                <?php
-                    $i = 0;
-                    foreach ($data->job as $job) {
-                ?>
-                    <li>
-                        <a class="article-title" href="<?php echo $job_single_url . '?job_id=' . $job->jobId; ?>">
-                            <p class="meta">
-                                <?php echo $job_category; ?>
-                            </p>
-                            <h4>
-                                <?php echo $job->title; ?>
-                            </h4>
-                        </a>
-                    </li>
-                <?php
-                    if($i==2) break;
-                    $i++;
-                } ?>
-                <li>
-                    <a class="article-title all-offers" href="/carrieres">
-                        <h4>
-                           Voir toutes nos offres
-                        </h4>
-                    </a>
-                </li>
-            </ul>
-        </div>
+        <?php
+        if (empty($current_id)) {
+            echo '<div class="col-md-12 last-articles-blog">';
+            include('templates/last-articles.php');
+            echo '</div>';
+        } else {
+            echo '<div class="col-md-8 job-content">';
+            include('templates/content-job.php');
+            echo '</div>';
+            echo '<div class="col-md-4 last-articles-blog">';
+            include('templates/last-articles.php');
+            echo '</div>';
+        }
+        ?>
     </div> <!-- end #content -->

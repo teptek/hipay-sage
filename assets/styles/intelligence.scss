@@ -1,0 +1,604 @@
+@import "common/variables";
+@import "common/mixins";
+@import "common/header-left-cta";
+
+.data-hub-img {
+  cursor: pointer;
+  img {
+  }
+  button {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0;
+    padding: 0;
+    br {
+      display: none;
+    }
+  }
+}
+
+.page-header-darklayer {
+  opacity: 0.3;
+}
+
+.data-hub {
+  .wpb_text_column {
+    padding: 0;
+  }
+  &.vc_row {
+    margin: 70px auto 20px;
+  }
+  .data-hub-img {
+    text-align: right;
+  }
+  .data-hub-txt {
+    padding-top: 50px;
+    text-align: left;
+    max-width: 520px;
+  }
+  .vc_column_container > .vc_column-inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.data-business {
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#32a9b8+0,0288b9+100 */
+  background: #32a9b8; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #32a9b8 0%, #0288b9 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #32a9b8 0%,#0288b9 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #32a9b8 0%,#0288b9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32a9b8', endColorstr='#0288b9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  h2, h3, p, li {
+    color: white;
+  }
+
+  ul {
+    li {
+      text-align: left;
+    }
+  }
+
+  h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-size: 1.4rem;
+  }
+
+  .wpb_wrapper h2 {
+    margin-bottom: 10px;
+  }
+  .data-business-txt {
+    max-width: 420px;
+    line-height: 1.4;
+  }
+
+  .vc_intelligence_scheme {
+    .wpb_text_column.wpb_content_element {
+      display: none;
+    }
+  }
+
+  .intelligence-scheme {
+    position: relative;
+    .intelligence-ico {
+      display: inline-block;
+    }
+    .intelligence-data-ico {
+      .intelligence-points-svg {
+        position: absolute;
+        width: 100%;
+      }
+      .intelligence-cercle-svg {
+        position: relative;
+      }
+      margin-top: 3px;
+    }
+    .intelligence-main-ico {
+      z-index: 1;
+    }
+    #science {
+      -webkit-animation: science-rotate 8s infinite;
+      -moz-animation: science-rotate 8s infinite;
+      -ms-animation: science-rotate 8s infinite;
+      animation: science-rotate 8s infinite;
+      -webkit-animation-timing-function: linear;
+      -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+      animation-timing-function: linear;
+      transform-origin: 22px 19px;
+      position: absolute;
+      margin: 22px -24px;
+
+      @keyframes science-rotate {
+        100%{
+          -webkit-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          transform: rotate(360deg)
+        }
+      }
+    }
+    .intelligence-monitor-ico {
+      margin-top: 8px;
+    }
+    .col-md-4, .vc_col-sm-4 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .intelligence-tunnel {
+      background: linear-gradient(-90deg, #addae5, #ffba00);
+      background-size: 100% 100%;
+
+      height: 10px;
+      left: calc(16.66% + 41px);
+      position: absolute;
+      right: calc(16.66% + 142px);
+      top: 48px;
+    }
+  }
+
+  .intelligence-txt {
+    .vc_col-sm-4 > .vc_column-inner {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .data-business-left {
+      li {
+        display: inline-block;
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 0.075em;
+        margin: 0 0 10px 3px;
+        text-align: center;
+        width: calc(38% - 6px);
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        width: 20px;
+        margin-bottom: 5px;
+      }
+    }
+    .data-business-right {
+      ul {
+        display: table;
+        margin: 0 auto;
+        width: initial;
+      }
+      img {
+        margin-right: 10px;
+        width: 16px;
+      }
+    }
+    .wpb_text_column {
+      padding: 10px 0 0;
+    }
+    .data-scheme-title {
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      @include border-radius(3px);
+      display: table;
+      font-size: 22px;
+      letter-spacing: 0;
+      margin: 0 auto;
+      padding: 10px 20px;
+      text-transform: capitalize;
+      width: initial;
+    }
+  }
+}
+
+.data-backend {
+  background-color: $background-blue;
+  overflow: hidden;
+  h2 {
+    color: #3B678F;
+
+  }
+  ul {
+    margin-left: -7px;
+    li {
+      text-align: left;
+      color: #82bce8;
+      font-weight: 400;
+      padding: 5px 0;
+      &.active {
+        a {
+          color: #3B678F;
+          border-left: 2px solid #3B678F;
+        }
+      }
+      a {
+        border-left: 2px solid transparent;
+        padding: 5px 0 5px 10px;
+      }
+    }
+  }
+  .data-browser {
+    background-image: url("/wp-content/themes/hipay-sage-1.2/dist/images/browser.svg");
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 0 5px 20px -7px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 0 5px 20px -7px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0 5px 20px -7px rgba(0,0,0,0.59);
+    box-shadow: 0 5px 20px -7px rgba(0,0,0,0.59);
+    background-position: center top -10px;
+    @include border-radius(6px);
+    height: 450px;
+    padding: 47px 0 0;
+    width: 804px;
+  }
+}
+
+.data-opportunities {
+  a {
+    font-weight: 500;
+  }
+  .wpb_text_column {
+    padding: 8px 0 0;
+  }
+  h2 {
+    float: right;
+    font-size: 3.6rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-right: 65px;
+    max-width: 350px;
+    text-align: right;
+    span {
+      color: $yellow;
+    }
+  }
+  p {
+    text-align: justify;
+  }
+  ul {
+    li {
+      background-image: url("/wp-content/themes/hipay-sage-1.2/dist/images/check.svg");
+      background-position: 0 5px;
+      background-repeat: no-repeat;
+      background-size: 15px auto;
+      padding-left: 25px;
+      padding-bottom: 10px;
+      line-height: 1.2;
+    }
+  }
+}
+
+.data-customers {
+  a {
+    color: white;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  h2, p {
+    color: white;
+    text-align: justify;
+  }
+  .wpb_content_element > .wpb_wrapper {
+    max-width: 440px;
+  }
+  h2 {
+    br {
+      margin: 0 !important;
+      padding: 0;
+    }
+  }
+}
+
+.vc_row-fluid.full.blue-bg {
+  border-bottom: 492px solid $background-blue;
+  border-left: 0 solid rgba(0, 0, 0, 0);
+  border-right: 270px solid rgba(0, 0, 0, 0);
+  height: 0;
+  padding: 0;
+  position: absolute;
+  width: 445px;
+}
+
+.data-interface {
+  .interface-screens {
+    .wpb_content_element {
+      padding-left: 0;
+    }
+  }
+  .interface-txt {
+    .wpb_text_column.wpb_content_element {
+      padding: 0 0 25px;
+    }
+    .vc_row.vc_row-fluid {
+      width: 100%;
+      .vc_col-sm-3 {
+        margin: 3px;
+        width: calc(25% - 6px);
+        @include border-radius(3px);
+        border: 1px solid #c3e2f5;
+        min-height: 126px;
+        & > .vc_column-inner {
+          padding: 0;
+        }
+        img {
+          max-height: 33px;
+          width: auto;
+        }
+        h4 {
+          font-size: 1.2rem;
+          margin: 15px 0 0;
+          padding: 0;
+          color: $blue;
+        }
+        .wpb_wrapper {
+          .wpb_content_element {
+            @include border-radius(3px);
+            padding: 25px 10px;
+          }
+          p {
+            margin: 0 auto;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+#offer-container {
+  display: block;
+  padding-top: 40px;
+  .vc_column-inner {
+    img {
+      max-width: 40px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.vc_col-sm-4 {
+  & > .vc_column-inner {
+    padding: 0 7px;
+  }
+}
+
+.wpb_text_column {
+  //min-height: 690px;
+  padding: 40px 25px;
+}
+
+h4 {
+  margin-bottom: 0;
+  margin-top: 25px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.offer-title-txt {
+  font-family: $main-font;
+  font-size: 14px;
+  line-height: 1.2;
+  padding: 0;
+  text-align: center;
+}
+
+a.btn {
+  margin: 25px auto 0;
+}
+
+
+.offer-content {
+  border-top: 1px dashed #ccc;
+  margin-top: 25px;
+  padding: 40px 0 0;
+  p, li {
+    font-family: $main-font;
+    font-size: 1.6rem;
+    line-height: 2;
+  }
+  ul {
+    margin-bottom: 40px;
+  }
+  li {
+    background-image: url("../images/check.svg");
+    background-position: -2px 0;
+    background-repeat: no-repeat;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    padding: 0 0 15px 25px;
+  }
+}
+
+.wpb_content_element {
+  @include border-radius(3px);
+}
+
+.products-submit {
+  bottom: 25px;
+  left: 0;
+  position: absolute;
+  width: 100%
+}
+
+#subscribe {
+  .wpb_text_column {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1215px) {
+  .vc_row-fluid.full.blue-bg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1185px) {
+  .data-backend .data-browser {
+    height: auto;
+    width: 100%;
+    background-size: 100%;
+    background-position: left -13px top -9px;
+    padding: 42px 0 0;
+    background-color: #edf1f5;
+    .tab-pane {
+     img {
+       width: 100%;
+     }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .data-backend .data-browser {
+    padding: 27px 0 0;
+  }
+  .vc_row-fluid.full.blue-bg {
+    display: none;
+  }
+  .data-interface {
+    .interface-screens {
+      display: none;
+    }
+    .interface-txt {
+      width: 100%;
+      .vc_row-fluid {
+        margin: 0;
+      }
+    }
+  }
+  .data-customers.vc_row.vc_row-fluid {
+    background-position: right;
+    .wpb_content_element > .wpb_wrapper {
+      max-width: 100%;
+    }
+    p {
+      text-align: justify;
+      width: 100%;
+    }
+    h2 {
+      text-align: center;
+    }
+  }
+  .data-opportunities {
+    h2 {
+      max-width: 100%;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    .vc_col-sm-4, .vc_col-sm-8 {
+      width: 100%;
+    }
+  }
+  .data-hub {
+    .data-hub-txt, .data-hub-img {
+      max-width: 100%;
+      width: 100%;
+    }
+    .data-hub-img {
+      padding-top: 0;
+      margin-bottom: 0;
+    }
+    .data-hub-txt {
+      padding-bottom: 70px;
+    }
+  }
+  .data-business {
+    .intelligence-scheme {
+      display: none;
+    }
+    .wpb_wrapper h2 {
+      margin-bottom: 10px;
+    }
+    .intelligence-scheme-container {
+      height: 1px;
+      background-color: rgba(255,255,255,0.3);
+      width: 100%;
+    }
+    .intelligence-txt {
+      .intelligence-title-container {
+        display: none;
+      }
+      .vc_col-sm-4 {
+        width: 50%;
+      }
+      .data-business-left {
+        img {
+          display: none;
+        }
+        li {
+          display: block;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .data-interface .interface-txt .vc_row.vc_row-fluid .vc_col-sm-3 {
+    float: left;
+  }
+  .data-opportunities h2 {
+    font-size: 2.8rem;
+  }
+  .data-backend {
+    ul li {
+      text-align: center;
+      &.active a {
+        border-left: none;
+      }
+    }
+    .vc_row.vc_row-fluid {
+      margin: 25px auto;
+    }
+    .wpb_text_column {
+      padding: 0;
+    }
+    .data-browser {
+      box-shadow: none;
+      padding: 0;
+      height: initial;
+      width: 100%;
+      background-image: none;
+      .tab-pane {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .wpb_text_column {
+    min-height: inherit;
+    padding: 0 25px;
+  }
+  .data-business .intelligence-txt .vc_col-sm-4 {
+    width: 100%;
+  }
+  .data-hub {
+    padding: 0 10px;
+    .data-hub-txt {
+      padding-bottom: 35px;
+      padding-top: 0;
+    }
+    h2 {
+      padding-bottom: 0;
+    }
+  }
+  .wpb_text_column {
+    min-height: inherit;
+    padding: 40px 25px;
+  }
+  .vc_column_container {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .data-interface .interface-txt .vc_row.vc_row-fluid .vc_col-sm-3 {
+    min-height: inherit;
+    width: 100%;
+    .wpb_wrapper .wpb_content_element {
+      border-radius: 3px;
+      padding: 15px 0;
+    }
+  }
+}

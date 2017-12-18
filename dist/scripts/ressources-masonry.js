@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){e("#ressources-masonry").multipleFilterMasonry({itemSelector:".vc_row",filtersGroupSelector:".masonry-filter",selectorType:"list",gutter:25})});

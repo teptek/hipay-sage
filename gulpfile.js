@@ -56,7 +56,7 @@ var enabled = {
   // Enable static asset revisioning when `--production`
   rev: argv.production,
   // Disable source maps when `--production`
-  maps: !argv.production,
+  //maps: !argv.production,
   // Fail styles task on error when `--production`
   failStyleTask: argv.production,
   // Fail due to JSHint warnings only when `--production`
@@ -212,6 +212,23 @@ gulp.task('sticky', function() {
       .pipe(gulp.dest('dist/scripts'));
 });
 
+// ### slick
+gulp.task('slickjs', function() {
+  return gulp.src('./bower_components/slick-carousel/slick/slick.min.js')
+      .pipe(gulp.dest('dist/scripts'));
+});
+
+gulp.task('slickcss', function() {
+  return gulp.src('./bower_components/slick-carousel/slick/slick.css')
+      .pipe(gulp.dest('dist/styles'));
+});
+
+// ### bootstrap scripts
+gulp.task('bootstrap_js', function() {
+  return gulp.src('./bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js')
+      .pipe(gulp.dest('dist/scripts'));
+});
+
 // ### Images
 // `gulp images` - Run lossless compression on all the images.
 gulp.task('images', function() {
@@ -268,7 +285,11 @@ gulp.task('watch', function() {
 gulp.task('build', function(callback) {
   runSequence('styles',
               'scripts',
-              ['fonts', 'images', 'sticky'],
+              'images',
+              'slickjs',
+              'slickcss',
+              'sticky',
+              'bootstrap_js',
               callback);
 });
 

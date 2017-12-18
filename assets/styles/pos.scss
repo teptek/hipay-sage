@@ -1,0 +1,237 @@
+@import "common/variables";
+@import "common/mixins";
+@import "common/header-left-cta";
+
+.wpb_wrapper {
+  p {
+    text-align: justify;
+  }
+}
+
+.pos-video-link {
+  cursor: pointer;
+  img {
+    -webkit-box-shadow: 0 5px 20px -5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 5px 20px -5px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 20px -5px rgba(0,0,0,0.3);
+  }
+  button {
+    margin: 0;
+    padding: 0;
+    br {
+      display: none;
+    }
+  }
+}
+.pos-video-txt {
+  padding: 10px 0 0 25px;
+}
+
+.modal-content {
+  box-shadow: none;
+  border: 0 none;
+  background-color: transparent;
+}
+
+.close {
+  color: #ffffff;
+  float: right;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 1;
+  opacity: 0.7;
+  text-shadow: none;
+  &:hover, &:focus {
+    color: #ffffff;
+  }
+}
+
+.modal-body {
+  padding: 0;
+  max-height: 337px;
+}
+
+.pos-drivein {
+  border-top: 1px dashed #dddddd;
+  padding-top: 70px;
+  img {
+    float: right;
+  }
+}
+
+.page-header-darklayer {
+  display: none;
+}
+
+.vc_row.vc_row-fluid.full.pos-ingenico {
+  padding-bottom: 100px;
+  padding-top: 108px;
+  h2 {
+    text-align: left;
+  }
+  a {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+}
+
+.data-scheme {
+  h2 {
+    margin: 0 auto;
+    padding-bottom: 70px;
+    width: 720px;
+  }
+}
+
+.single-platform {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ecf0f9+0,ffffff+100 */
+  background: #ecf0f9; /* Old browsers */
+  background: -moz-linear-gradient(top, #ecf0f9 0%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ecf0f9 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ecf0f9 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecf0f9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  .single-platform-title {
+    h3 {
+      font-size: 3rem;
+      margin-top: 75px;
+    }
+  }
+  .single-platform-intro  {
+    margin-bottom: 40px;
+  }
+  h2, h3 {
+    text-align: left;
+  }
+  h2 {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+  }
+  .platform-usp {
+    margin-bottom: 40px;
+    h3 {
+      margin-top: 15px;
+    }
+    img {
+      width: 55px;
+    }
+    p {
+      margin: 0 0 15px;
+      max-width: inherit;
+    }
+  }
+}
+
+#subscribe h1, #subscribe h2, #subscribe h3, #subscribe h4, #subscribe h5, #subscribe h6, #subscribe p {
+  text-align: center;
+}
+
+.vc_row.vc_row-fluid.full.pos-setup {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  h2, p {
+    color: #ffffff;
+    text-align: left;
+  }
+  a:not(.btn) {
+    text-decoration: underline;
+    font-weight: 400;
+    color: white;
+    &:hover, &:focus {
+      color: white;
+    }
+  }
+
+}
+
+.vc_row.vc_row-fluid.pos-client {
+  h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+.pos-client {
+  .vc_col-sm-2 {
+    width: 20%;
+    img {
+      width: 130px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .vc_column_container {
+    text-align: center;
+    width: 100%;
+  }
+  h1, h2, h3, h4 {
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+  }
+  .vc_row.vc_row-fluid {
+    div[class*="vc_col-sm-"] {
+      h1, h2, p {
+        text-align: center;
+      }
+    }
+  }
+  .page-header {
+    h1, .page-description {
+      margin: 70px auto 0;
+      max-width: 750px;
+      padding: 10px 0;
+    }
+    .page-description {
+      margin: 0 auto 0;
+    }
+    .page-header-content {
+      display: table;
+      padding: 15vh 0;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  .single-platform {
+    .single-platform-title h3 {
+      margin-top: 0;
+      text-align: center;
+    }
+    h3 {
+      text-align: center;
+    }
+    .platform-usp img {
+      margin-bottom: 0;
+    }
+  }
+  .vc_col-sm-1 {
+    margin-bottom: 0;
+  }
+  .vc_row.vc_row-fluid.full.pos-setup {
+    padding-bottom: 40px;
+    padding-top: 60px;
+    h2, p {
+      text-align: center;
+    }
+  }
+  .pos-client {
+    .vc_col-sm-2 {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pos-client .vc_col-sm-2 {
+    float: left;
+    margin-bottom: 25px;
+    width: 50%;
+  }
+}

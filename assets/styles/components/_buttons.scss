@@ -5,8 +5,9 @@
   @include border-radius(3px);
   border: medium none;
   font-family: $main-font;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 500;
+  letter-spacing: -0.015em;
   padding: 14px 18px;
   height: initial;
   margin-top: 25px;
@@ -18,18 +19,33 @@
 
   &.green {
     @include btn-color($green);
+    color: rgba(0, 0, 0, 0.4);
+    &:hover, &:focus {
+      color: rgba(0, 0, 0, 0.4);
+    }
   }
 
   &.blue {
     @include btn-color($blue);
+    color: white;
+    &:focus, &:hover, &:active {
+      color: white;
+    }
   }
 
   &.blue-mobile {
     @include btn-color($blue-mobile);
   }
 
+  &.yellow {
+    @include btn-color($yellow);
+    &:focus, &:hover, &:active {
+      background-color: darken( $yellow, 3% );
+    }
+  }
+
   &.blue-tpp {
-    background-color: $blue-tpp;
+    background-color: $midnight-blue;
     color: #ffffff;
     &:focus, &:hover, &:active {
       background-color: $blue;
@@ -63,7 +79,7 @@
     }
 
     &.blue-tpp {
-      @include btn-color-empty($blue-tpp);
+      @include btn-color-empty($midnight-blue);
     }
 
     &.white {
@@ -73,6 +89,13 @@
 
   &.large {
     padding: 16px 32px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    @border-radius(6px);
+    &.empty {
+      padding: 14.5px 32px;
+    }
   }
 
   &.square {
@@ -87,8 +110,8 @@
   }
   .btn-blue-empty-rounded {
     border: 2px solid $blue;
-    border-radius: 30px;
-    font-size: 1.4rem;
+    @include border-radius(30px);
+    font-size: $font-size-sm;
     padding: 10px 12px;
     &:hover, &:focus {
       color: darken($blue, 20%);

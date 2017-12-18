@@ -4,25 +4,27 @@
   background-image: linear-gradient(-45deg, #0DBFD9 3%, #00d2f2 18%, #00caee 31%, #00c7ec 37%, #00b0df 70%, #007cc1 91%, #005a94 100%);
   //background-color: $black;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center center;
   border-bottom: medium none;
+  height: 520px;
   margin: 0;
   padding-bottom: 0;
   display: table;
-  height: 420px;
   width: 100%;
+  @include saturate(155%);
   h1 {
     color: #ffffff;
-    letter-spacing: -0.025em;
+    letter-spacing: -0.03em;
     margin-top: 70px;
     position: relative;
     z-index: 1;
-    font-size: 2.8rem;
-    font-weight: 300;
-    text-transform: uppercase;
+    font-size: 4.2rem;
+    font-weight: 400;
     padding-bottom: 5px;
     padding-left: 15px;
     padding-right: 15px;
+    line-height: 1.04;
+    margin-bottom: 2px;
   }
   small {
     color: #ffffff;
@@ -35,11 +37,12 @@
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    position: relative;
+    //position: relative;
+    //width: 100%;
   }
   .page-description {
-    font-size: 1.55rem;
-    opacity: 0.75;
+    font-size: 1.75rem;
+    opacity: 0.85;
     position: relative;
     z-index: 1;
     padding-left: 15px;
@@ -48,11 +51,16 @@
 }
 
 .page-header-darklayer {
-  background-color: #000000;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 20%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 20%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.65) 20%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
   height: 420px;
   position: absolute;
+  left: 0;
   top: 0;
-  opacity: 0;
+  opacity: 0.3;
   width: 100%;
 }
 
@@ -175,10 +183,17 @@
   text-align: center;
 }
 
+@media screen and (max-width: 992px) {
+  .main .page-header {
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .page-header {
     height: 320px;
     h1 {
+      font-size: 3.2rem;
       margin-top: 35px;
     }
   }

@@ -15,7 +15,7 @@ use Roots\Sage\Titles;
 
         <?php
         $args = array( 'post_type' =>   'post',
-            'category_name' =>    'blog',
+            'category_name' =>    'blog-en',
             'posts_per_page' =>  6,
             'paged' =>  $paged
         );
@@ -81,7 +81,7 @@ use Roots\Sage\Titles;
         <h4><?php echo $last_blog; ?></h4>
         <?php
         $args = array( 'post_type' =>   'post',
-            'category_name' =>    'blog',
+            'category_name' =>    'blog-en',
             'posts_per_page' =>  4
         );
         query_posts( $args );

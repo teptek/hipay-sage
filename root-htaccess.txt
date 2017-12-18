@@ -1,0 +1,1398 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
+
+# Expires Caching Start #
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresByType text/css "access 1 hour"
+	ExpiresByType text/html "access 1 hour"
+	ExpiresByType image/gif "access 1 hour"
+	ExpiresByType image/png "access 1 hour"
+	ExpiresByType image/jpg "access 1 hour"
+	ExpiresByType image/jpeg "access 1 hour"
+	ExpiresByType image/x-icon "access 1 hour"
+	ExpiresByType application/pdf "access 1 hour"
+	ExpiresByType application/javascript "access 1 hour"
+	ExpiresByType text/x-javascript "access 1 hour"
+	ExpiresByType application/x-shockwave-flash "access 1 hour"
+	ExpiresDefault "access 1 hour"
+</IfModule>
+# Expires Caching End #
+
+
+# Redirects Start #
+Redirect 301 /hipay-group/ https://hipay.com/
+Redirect 301 /media/ https://hipay.com/news/
+Redirect 301 /recrutement/ https://hipay.com/societe/carrieres/
+Redirect 301 /management-team/ https://hipay.com/company/leadership/
+Redirect 301 /legal-notices/ https://hipay.com/terms/
+Redirect 301 /investors/ https://hipay.com/company/investors/
+Redirect 301 /nos-bureaux/ https://hipay.com/societe/contactez-nous/
+Redirect 301 /investors-overview/ https://hipay.com/company/investors/
+Redirect 301 /who-are-we/ https://hipay.com/company/
+Redirect 301 /le-groupe/ https://hipay.com/
+Redirect 301 /press-releases/ https://hipay.com/news/press/
+Redirect 301 /mentions-legales/ https://hipay.com/conditions-generales-dutilisation/
+Redirect 301 /qui-sommes-nous/ https://hipay.com/societe/
+Redirect 301 /blog/ https://hipay.com/news/blog/
+Redirect 301 /partenaires/ https://hipay.com/societe/partenaires/
+Redirect 301 /questions-ecrites-gouvernance-en-action/ https://hipay.com/
+Redirect 301 /share-price/ https://hipay.com/company/investors/share-price/
+Redirect 301 /jobs/ https://hipay.com/company/careers/
+Redirect 301 /carrieres/ https://hipay.com/societe/carrieres/
+Redirect 301 /cours-de-bourse/ https://hipay.com/societe/investisseurs/cours-de-bourse/
+Redirect 301 /communiques-de-presse/ https://hipay.com/actualites/presse/
+Redirect 301 /marketplace/ https://hipay.com/product-marketplace/
+Redirect 301 /documentation-financiere/ https://hipay.com/societe/investisseurs/documentation/
+Redirect 301 /events/ https://hipay.com/news/events/
+Redirect 301 /fullservice-en/ https://hipay.com/product-enterprise/
+Redirect 301 /dans-les-medias/ https://hipay.com/actualites/presse/
+Redirect 301 /documentation-en/ https://hipay.com/company/investors/documentation/
+Redirect 301 /cap-sur-le-commerce-belge-avec-e-commerce-xpo/ https://hipay.com/actualites/blog/
+Redirect 301 /management/ https://hipay.com/company/leadership/
+Redirect 301 /fullservice/ https://hipay.com/product-enterprise/
+Redirect 301 /investisseurs/ https://hipay.com/societe/investisseurs/
+Redirect 301 /mobile/ http://hipaymobile.com/
+Redirect 301 /evenements/ https://hipay.com/news/events/
+Redirect 301 /mobile-en/ http://hipaymobile.com/
+Redirect 301 /offices/ https://hipay.com/company/offices/
+
+Redirect 301 /wp-content/themes/hipay-theme3/hipay.png https://hipay.com/wp-content/uploads/2016/10/hipay-full-color.png
+Redirect 301 /favicon.gif https://hipay.com/wp-content/themes/hipay-sage-1.2/favicon.png
+
+Redirect 301 "/wp-content/uploads/2016/02/hip ay_mobile.png" https://hipay.com/wp-content/uploads/2016/02/hipay_mobile.png
+Redirect 301 "/wp-content/upl oads/2016/02/hipay_mobile.png" https://hipay.com/wp-content/uploads/2016/02/hipay_mobile.png
+Redirect 301 "/wp-content/uploads/2016/02 /hipay_mobile.png" https://hipay.com/wp-content/uploads/2016/02/hipay_mobile.png
+Redirect 301 "/wp-co ntent/uploads/2016/02/hipay_mobile.png" https://hipay.com/wp-content/uploads/2016/02/hipay_mobile.png
+
+Redirect 301 /fr/actualites/blog/ https://blog.hipay.com/fr/
+Redirect 301 /fr/actualites/blog https://blog.hipay.com/fr
+Redirect 301 /fr/blog/ https://blog.hipay.com/fr/
+Redirect 301 /en/news/blog/ https://blog.hipay.com/en/
+Redirect 301 /en/news/blog https://blog.hipay.com/en
+Redirect 301 /en/blog-en/ https://blog.hipay.com/en/
+Redirect 301 /fr/blog https://blog.hipay.com/fr
+Redirect 301 /keys-to-expand-your-business-abroad-belgium/ https://blog.hipay.com/en/
+
+Redirect 301 /category/articles-blog-en/ https://blog.hipay.com/en/
+Redirect 301 /lutte-contre-la-fraude-les-soldes-22/ https://blog.hipay.com/fr/lutte-contre-la-fraude-les-soldes-22
+Redirect 301 /careers/ /en/company/careers
+
+Redirect 301 ^/category(.*)$ https://hipay.com/
+Redirect 301 ^/author(.*)$ https://hipay.com/
+
+Redirect 301 /frenchweb-day-fintech-2/ https://hipay.com/
+Redirect 301 /nabil-naimy/ https://hipay.com/
+Redirect 301 /cart-abandonment-in-e-commerce-the-payment-stage-is-strategic/ https://hipay.com/
+Redirect 301 /e-commerce-one-to-one-2/ https://hipay.com/
+Redirect 301 /e-commerce-sales/ https://hipay.com/
+Redirect 301 /registration/register https://hipay.com/
+Redirect 301 /post/buyer/id/230 https://hipay.com/
+Redirect 301 /simplified-payment-management/ https://hipay.com/
+Redirect 301 /russia-adapt-your-payment-solution-to-the-russian-market/ https://hipay.com/
+Redirect 301 /post/buyer/id/472 https://hipay.com/
+Redirect 301 /2015-full-year-results/ https://hipay.com/
+Redirect 301 /info/popup-terms/language//light https://hipay.com/
+Redirect 301 /post/buyer/id/234 https://hipay.com/
+Redirect 301 /post/buyer/id/479 https://hipay.com/
+RewriteCond %{QUERY_STRING} ^ver=cde2c797f8612226dd7d7c8d2ac58e3b$
+RewriteRule ^wp-content/plugins/pixgridder/css/front-gridder.css$ https://hipay.com/? [R=301,L]
+Redirect 301 /fintech-bordeaux-2/ https://hipay.com/
+Redirect 301 /la-plateforme-de-micropaiement-leader-en-europe/ https://hipay.com/
+Redirect 301 /hipay-group-an-ongoing-dynamic-growth/ https://hipay.com/
+Redirect 301 /creation-de-hipay-mobile-a-k-a-allopass/ https://hipay.com/
+Redirect 301 /actualites/presse/nofollow https://hipay.com/
+Redirect 301 /investors-2/ https://hipay.com/
+Redirect 301 /hipay-expert-for-the-wizishop-white-paper/ https://hipay.com/
+Redirect 301 /hipay-group-guides-auchan-and-oclio-in-the-development-of-their-marketplaces/ https://hipay.com/
+Redirect 301 /la-societe-entre-en-bourse-sur-le-marche-euronext-paris-et-lance-une-nouvelle-filiale-aux-usa/ https://hipay.com/
+Redirect 301 /dl/kit_marchand_fr.pdf https://hipay.com/
+Redirect 301 /ecommerce-paris/ https://hipay.com/
+Redirect 301 /fr/notices/ https://hipay.com/
+Redirect 301 /compatible-with-all-devices-tablets-mobiles-pcs-connected-tv/ https://hipay.com/
+Redirect 301 /bruno-gloaguen/ https://hipay.com/
+Redirect 301 /promod https://hipay.com/
+RewriteCond %{QUERY_STRING} ^utm_content=buffer13bf6&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer$
+RewriteRule ^who-are-the-french-fintech-actors/$ https://hipay.com/? [R=301,L]
+Redirect 301 /post/buyer/id/225 https://hipay.com/
+Redirect 301 /go-mobile/ https://hipay.com/
+Redirect 301 /the-importance-of-a-secure-payment-page/ https://hipay.com/
+Redirect 301 /fintech-bordeaux-3/ https://hipay.com/
+Redirect 301 /attractive-payouts/ https://hipay.com/
+Redirect 301 /money-2020-europe/ https://hipay.com/
+Redirect 301 /french-e-tailers-need-to-act-on-the-international-stage-to-consolidate-their-growth/ https://hipay.com/
+Redirect 301 /fraud-overview-around-the-world/ https://hipay.com/
+Redirect 301 /the-leading-micropayment-platform/ https://hipay.com/
+Redirect 301 /lancement-de-la-plateforme-monetique-hipay-tpp-lancement-de-notre-solution-de-lutte-contre-la-fraude-fps/ https://hipay.com/
+Redirect 301 /promod-has-chosen-hipay-online-payment-solution-for-its-polish-e-commerce-website/ https://hipay.com/
+Redirect 301 /our-hipay-experts-will-be-present-at-the-netcomm-e-commerce/ https://hipay.com/
+Redirect 301 /game-connection/ https://hipay.com/
+Redirect 301 /discover-hipay-fullservice-payment-platform-right-now/ https://hipay.com/
+Redirect 301 /gamescom-cologne-2/ https://hipay.com/
+Redirect 301 /the-fintech-hipay-sees-its-future-in-the-machine-learning/ https://hipay.com/
+Redirect 301 /post/buyer/id/255 https://hipay.com/
+Redirect 301 /a-comprehensive-product-line/ https://hipay.com/
+Redirect 301 /game-connection-2/ https://hipay.com/
+Redirect 301 /e-commerce-and-international-how-to-adapt-its-payment-methods/ https://hipay.com/
+Redirect 301 /nl/ https://hipay.com/
+Redirect 301 /marketplace-3/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^page_id=1268$
+RewriteRule ^partners-3/$ https://hipay.com/? [R=301,L]
+Redirect 301 /category/home-en/ https://hipay.com/
+Redirect 301 /marketplace-en/ https://hipay.com/
+Redirect 301 /slideshow-6-payment-solutions-and-their-news/ https://hipay.com/
+Redirect 301 /post/buyer/id/482 https://hipay.com/
+Redirect 301 /info/popup-terms/language/fr/display/light https://hipay.com/
+Redirect 301 /info/contact/ https://hipay.com/
+Redirect 301 /category/newsletter/ https://hipay.com/
+Redirect 301 /eshow-lisbon-2/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/03/questions_ecrites_ag_2016 https://hipay.com/
+Redirect 301 /which-tools-to-use-against-fraud/ https://hipay.com/
+Redirect 301 /3-questions-a-izberg-specialiste-des-solutions-e-commerce-de-marketplace/ https://hipay.com/
+Redirect 301 /website https://hipay.com/
+Redirect 301 /fr/notices https://hipay.com/
+Redirect 301 /post/merchant/id/181 https://hipay.com/
+Redirect 301 /crossborder-summit-1to1-2/ https://hipay.com/
+Redirect 301 /nabil-naimy-hipay-independence-for-innovation-in-payment-strategies/ https://hipay.com/
+Redirect 301 /david-cohen/ https://hipay.com/
+Redirect 301 /insights-on-marketplaces-hipay-gives-you-an-overview/ https://hipay.com/
+Redirect 301 /notices/ https://hipay.com/
+Redirect 301 /dl/kit_marchand_en.pdf https://hipay.com/
+Redirect 301 /e-commerce-paris/ https://hipay.com/
+Redirect 301 /eshow-lisbon/ https://hipay.com/
+Redirect 301 /the-christmas-shopping-race-is-on/ https://hipay.com/
+Redirect 301 /en/company/documentation https://hipay.com/
+Redirect 301 /eric-favre/ https://hipay.com/
+Redirect 301 /post/merchant/id/195 https://hipay.com/
+Redirect 301 /xmlrpc.php https://hipay.com/
+Redirect 301 /post/merchant/id/191 https://hipay.com/
+Redirect 301 /zerbib-franck/ https://hipay.com/
+Redirect 301 /e-commerce-netcomm-forum/ https://hipay.com/
+Redirect 301 /prestashop-day-2/ https://hipay.com/
+Redirect 301 /ecommerce-paris-2/ https://hipay.com/
+Redirect 301 /post/buyer/id/384 https://hipay.com/
+Redirect 301 /tag/gamescom/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^ver=cde2c797f8612226dd7d7c8d2ac58e3b$
+RewriteRule ^wp-content/plugins/popups/public/assets/js/min/public-min.js$ https://hipay.com/? [R=301,L]
+Redirect 301 /vendez-vos-contenus-a-linternational/ https://hipay.com/
+Redirect 301 /optimize-your-activities-thanks-to-data-analytics/ https://hipay.com/
+Redirect 301 /ils-nous-font-confiance/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^platform=hootsuite$
+RewriteRule ^meet-hipay-at-casual-connect-europe-2016/$ https://hipay.com/? [R=301,L]
+Redirect 301 /auth/lost https://hipay.com/
+Redirect 301 /info/popup-terms/language/pt/display/light https://hipay.com/
+Redirect 301 /hipay-fullservice-has-helped-us-to-divide-by-three-the-number-of-fraudulent-payments-on-our-website/ https://hipay.com/
+Redirect 301 /frenchweb-day-fintech/ https://hipay.com/
+Redirect 301 /challenge-your-knowledge-of-payment-habits-in-europe/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/05/gamescom.html https://hipay.com/
+Redirect 301 /money-2020-europe-2/ https://hipay.com/
+Redirect 301 /hipay-est-certifie-etablissement-de-paiements-par-lacpr-banque-de-france/ https://hipay.com/
+Redirect 301 /info/associations%20%20https:/www.hipay.com/info/associations https://hipay.com/
+Redirect 301 /our-hipay-experts-will-be-present-at-the-mrc-european-congress/ https://hipay.com/
+Redirect 301 /meet-our-payment-experts-during-e-commerce-xpo/ https://hipay.com/
+Redirect 301 /pharmasimple-be-the-new-online-drugstore/ https://hipay.com/
+Redirect 301 /info/buyers https://hipay.com/
+Redirect 301 /info/glossary https://hipay.com/
+Redirect 301 /hipay-offers-bitcoin-payments-2/ https://hipay.com/
+Redirect 301 /4-5-million-hipay-wallet-accounts-development-of-a-business-intelligence-solution-for-hipay-tpp-customers/ https://hipay.com/
+Redirect 301 /ufficiodiscount-gets-visibility-thanks-to-hipay-and-sisalpay/ https://hipay.com/
+Redirect 301 /meet-hipay-at-money-2020-europe/ https://hipay.com/
+Redirect 301 /ranking-of-the-top-500-french-tech-companies/ https://hipay.com/
+Redirect 301 /decouvrez-la-plateforme-hipay-fullservice-des-maintenant/ https://hipay.com/
+Redirect 301 /hipay-unveals-the-new-version-of-its-hipay-mobile-merchant-interface/ https://hipay.com/
+Redirect 301 /creation-de-la-branche-paiement-hipay-au-sein-de-la-societe-himedia-a-paris/mentions-legales/ https://hipay.com/
+Redirect 301 /commercial/ https://hipay.com/
+Redirect 301 /e-commerce-and-international-expansion-what-are-the-hindrances https://hipay.com/
+Redirect 301 /auth/lost/ https://hipay.com/
+Redirect 301 /payment-order/list-categories/id/ https://hipay.com/
+Redirect 301 /favori/ https://hipay.com/
+Redirect 301 /they-trust-us/ https://hipay.com/
+Redirect 301 /hipay-will-attend-gamescom/ https://hipay.com/
+Redirect 301 /m/wp-content/uploads/2015/11/hipay_t1_2016_en.pdf https://hipay.com/
+Redirect 301 /post/merchant/id/147 https://hipay.com/
+Redirect 301 /overview-of-e-commerce-in-germany/ https://hipay.com/
+Redirect 301 /half-year-results-2015-2/ https://hipay.com/
+Redirect 301 /mirakl-summit-2016/ https://hipay.com/
+Redirect 301 /hipay-signs-with-sisalpay-to-enable-cash-payments-for-online-purchases-at-over-45000-payment-points-in-italy/ https://hipay.com/
+Redirect 301 /emploi-sales/ https://hipay.com/
+Redirect 301 /en/blog-en https://hipay.com/
+Redirect 301 /deployez-vous-sur-les-supports-mobiles/ https://hipay.com/
+Redirect 301 /meet-hipay-at-gamescom-2016/ https://hipay.com/
+Redirect 301 /magentolive-paris-3/ https://hipay.com/
+Redirect 301 /registration/register/l/pt_PT https://hipay.com/
+Redirect 301 /hipay-launches-new-developer-portal-to-boost-payment-innovation/ https://hipay.com/
+Redirect 301 /belfius https://hipay.com/
+Redirect 301 /hipay-sponsor-of-the-casaleggio-e-commerce-forum/ https://hipay.com/
+Redirect 301 /business-intelligence-en/ https://hipay.com/
+Redirect 301 /nofollow https://hipay.com/
+Redirect 301 /hipay-partner-of-the-2015-nuit-des-favori/ https://hipay.com/
+Redirect 301 /subscription/unlogged-detail/id/298509 https://hipay.com/
+Redirect 301 /info/e-security https://hipay.com/
+Redirect 301 /hipay-fullservice-est-votre-hub-de-paiement-2/ https://hipay.com/
+Redirect 301 /tag/onlinepayment/ https://hipay.com/
+Redirect 301 /documentation-2/ https://hipay.com/
+Redirect 301 /une-gamme-de-produit-complete/ https://hipay.com/
+Redirect 301 /magentolive-paris-2/ https://hipay.com/
+Redirect 301 /during-the-franco-chinese-economic-forum-himedia-group-signs-deal-with-perfect-world/ https://hipay.com/
+Redirect 301 /en;jsessionid=hPgipBoSf92nCCPNoBHgJjOpUb-D8yj0oEamI47FxCInu2e_c67r!508855059 https://hipay.com/
+Redirect 301 /decouvrez-le-top-100-e-commerce-2015/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^ver=cde2c797f8612226dd7d7c8d2ac58e3b$
+RewriteRule ^wp-content/themes/hipay-theme3/bower_components/modernizer/modernizr.js$ https://hipay.com/? [R=301,L]
+Redirect 301 /account https://hipay.com/
+Redirect 301 /company/leadership/nofollow https://hipay.com/
+Redirect 301 /subscribe-to-our-newsletter-2/ https://hipay.com/
+Redirect 301 /laurent-reysbosch/ https://hipay.com/
+Redirect 301 /wp https://hipay.com/
+Redirect 301 /info/currency-rates https://hipay.com/
+Redirect 301 /creation-de-la-branche-paiement-hipay-au-sein-de-la-societe-himedia-a-paris/ https://hipay.com/
+Redirect 301 /all-you-need-to-know-on-psd2/ https://hipay.com/
+Redirect 301 /tag/online-payment/page/2/ https://hipay.com/
+Redirect 301 /post/merchant/id/86 https://hipay.com/
+Redirect 301 /game-connection-europe-2/ https://hipay.com/
+Redirect 301 /offer-your-digital-goods-and-services-to-internet-users-around-the-world/ https://hipay.com/
+Redirect 301 /category/carrieres/carrieres-sales/ https://hipay.com/
+Redirect 301 /hipay-group-is-eligible-for-the-pea-pme-funds/ https://hipay.com/
+Redirect 301 /diner-top-100-ecommerce-2/ https://hipay.com/
+Redirect 301 /social-financial-statements-2015/ https://hipay.com/
+Redirect 301 /le-figaro-has-chosen-hipay-as-payment-solution-for-its-digital-monetization/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/05/ecommerceparisform.html https://hipay.com/
+Redirect 301 /info/e-security=0D=0A https://hipay.com/
+Redirect 301 /fr/documentation https://hipay.com/
+Redirect 301 /cdn-cgi/l/email-protection https://hipay.com/
+Redirect 301 /shareholders-meeting-held-on-may-2nd-2016/ https://hipay.com/
+Redirect 301 /online-payment-reshuffling/ https://hipay.com/
+Redirect 301 /category/cta-footer-en/ https://hipay.com/
+Redirect 301 /hipay-group-annual-report-availability/ https://hipay.com/
+Redirect 301 /opening-of-subsidiaries-in-italy-and-brazil/ https://hipay.com/
+Redirect 301 /category/agenda-financier-en/page/2/ https://hipay.com/
+Redirect 301 /marketplace-en-2/ https://hipay.com/
+Redirect 301 /ankama-reinforces-his-partnership-with-hipay/ https://hipay.com/
+Redirect 301 /post/merchant/id/90 https://hipay.com/
+Redirect 301 /category/fullservice/ https://hipay.com/
+Redirect 301 /post/merchant/id/94 https://hipay.com/
+Redirect 301 /post/merchant/id/99 https://hipay.com/
+Redirect 301 /en/notices/ https://hipay.com/
+Redirect 301 /developpez-votre-activite-a-letranger/ https://hipay.com/
+Redirect 301 /hipay-sponsor-of-the-cross-border-e-commerce-event/ https://hipay.com/
+Redirect 301 /accueil/feed/ https://hipay.com/
+Redirect 301 /category/mobile-en/ https://hipay.com/
+Redirect 301 /q1-2015-french-e-commerce-stays-strong/ https://hipay.com/
+Redirect 301 /tous-les-supports/ https://hipay.com/
+Redirect 301 /ouverture-dune-filiale-en-belgique/ https://hipay.com/
+Redirect 301 /post/buyer/id/70 https://hipay.com/
+Redirect 301 /post/buyer/id/75 https://hipay.com/
+Redirect 301 /opening-of-a-subsidiary-in-spain-and-portugal/ https://hipay.com/
+Redirect 301 /clienti/9836-2/ https://hipay.com/
+Redirect 301 /category/histoire/page/2/ https://hipay.com/
+Redirect 301 /info/print-terms https://hipay.com/
+Redirect 301 /hipay-is-at-casual-connect-europe-2015/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2015/11/hipay_mise-à-disposition-des-réponses-_2016.pdf https://hipay.com/
+Redirect 301 /tag/wizishop-en/white https://hipay.com/
+Redirect 301 /blog-en/ https://hipay.com/
+Redirect 301 /online-video-games-in-germany-a-sector-which-is-doing-well/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2015/11/HiPay-Group-2015-a-year-of-Business-and-technological-developments-26-janv-2016.pdf https://hipay.com/
+Redirect 301 /hipay-offers-bitcoin-payments/ https://hipay.com/
+Redirect 301 /we-make-your-content-available-to-everyone-whether-they-have-a-bank-account-or-not/ https://hipay.com/
+Redirect 301 /post/merchant/id/357 https://hipay.com/
+Redirect 301 /post/merchant/id/238 https://hipay.com/
+Redirect 301 /allopass-la-plateforme-de-micropaiement-du-groupe-hi-media-developpe-son-offre-sur-le-marche-italien-avec-lintegration-de-mobilepay/ https://hipay.com/
+Redirect 301 /e-commerce-one-to-one/ https://hipay.com/
+Redirect 301 /fight-against-fraud-sales-22/ https://hipay.com/
+Redirect 301 /adopting-responsive-design-to-adapt-to-mobile-usage/ https://hipay.com/
+Redirect 301 /info/popup-terms https://hipay.com/
+Redirect 301 /evolution-of-hipay-groups-executive-team-2/ https://hipay.com/
+Redirect 301 /keys-to-expand-your-business-abroad-the-netherlands/ https://hipay.com/
+Redirect 301 /notre-engagement-quotidien/ https://hipay.com/
+Redirect 301 /hipay-will-be-attending-eshow-madrid/ https://hipay.com/
+Redirect 301 /next-generation-payment/feed/ https://hipay.com/
+Redirect 301 /post/merchant/id/488 https://hipay.com/
+Redirect 301 /diner-top-100-ecommerce/ https://hipay.com/
+Redirect 301 /our-management-team/ https://hipay.com/
+Redirect 301 /ouverture-dune-filiale-en-espagne-et-au-portugal/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^lang=en$
+RewriteRule ^new/$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^err=1$
+RewriteRule ^auth$ https://hipay.com/? [R=301,L]
+Redirect 301 /post/buyer/id/59 https://hipay.com/
+Redirect 301 /winter-sales-mixed-result-for-the-e-commerce/ https://hipay.com/
+Redirect 301 /2nd-of-the-top-30-hipay-enters-a-new-phase/ https://hipay.com/
+Redirect 301 /hipay-group-2015-revenue-of-e26-million-fueled-by-the-fullservice-business/ https://hipay.com/
+Redirect 301 /2015-a-year-of-business-and-technological-developments-2/ https://hipay.com/
+Redirect 301 /online-clothes-shopping-a-very-unique-sector-2/ https://hipay.com/
+Redirect 301 /results-of-the-votes-of-the-combined-shareholders-meeting-of-may-2nd-2016/ https://hipay.com/
+Redirect 301 /e-commerce-xpo-belgique/ https://hipay.com/
+Redirect 301 /en;jsessionid=MypH-QmbiQs5MajuKBrYKOlNHn5Ka0qfeTvF04MgHSSwYV3ZFEr2!508855059 https://hipay.com/
+Redirect 301 /en;jsessionid=8DVH-Oz4ydTNjzuganFkbnwNhTCKgoLg0rZp3PA9Kc_T1gPylRy3!508855059 https://hipay.com/
+Redirect 301 /category/carrieres/carrieres-admin/ https://hipay.com/
+Redirect 301 /payment-via-direct-carrier-billing-a-trendy-solution/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=186$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /creation-of-the-hipay-payment-division-within-the-himedia-company-in-paris-2/ https://hipay.com/
+Redirect 301 /author/ttek/ https://hipay.com/
+Redirect 301 /beneficiez-des-maintenant-dune-experience-de-paiement-unique/ https://hipay.com/
+Redirect 301 /post/merchant/id/494 https://hipay.com/
+Redirect 301 /french-e-commerce-in-2014-figures-are-out/ https://hipay.com/
+Redirect 301 /acsel-fintech-day-2/ https://hipay.com/
+Redirect 301 /post/merchant/id/490 https://hipay.com/
+Redirect 301 /hipay-est-le-1er-acteur-a-obtenir-la-licence-detablissement-de-monnaie-electronique-par-la-banque-nationale-de-belgique/ https://hipay.com/
+Redirect 301 /2eme-du-top-30-hipay-entre-dans-une-nouvelle-phase-2/ https://hipay.com/
+Redirect 301 /acsel-fintech-day/ https://hipay.com/
+Redirect 301 /images/hipay_69x2= https://hipay.com/
+Redirect 301 /delivery-of-hipay-group-shares-granted-under-the-distribution-in-kind-2/ https://hipay.com/
+Redirect 301 /post/merchant/id/496 https://hipay.com/
+Redirect 301 /une-gestion-des-paiements-simplifiee/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^lang=fr$
+RewriteRule ^new/$ https://hipay.com/? [R=301,L]
+Redirect 301 /turning-chatbot-conversations-conversions-developing-world-chatbots/ https://hipay.com/
+Redirect 301 /12-millions-de-transactions-par-mois-transitent-via-les-plateformes-hipay-developpement-de-la-solution-de-business-intelligence-pour-les-clients-hipay-tpp/ https://hipay.com/
+Redirect 301 /quarterly-results-3-rd-quarter-2015-after-market-closing/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^key=4de19cb4ef37e$
+RewriteRule ^js/keypad.js$ https://hipay.com/? [R=301,L]
+Redirect 301 /keys-to-develop-your-business-abroad-portugal/ https://hipay.com/
+Redirect 301 /casual-connect-europe/ https://hipay.com/
+Redirect 301 /important-information-hipay-group/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=230$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=231$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /overview-of-the-hipaymirakl-conference-dedicated-to-marketplaces/ https://hipay.com/
+Redirect 301 /online-payment-really-popular-in-russia/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=233$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /generez-des-revenus-des-maintentant-avec-hipay-mobile/ https://hipay.com/
+Redirect 301 /info/prices-merchant https://hipay.com/
+Redirect 301 /tag/developpeur/ https://hipay.com/
+Redirect 301 /easily-manage-your-revenues/ https://hipay.com/
+Redirect 301 /business-intelligence/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^utm_source=news_oxatis&utm_medium=email&utm_campaign=Oxatis_News$
+RewriteRule ^oxatis/6e5326c5c/prices.html$ https://hipay.com/? [R=301,L]
+Redirect 301 /wp-content/uploads/2015/11/HiPay-Group_Progression-de-la-rentabilité-opérationnelle.pdf https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=238$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /script/merchant-kit https://hipay.com/
+Redirect 301 /hipay-announces-availability-of-their-payment-solutions-on-kooomo/ https://hipay.com/
+Redirect 301 /category/widget-en/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=237$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=234$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /interview-of-gabriel-de-montessus-ceo-of-hipay/ https://hipay.com/
+Redirect 301 /questions-ecrites-gouvernance-en-action-2/ https://hipay.com/
+Redirect 301 /category/histoire/ https://hipay.com/
+Redirect 301 /launching-of-hipay-tpp-banking-solution-platform-launching-of-fps-fraud-protection-service/ https://hipay.com/
+Redirect 301 /author/ttek/page/2/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/03/Formulaire-de-vote-par-correspondance-et-de-procuration-de-lAGM-de-Hipay-Group.pdf https://hipay.com/
+Redirect 301 /join-hipay-mobile-and-immediately-start-generating-revenues/ https://hipay.com/
+Redirect 301 /dl/HiPay_Wallet_Configuration_Module_Prestashop_FR.pdf https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=243$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /category/event/ https://hipay.com/
+Redirect 301 /category/histoire-en/page/2/ https://hipay.com/
+Redirect 301 /bargento-2/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=245$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=249$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=246$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /mrc-european-congress/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=247$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /gamescom-cologne/ https://hipay.com/
+Redirect 301 /marketplaces-challenges-and-strategies/ https://hipay.com/
+Redirect 301 /registration/register/type/merchant https://hipay.com/
+Redirect 301 /infography-e-commerce-in-germany/ https://hipay.com/
+Redirect 301 /fight-against-fraud-winter-sales-½/ https://hipay.com/
+Redirect 301 /category/blog-en/page/2/ https://hipay.com/
+Redirect 301 /hipay-group-guides-auchan-in-the-development-of-its-marketplace/ https://hipay.com/
+Redirect 301 /mrc-european-congress-2/ https://hipay.com/
+Redirect 301 /meet-hipays-teams-in-milan-at-e-commerce-netcomm-forum-2016/ https://hipay.com/
+Redirect 301 /category/mobile/ https://hipay.com/
+Redirect 301 /customers/exception/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=252$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /conseil-dadministration/ https://hipay.com/
+Redirect 301 /category/widget/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=251$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /frances-got-e-talent/ https://hipay.com/
+Redirect 301 /notice-prior-to-the-combined-shareholders-meeting/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=250$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /post/merchant/id/204 https://hipay.com/
+Redirect 301 /post/merchant/id/684 https://hipay.com/
+Redirect 301 /hipay-will-be-present-at-mrc-eu-congress-in-seville/ https://hipay.com/
+Redirect 301 /post/merchant/id/200 https://hipay.com/
+Redirect 301 /en/news/blog https://hipay.com/
+Redirect 301 /boost-your-online-sales-in-europe-with-sepa-direct-debit/ https://hipay.com/
+Redirect 301 /chez-hipay-nous-traitons-plus-de-10-millions-de-transactions-chaque-mois/ https://hipay.com/
+Redirect 301 /creation-of-hipay-wallet-electronic-wallet-and-of-the-cash-out-regulatory-solution-for-marketplaces/ https://hipay.com/
+Redirect 301 /category/blog-en/page/3/ https://hipay.com/
+Redirect 301 /dl/HiPay_Wallet_Prestashop_Configuration_Guide_EN.pdf https://hipay.com/
+Redirect 301 /creation-du-porte-monnaie-electronique-hipay-wallet-et-solution-reglementaire-et-cash-out-pour-marketplaces/ https://hipay.com/
+Redirect 301 /hipays-payment-experts-will-be-waiting-for-you-at-game-connection/ https://hipay.com/
+Redirect 301 /info/terms https://hipay.com/
+Redirect 301 /meet-hipay-at-prestashop-day/ https://hipay.com/
+Redirect 301 /nabil-naimy-product-and-strategy-director-at-hipay-gives-4-tips-to-e-commerce-mag-readers-on-how-to-protect-ones-business-from-fraud-during-holiday-period-2/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/11/HiPayMobile-Internet-SubscriptionDeveloperStarterGuide_v1.1.pdf https://hipay.com/
+Redirect 301 /hipay-fullservice-your-payment-hub/ https://hipay.com/
+Redirect 301 /netcomm-ecommerce-forum-milan-2/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/03/HIPAY-Rapport-Comptes-annuels-31122015.pdf https://hipay.com/
+Redirect 301 /eshow-madrid-2/ https://hipay.com/
+Redirect 301 /post/merchant/id/697 https://hipay.com/
+Redirect 301 /post/merchant/id/216 https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=252$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /category/event/page/2/ https://hipay.com/
+Redirect 301 /hipay-is-the-first-stakeholder-in-the-payment-industry-to-obtain-a-licence-as-an-electronic-money-institution-from-the-national-bank-of-belgium/ https://hipay.com/
+Redirect 301 /post/merchant/id/330 https://hipay.com/
+Redirect 301 /2nd-in-top-30-hipay-enters-in-a-new-phase/ https://hipay.com/
+Redirect 301 /category/blog-en/page/4/ https://hipay.com/
+Redirect 301 /post/merchant/id/693 https://hipay.com/
+Redirect 301 /2015-a-year-of-business-and-technological-developments/ https://hipay.com/
+Redirect 301 /auth https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=251$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=250$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /embed/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/03/Hipay-Rapport-CAC-Comptes-Consolidés-31.12.2015.pdf https://hipay.com/
+Redirect 301 /expand-your-business-abroad/ https://hipay.com/
+Redirect 301 /keys-to-develop-your-business-abroad-germany/ https://hipay.com/
+Redirect 301 /prestashop-day-paris/ https://hipay.com/
+Redirect 301 /our-day-to-day-commitment/ https://hipay.com/
+Redirect 301 /author/ttek/feed/ https://hipay.com/
+Redirect 301 /opening-of-a-subsidiary-in-belgium/ https://hipay.com/
+Redirect 301 /registration/register/type/buyer https://hipay.com/
+Redirect 301 /info/popup-compra-facil-info https://hipay.com/
+Redirect 301 /mrc-congress-brussels/ https://hipay.com/
+Redirect 301 /hipay-group-latest-developments-outlook-for-2016/ https://hipay.com/
+Redirect 301 /post/merchant/id/501 https://hipay.com/
+Redirect 301 /auth/lost-check-mail https://hipay.com/
+Redirect 301 /e-commerce-netcomm-forum-2/ https://hipay.com/
+Redirect 301 /notices https://hipay.com/
+Redirect 301 /key/ASWD56425CSA https://hipay.com/
+Redirect 301 /plug-play-en/ https://hipay.com/
+Redirect 301 /charges-de-relations-operateurs-2/ https://hipay.com/
+Redirect 301 /data/ https://hipay.com/
+Redirect 301 /zoom-e-commerce-in-belgium/ https://hipay.com/
+Redirect 301 /auth/login https://hipay.com/
+Redirect 301 /news-it/ https://hipay.com/
+Redirect 301 /the-repurchase-of-fintechs-by-banks-may-make-them-lose-their-soul/ https://hipay.com/
+Redirect 301 /e-commerce-and-international-expansion-what-are-the-hindrances-for-french-e-tailers/ https://hipay.com/
+Redirect 301 /tag/fraude/feed/ https://hipay.com/
+Redirect 301 /sales-e-commerce/ https://hipay.com/
+Redirect 301 /tag/frenchweb/ https://hipay.com/
+Redirect 301 /documentation-en https://hipay.com/
+Redirect 301 /tag/event/page/2/ https://hipay.com/
+Redirect 301 /overview-of-e-commerce-in-belgium/ https://hipay.com/
+Redirect 301 /www.google.com/nos-bureaux/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^version=1$
+RewriteRule ^js/hipay.js$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=203$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /hipays-experts-are-waiting-for-you-at-magento-live-day/ https://hipay.com/
+Redirect 301 /e-commerce-et-international-comment-adapter-ses-moyens-de-paiement-2/ https://hipay.com/
+Redirect 301 /partners-3/ https://hipay.com/
+Redirect 301 /applepay-opportunity-or-threat/ https://hipay.com/
+Redirect 301 /accueil https://hipay.com/
+Redirect 301 /hipay-collaborates-to-the-wizishop-white-paper-27-conseils-advice-to-succeed-your-e-commerce-in-2015/ https://hipay.com/
+Redirect 301 /category/carrieres-en/carrieres-admin-en/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^page_id=1268$
+RewriteRule ^$ https://hipay.com/? [R=301,L]
+Redirect 301 /category/carrieres/carrieres-finance/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=217$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /wp-content/uploads/2016/03/HiPay-Group-Comptes-consolidés-2015.pdf https://hipay.com/
+Redirect 301 /ouverture-de-filiales-en-italie-et-au-bresil/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=218$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=213$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=212$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /les-big-boss-font-du-ski/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=215$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=214$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /e-commerce-xpo-2/ https://hipay.com/
+Redirect 301 /script/delete/id/2927545 https://hipay.com/
+Redirect 301 /12-million-transactions-are-processed-every-month-through-hipay-platformsthe-company-is-listed-on-the-euronext-paris-stock-exchange-opening-of-a-subsidiary-in-the-united-states/ https://hipay.com/
+Redirect 301 /mrc-congress-brussels-2/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^ver=cde2c797f8612226dd7d7c8d2ac58e3b$
+RewriteRule ^wp-content/plugins/popups/public/assets/css/public.css$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=220$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /crossborder-summit-1to1/ https://hipay.com/
+Redirect 301 /25-to-30-of-online-payments-end-in-failure/ https://hipay.com/
+Redirect 301 /author/ttek/page/mentions-legales/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=228$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /hipay-exerce-ses-activites-dans-le-cadre-de-deux-licences-europeennes-detablissement-de-paiement-et-demetteur-de-monnaie-electronique/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=229$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /post/merchant/id/535 https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=223$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /category/presse/page/4/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=226$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /hipay-mobilises-in-support-of-the-telethon-by-enabling-the-french-to-make-donations-via-their-mobile-phones/ https://hipay.com/
+Redirect 301 /4232-2/ https://hipay.com/
+Redirect 301 /gamescom/ https://hipay.com/
+Redirect 301 /magento-live-paris/ https://hipay.com/
+Redirect 301 /sabonner-a-la-newsletter/ https://hipay.com/
+Redirect 301 /prestashop-day-paris-2/ https://hipay.com/
+Redirect 301 /payment-data-serving-the-rentability-of-e-commerce-websites/ https://hipay.com/
+Redirect 301 /8363-2/ https://hipay.com/
+Redirect 301 /hipay-fullservice-est-votre-hub-de-paiement/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=208$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /embed/page/2/ https://hipay.com/
+Redirect 301 /fr/clients/etude-de-cas-etude-de-cas-kusmi-tea https://hipay.com/
+Redirect 301 /notre-histoire/ https://hipay.com/
+Redirect 301 /hipay-is-accredited-as-a-payment-institution-by-the-acpr-banque-de-france-french-prudential-supervisory-authority/ https://hipay.com/
+Redirect 301 /info/legal-notices https://hipay.com/
+Redirect 301 /mirakl-summit/ https://hipay.com/
+Redirect 301 /himedia-group-invests-on-innovation-and-international/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/04/Prior-Notice-HPG-VA.pdf https://hipay.com/
+Redirect 301 /eshop-expo-brussels/ https://hipay.com/
+Redirect 301 /plug-play/ https://hipay.com/
+Redirect 301 /christina-fontana/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=204$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=203$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /meet-hipay-at-bordeaux-fintech/ https://hipay.com/
+Redirect 301 /category/blog-en/page/9/ https://hipay.com/
+Redirect 301 /magento-live-paris-2/ https://hipay.com/
+Redirect 301 /tag/hipay-en/page/3/ https://hipay.com/
+Redirect 301 /benedicta-simas/ https://hipay.com/
+Redirect 301 /info/services-buyer https://hipay.com/
+Redirect 301 /info/services-merchant https://hipay.com/
+Redirect 301 /category/carrieres/carrieres-support-it/ https://hipay.com/
+Redirect 301 /4-tips-to-e-commerce-mag-readers-on-how-to-protect-ones-business-from-fraud-during-holiday-period/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/04/HiPay-Consolidated-financial-statement-31.12.2015.pdf https://hipay.com/
+Redirect 301 /growth-acceleration-in-q2/ https://hipay.com/
+Redirect 301 /admission-to-hipay-group-shares-trading-on-euronext-paris/ https://hipay.com/
+Redirect 301 /prospectus/ https://hipay.com/
+Redirect 301 /how-kusmi-tea-suits-online-payments-in-europe/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/11/HiPay-Mobile-_-Internet-Mobile-Developer-Starter-Guide_v1.0.pdf https://hipay.com/
+Redirect 301 /augmentez-votre-chiffre-daffaires/ https://hipay.com/
+Redirect 301 /post/merchant/id/710 https://hipay.com/
+Redirect 301 /author/ttek/page/9/ https://hipay.com/
+Redirect 301 /10378-2/ https://hipay.com/
+Redirect 301 /e-tailers-are-optimistic/ https://hipay.com/
+Redirect 301 /category/histoire-en/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^ver=cde2c797f8612226dd7d7c8d2ac58e3b$
+RewriteRule ^wp-content/themes/hipay-theme3/library/js/scripts.js$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^page_id=1268$
+RewriteRule ^board-of-directors/$ https://hipay.com/? [R=301,L]
+Redirect 301 /keys-to-expand-your-business-abroad-germany/ https://hipay.com/
+Redirect 301 /tag/hipay-en/page/2/ https://hipay.com/
+Redirect 301 /post/merchant/id/703 https://hipay.com/
+Redirect 301 /creation-of-hipay-mobile-aka-allopass-2/ https://hipay.com/
+Redirect 301 /general-meeting-form/ https://hipay.com/
+Redirect 301 /tag/e-commerce-en/page/3/ https://hipay.com/
+Redirect 301 /2015-consolidated-financial-statements/ https://hipay.com/
+Redirect 301 /keys-to-expand-your-business-abroad-italy/ https://hipay.com/
+Redirect 301 /info/about-us https://hipay.com/
+Redirect 301 /author/ttek/page/8/ https://hipay.com/
+Redirect 301 /answers-to-shareholders-questions-in-regards-to-the-general-meeting-on-may-2nd-2016-availability/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/03/Avis-de-r https://hipay.com/
+Redirect 301 /post/merchant/id/718 https://hipay.com/
+Redirect 301 /category/fullservice-en/ https://hipay.com/
+Redirect 301 /post/merchant/id/714 https://hipay.com/
+Redirect 301 /luttez-intelligemment-contre-la-fraude/ https://hipay.com/
+Redirect 301 /tag/fraude/page/2/ https://hipay.com/
+Redirect 301 /press-releases https://hipay.com/
+Redirect 301 /website/detail/id/2170/script/149429 https://hipay.com/
+Redirect 301 /beneficiez-de-reversements-attractifs/ https://hipay.com/
+Redirect 301 /e-commerce-xpo-belgium/ https://hipay.com/
+Redirect 301 /documentation-financiere https://hipay.com/
+Redirect 301 /payment-in-several-installments-via-bank-card/ https://hipay.com/
+Redirect 301 /2694/ https://hipay.com/
+Redirect 301 /author/ttek/page/7/ https://hipay.com/
+Redirect 301 /category/team/team-management/ https://hipay.com/
+Redirect 301 /financial-report-half-year-2015/ https://hipay.com/
+Redirect 301 /game-connection-europe/ https://hipay.com/
+Redirect 301 /eshop-expo-brussels-2/ https://hipay.com/
+Redirect 301 /increase-your-sales-revenue-2/ https://hipay.com/
+Redirect 301 /keys-to-expand-your-business-abroad-scandinavia/ https://hipay.com/
+Redirect 301 /gerez-vos-revenus-en-toute-simplicite/ https://hipay.com/
+Redirect 301 /tag/oclio/ https://hipay.com/
+Redirect 301 /franklin-marshall-choose-hipay-to-handle-all-payments-for-their-new-online-store/ https://hipay.com/
+Redirect 301 /eshow-madrid/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=249$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /category/cta-footer/ https://hipay.com/
+Redirect 301 /history/ https://hipay.com/
+Redirect 301 /casual-connect-europe-2/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=244$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /oxatis/6e5326c5c/prices.html https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=243$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /faq-reverse-stock-split/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=246$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /financial-report-half-year-2016/ https://hipay.com/
+Redirect 301 /the-end-of-the-year-a-period-more-exposed-to-the-risk-of-fraud-for-e-tailers/ https://hipay.com/
+Redirect 301 /category/blog-en/page/5/ https://hipay.com/
+Redirect 301 /get-a-unique-payment-experience-right-now/ https://hipay.com/
+Redirect 301 /winter-sales-2016-2-5-times-more-online-transactions-than-in-2016/ https://hipay.com/
+Redirect 301 /blog-2/ https://hipay.com/
+Redirect 301 /paysafecard-online-cash-for-1-billion-customers/ https://hipay.com/
+Redirect 301 /author/ttek/page/6/ https://hipay.com/
+Redirect 301 /post/buyer/id/313 https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/04/HiPay-Group-Financial-statements-31.12.2015-Social.pdf https://hipay.com/
+Redirect 301 /abonnez-vous-a-notre-newsletter/ https://hipay.com/
+Redirect 301 /trading-resumption/ https://hipay.com/
+Redirect 301 /hipay-online-payment-solution-now-available-for-40000-wizishop-e-stores/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/02/Oclio_HiPay_FR.pdf https://hipay.com/
+Redirect 301 /e-commerce-paris-2/ https://hipay.com/
+Redirect 301 /category/home/ https://hipay.com/
+Redirect 301 /oclio-develops-its-marketplace-with-hipay/ https://hipay.com/
+Redirect 301 /subscription/unlogged https://hipay.com/
+Redirect 301 /info/who-are-we https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=233$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /hipay-operates-within-the-framework-of-two-banking-licences-payment-institution-and-e-money-issuer/ https://hipay.com/
+Redirect 301 /adapt-your-payment-methods-to-your-clients/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/02/Oclio_HiPay_EN.pdf https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=230$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /hipay-will-attend-the-e-shop-expo-trade-show-on-march-18th-and-19th/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=237$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=234$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=236$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /kusmi-tea-goes-for-online-payments-in-europe-with-hipay/ https://hipay.com/
+Redirect 301 /category/blog-en/page/6/ https://hipay.com/
+Redirect 301 /info/popup-glossary https://hipay.com/
+Redirect 301 /hi-medias-secure-online-payment-hipay-obtained-ideal-certificate-in-the-netherlands/ https://hipay.com/
+Redirect 301 /author/ttek/page/5/ https://hipay.com/
+Redirect 301 /payment-order/ https://hipay.com/
+Redirect 301 /lutte-contre-la-fraude-les-soldes-22-2/ https://hipay.com/
+Redirect 301 /the-100-most-influential-e-tailers-of-french-e-commerce/ https://hipay.com/
+Redirect 301 /today-25-to-30-of-online-payments-will-still-end-up-in-a-failure/ https://hipay.com/
+Redirect 301 /apprenti-controleur-de-gestion/ https://hipay.com/
+Redirect 301 /les-big-boss-font-du-ski-2/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=228$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /www.google.com/mentions-legales/ https://hipay.com/
+Redirect 301 /tous-les-utilisateurs/ https://hipay.com/
+Redirect 301 /website/detail/id/2170 https://hipay.com/
+Redirect 301 /casual-connect-europe-4/ https://hipay.com/
+Redirect 301 /the-french-fintech-top-30/ https://hipay.com/
+Redirect 301 /netcomm-ecommerce-forum-milan/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=224$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=223$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /category/blog-en/page/7/ https://hipay.com/
+Redirect 301 /category/carrieres-en/carrieres-sales-en/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^page_id=8730$
+RewriteRule ^$ https://hipay.com/? [R=301,L]
+Redirect 301 /category/newsletter-en/ https://hipay.com/
+Redirect 301 /payment-data-support-merchants-websites-profitability/ https://hipay.com/
+Redirect 301 /author/ttek/page/4/ https://hipay.com/
+Redirect 301 /author/ttek/page/11/ https://hipay.com/
+Redirect 301 /script/create/website/2170/id/149428 https://hipay.com/
+Redirect 301 /back-office-assistant/ https://hipay.com/
+Redirect 301 /keys-to-expand-your-business-abroad-portugal/ https://hipay.com/
+Redirect 301 /script/create/website/2170/id/149429 https://hipay.com/
+Redirect 301 /subscribe-to-our-newsletter/ https://hipay.com/
+Redirect 301 /ankama-is-using-hipay-fullservice-to-simplify-online-payments-management/ https://hipay.com/
+Redirect 301 /e-commerce-what-are-the-specificities-of-spanish-e-shoppers/ https://hipay.com/
+Redirect 301 /account/report/menu/buy https://hipay.com/
+Redirect 301 /annual-report-2015-french-version/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=217$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /hipay-will-be-attending-the-e-commerce-paris-trade-show/ https://hipay.com/
+Redirect 301 /2016-off-to-a-good-start/ https://hipay.com/
+Redirect 301 /online-payment-for-one-e-tailer-over-two-fraud-is-the-main-priority/ https://hipay.com/
+Redirect 301 /category/blog-en/page/8/ https://hipay.com/
+Redirect 301 /hipay-group-is-eligible-for-the-pea-pme-funds-2/ https://hipay.com/
+Redirect 301 /casual-connect-europe-3/ https://hipay.com/
+Redirect 301 /author/ttek/page/10/ https://hipay.com/
+Redirect 301 /m/societe/partenaires/ https://hipay.com/
+Redirect 301 /post/buyer/id/321 https://hipay.com/
+Redirect 301 /prestashop-day/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=212$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /author/ttek/page/3/ https://hipay.com/
+Redirect 301 /meet-hipay-at-eshow-lisbon/ https://hipay.com/
+Redirect 301 /meet-hipay-at-payvolution-payment-conference/ https://hipay.com/
+Redirect 301 /post/buyer/id/325 https://hipay.com/
+Redirect 301 /info/prices https://hipay.com/
+Redirect 301 /who-are-the-french-fintech-actors/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/11/HiPayMobile-SDKDeveloperReferenceManual_v1.0.pdf https://hipay.com/
+
+
+
+Redirect 301 /frenchweb-day-fintech-2/ https://hipay.com/
+Redirect 301 /nabil-naimy/ https://hipay.com/
+Redirect 301 /cart-abandonment-in-e-commerce-the-payment-stage-is-strategic/ https://hipay.com/
+Redirect 301 /e-commerce-one-to-one-2/ https://hipay.com/
+Redirect 301 /e-commerce-sales/ https://hipay.com/
+Redirect 301 /registration/register https://hipay.com/
+Redirect 301 /post/buyer/id/230 https://hipay.com/
+Redirect 301 /simplified-payment-management/ https://hipay.com/
+Redirect 301 /russia-adapt-your-payment-solution-to-the-russian-market/ https://hipay.com/
+Redirect 301 /post/buyer/id/472 https://hipay.com/
+Redirect 301 /2015-full-year-results/ https://hipay.com/
+Redirect 301 /info/popup-terms/language//light https://hipay.com/
+Redirect 301 /post/buyer/id/234 https://hipay.com/
+Redirect 301 /post/buyer/id/479 https://hipay.com/
+RewriteCond %{QUERY_STRING} ^ver=cde2c797f8612226dd7d7c8d2ac58e3b$
+RewriteRule ^wp-content/plugins/pixgridder/css/front-gridder.css$ https://hipay.com/? [R=301,L]
+Redirect 301 /fintech-bordeaux-2/ https://hipay.com/
+Redirect 301 /la-plateforme-de-micropaiement-leader-en-europe/ https://hipay.com/
+Redirect 301 /hipay-group-an-ongoing-dynamic-growth/ https://hipay.com/
+Redirect 301 /creation-de-hipay-mobile-a-k-a-allopass/ https://hipay.com/
+Redirect 301 /actualites/presse/nofollow https://hipay.com/
+Redirect 301 /investors-2/ https://hipay.com/
+Redirect 301 /hipay-expert-for-the-wizishop-white-paper/ https://hipay.com/
+Redirect 301 /hipay-group-guides-auchan-and-oclio-in-the-development-of-their-marketplaces/ https://hipay.com/
+Redirect 301 /la-societe-entre-en-bourse-sur-le-marche-euronext-paris-et-lance-une-nouvelle-filiale-aux-usa/ https://hipay.com/
+Redirect 301 /dl/kit_marchand_fr.pdf https://hipay.com/
+Redirect 301 /ecommerce-paris/ https://hipay.com/
+Redirect 301 /fr/notices/ https://hipay.com/
+Redirect 301 /compatible-with-all-devices-tablets-mobiles-pcs-connected-tv/ https://hipay.com/
+Redirect 301 /bruno-gloaguen/ https://hipay.com/
+Redirect 301 /promod https://hipay.com/
+RewriteCond %{QUERY_STRING} ^utm_content=buffer13bf6&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer$
+RewriteRule ^who-are-the-french-fintech-actors/$ https://hipay.com/? [R=301,L]
+Redirect 301 /post/buyer/id/225 https://hipay.com/
+Redirect 301 /go-mobile/ https://hipay.com/
+Redirect 301 /the-importance-of-a-secure-payment-page/ https://hipay.com/
+Redirect 301 /fintech-bordeaux-3/ https://hipay.com/
+Redirect 301 /attractive-payouts/ https://hipay.com/
+Redirect 301 /money-2020-europe/ https://hipay.com/
+Redirect 301 /french-e-tailers-need-to-act-on-the-international-stage-to-consolidate-their-growth/ https://hipay.com/
+Redirect 301 /fraud-overview-around-the-world/ https://hipay.com/
+Redirect 301 /the-leading-micropayment-platform/ https://hipay.com/
+Redirect 301 /lancement-de-la-plateforme-monetique-hipay-tpp-lancement-de-notre-solution-de-lutte-contre-la-fraude-fps/ https://hipay.com/
+Redirect 301 /promod-has-chosen-hipay-online-payment-solution-for-its-polish-e-commerce-website/ https://hipay.com/
+Redirect 301 /our-hipay-experts-will-be-present-at-the-netcomm-e-commerce/ https://hipay.com/
+Redirect 301 /game-connection/ https://hipay.com/
+Redirect 301 /discover-hipay-fullservice-payment-platform-right-now/ https://hipay.com/
+Redirect 301 /gamescom-cologne-2/ https://hipay.com/
+Redirect 301 /the-fintech-hipay-sees-its-future-in-the-machine-learning/ https://hipay.com/
+Redirect 301 /post/buyer/id/255 https://hipay.com/
+Redirect 301 /a-comprehensive-product-line/ https://hipay.com/
+Redirect 301 /game-connection-2/ https://hipay.com/
+Redirect 301 /e-commerce-and-international-how-to-adapt-its-payment-methods/ https://hipay.com/
+Redirect 301 /nl/ https://hipay.com/
+Redirect 301 /marketplace-3/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^page_id=1268$
+RewriteRule ^partners-3/$ https://hipay.com/? [R=301,L]
+Redirect 301 /category/home-en/ https://hipay.com/
+Redirect 301 /marketplace-en/ https://hipay.com/
+Redirect 301 /slideshow-6-payment-solutions-and-their-news/ https://hipay.com/
+Redirect 301 /post/buyer/id/482 https://hipay.com/
+Redirect 301 /info/popup-terms/language/fr/display/light https://hipay.com/
+Redirect 301 /info/contact/ https://hipay.com/
+Redirect 301 /category/newsletter/ https://hipay.com/
+Redirect 301 /eshow-lisbon-2/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/03/questions_ecrites_ag_2016 https://hipay.com/
+Redirect 301 /which-tools-to-use-against-fraud/ https://hipay.com/
+Redirect 301 /3-questions-a-izberg-specialiste-des-solutions-e-commerce-de-marketplace/ https://hipay.com/
+Redirect 301 /website https://hipay.com/
+Redirect 301 /fr/notices https://hipay.com/
+Redirect 301 /post/merchant/id/181 https://hipay.com/
+Redirect 301 /crossborder-summit-1to1-2/ https://hipay.com/
+Redirect 301 /nabil-naimy-hipay-independence-for-innovation-in-payment-strategies/ https://hipay.com/
+Redirect 301 /david-cohen/ https://hipay.com/
+Redirect 301 /insights-on-marketplaces-hipay-gives-you-an-overview/ https://hipay.com/
+Redirect 301 /notices/ https://hipay.com/
+Redirect 301 /dl/kit_marchand_en.pdf https://hipay.com/
+Redirect 301 /e-commerce-paris/ https://hipay.com/
+Redirect 301 /eshow-lisbon/ https://hipay.com/
+Redirect 301 /the-christmas-shopping-race-is-on/ https://hipay.com/
+Redirect 301 /en/company/documentation https://hipay.com/
+Redirect 301 /eric-favre/ https://hipay.com/
+Redirect 301 /post/merchant/id/195 https://hipay.com/
+Redirect 301 /xmlrpc.php https://hipay.com/
+Redirect 301 /post/merchant/id/191 https://hipay.com/
+Redirect 301 /zerbib-franck/ https://hipay.com/
+Redirect 301 /e-commerce-netcomm-forum/ https://hipay.com/
+Redirect 301 /prestashop-day-2/ https://hipay.com/
+Redirect 301 /ecommerce-paris-2/ https://hipay.com/
+Redirect 301 /post/buyer/id/384 https://hipay.com/
+Redirect 301 /tag/gamescom/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^ver=cde2c797f8612226dd7d7c8d2ac58e3b$
+RewriteRule ^wp-content/plugins/popups/public/assets/js/min/public-min.js$ https://hipay.com/? [R=301,L]
+Redirect 301 /vendez-vos-contenus-a-linternational/ https://hipay.com/
+Redirect 301 /optimize-your-activities-thanks-to-data-analytics/ https://hipay.com/
+Redirect 301 /ils-nous-font-confiance/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^platform=hootsuite$
+RewriteRule ^meet-hipay-at-casual-connect-europe-2016/$ https://hipay.com/? [R=301,L]
+Redirect 301 /auth/lost https://hipay.com/
+Redirect 301 /info/popup-terms/language/pt/display/light https://hipay.com/
+Redirect 301 /hipay-fullservice-has-helped-us-to-divide-by-three-the-number-of-fraudulent-payments-on-our-website/ https://hipay.com/
+Redirect 301 /frenchweb-day-fintech/ https://hipay.com/
+Redirect 301 /challenge-your-knowledge-of-payment-habits-in-europe/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/05/gamescom.html https://hipay.com/
+Redirect 301 /money-2020-europe-2/ https://hipay.com/
+Redirect 301 /hipay-est-certifie-etablissement-de-paiements-par-lacpr-banque-de-france/ https://hipay.com/
+Redirect 301 /info/associations%20%20https:/www.hipay.com/info/associations https://hipay.com/
+Redirect 301 /our-hipay-experts-will-be-present-at-the-mrc-european-congress/ https://hipay.com/
+Redirect 301 /meet-our-payment-experts-during-e-commerce-xpo/ https://hipay.com/
+Redirect 301 /pharmasimple-be-the-new-online-drugstore/ https://hipay.com/
+Redirect 301 /info/buyers https://hipay.com/
+Redirect 301 /info/glossary https://hipay.com/
+Redirect 301 /hipay-offers-bitcoin-payments-2/ https://hipay.com/
+Redirect 301 /4-5-million-hipay-wallet-accounts-development-of-a-business-intelligence-solution-for-hipay-tpp-customers/ https://hipay.com/
+Redirect 301 /ufficiodiscount-gets-visibility-thanks-to-hipay-and-sisalpay/ https://hipay.com/
+Redirect 301 /meet-hipay-at-money-2020-europe/ https://hipay.com/
+Redirect 301 /ranking-of-the-top-500-french-tech-companies/ https://hipay.com/
+Redirect 301 /decouvrez-la-plateforme-hipay-fullservice-des-maintenant/ https://hipay.com/
+Redirect 301 /hipay-unveals-the-new-version-of-its-hipay-mobile-merchant-interface/ https://hipay.com/
+Redirect 301 /creation-de-la-branche-paiement-hipay-au-sein-de-la-societe-himedia-a-paris/mentions-legales/ https://hipay.com/
+Redirect 301 /commercial/ https://hipay.com/
+Redirect 301 /e-commerce-and-international-expansion-what-are-the-hindrances https://hipay.com/
+Redirect 301 /auth/lost/ https://hipay.com/
+Redirect 301 /payment-order/list-categories/id/ https://hipay.com/
+Redirect 301 /favori/ https://hipay.com/
+Redirect 301 /they-trust-us/ https://hipay.com/
+Redirect 301 /hipay-will-attend-gamescom/ https://hipay.com/
+Redirect 301 /m/wp-content/uploads/2015/11/hipay_t1_2016_en.pdf https://hipay.com/
+Redirect 301 /post/merchant/id/147 https://hipay.com/
+Redirect 301 /overview-of-e-commerce-in-germany/ https://hipay.com/
+Redirect 301 /half-year-results-2015-2/ https://hipay.com/
+Redirect 301 /mirakl-summit-2016/ https://hipay.com/
+Redirect 301 /hipay-signs-with-sisalpay-to-enable-cash-payments-for-online-purchases-at-over-45000-payment-points-in-italy/ https://hipay.com/
+Redirect 301 /emploi-sales/ https://hipay.com/
+Redirect 301 /en/blog-en https://hipay.com/
+Redirect 301 /deployez-vous-sur-les-supports-mobiles/ https://hipay.com/
+Redirect 301 /meet-hipay-at-gamescom-2016/ https://hipay.com/
+Redirect 301 /magentolive-paris-3/ https://hipay.com/
+Redirect 301 /registration/register/l/pt_PT https://hipay.com/
+Redirect 301 /hipay-launches-new-developer-portal-to-boost-payment-innovation/ https://hipay.com/
+Redirect 301 /belfius https://hipay.com/
+Redirect 301 /hipay-sponsor-of-the-casaleggio-e-commerce-forum/ https://hipay.com/
+Redirect 301 /business-intelligence-en/ https://hipay.com/
+Redirect 301 /nofollow https://hipay.com/
+Redirect 301 /hipay-partner-of-the-2015-nuit-des-favori/ https://hipay.com/
+Redirect 301 /subscription/unlogged-detail/id/298509 https://hipay.com/
+Redirect 301 /info/e-security https://hipay.com/
+Redirect 301 /hipay-fullservice-est-votre-hub-de-paiement-2/ https://hipay.com/
+Redirect 301 /tag/onlinepayment/ https://hipay.com/
+Redirect 301 /documentation-2/ https://hipay.com/
+Redirect 301 /une-gamme-de-produit-complete/ https://hipay.com/
+Redirect 301 /magentolive-paris-2/ https://hipay.com/
+Redirect 301 /during-the-franco-chinese-economic-forum-himedia-group-signs-deal-with-perfect-world/ https://hipay.com/
+Redirect 301 /en;jsessionid=hPgipBoSf92nCCPNoBHgJjOpUb-D8yj0oEamI47FxCInu2e_c67r!508855059 https://hipay.com/
+Redirect 301 /decouvrez-le-top-100-e-commerce-2015/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^ver=cde2c797f8612226dd7d7c8d2ac58e3b$
+RewriteRule ^wp-content/themes/hipay-theme3/bower_components/modernizer/modernizr.js$ https://hipay.com/? [R=301,L]
+Redirect 301 /account https://hipay.com/
+Redirect 301 /company/leadership/nofollow https://hipay.com/
+Redirect 301 /subscribe-to-our-newsletter-2/ https://hipay.com/
+Redirect 301 /laurent-reysbosch/ https://hipay.com/
+Redirect 301 /wp https://hipay.com/
+Redirect 301 /info/currency-rates https://hipay.com/
+Redirect 301 /creation-de-la-branche-paiement-hipay-au-sein-de-la-societe-himedia-a-paris/ https://hipay.com/
+Redirect 301 /all-you-need-to-know-on-psd2/ https://hipay.com/
+Redirect 301 /tag/online-payment/page/2/ https://hipay.com/
+Redirect 301 /post/merchant/id/86 https://hipay.com/
+Redirect 301 /game-connection-europe-2/ https://hipay.com/
+Redirect 301 /offer-your-digital-goods-and-services-to-internet-users-around-the-world/ https://hipay.com/
+Redirect 301 /category/carrieres/carrieres-sales/ https://hipay.com/
+Redirect 301 /hipay-group-is-eligible-for-the-pea-pme-funds/ https://hipay.com/
+Redirect 301 /diner-top-100-ecommerce-2/ https://hipay.com/
+Redirect 301 /social-financial-statements-2015/ https://hipay.com/
+Redirect 301 /le-figaro-has-chosen-hipay-as-payment-solution-for-its-digital-monetization/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/05/ecommerceparisform.html https://hipay.com/
+Redirect 301 /info/e-security=0D=0A https://hipay.com/
+Redirect 301 /fr/documentation https://hipay.com/
+Redirect 301 /cdn-cgi/l/email-protection https://hipay.com/
+Redirect 301 /shareholders-meeting-held-on-may-2nd-2016/ https://hipay.com/
+Redirect 301 /online-payment-reshuffling/ https://hipay.com/
+Redirect 301 /category/cta-footer-en/ https://hipay.com/
+Redirect 301 /hipay-group-annual-report-availability/ https://hipay.com/
+Redirect 301 /opening-of-subsidiaries-in-italy-and-brazil/ https://hipay.com/
+Redirect 301 /category/agenda-financier-en/page/2/ https://hipay.com/
+Redirect 301 /marketplace-en-2/ https://hipay.com/
+Redirect 301 /ankama-reinforces-his-partnership-with-hipay/ https://hipay.com/
+Redirect 301 /post/merchant/id/90 https://hipay.com/
+Redirect 301 /category/fullservice/ https://hipay.com/
+Redirect 301 /post/merchant/id/94 https://hipay.com/
+Redirect 301 /post/merchant/id/99 https://hipay.com/
+Redirect 301 /en/notices/ https://hipay.com/
+Redirect 301 /developpez-votre-activite-a-letranger/ https://hipay.com/
+Redirect 301 /hipay-sponsor-of-the-cross-border-e-commerce-event/ https://hipay.com/
+Redirect 301 /accueil/feed/ https://hipay.com/
+Redirect 301 /category/mobile-en/ https://hipay.com/
+Redirect 301 /q1-2015-french-e-commerce-stays-strong/ https://hipay.com/
+Redirect 301 /tous-les-supports/ https://hipay.com/
+Redirect 301 /ouverture-dune-filiale-en-belgique/ https://hipay.com/
+Redirect 301 /post/buyer/id/70 https://hipay.com/
+Redirect 301 /post/buyer/id/75 https://hipay.com/
+Redirect 301 /opening-of-a-subsidiary-in-spain-and-portugal/ https://hipay.com/
+Redirect 301 /clienti/9836-2/ https://hipay.com/
+Redirect 301 /category/histoire/page/2/ https://hipay.com/
+Redirect 301 /info/print-terms https://hipay.com/
+Redirect 301 /hipay-is-at-casual-connect-europe-2015/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2015/11/hipay_mise-à-disposition-des-réponses-_2016.pdf https://hipay.com/
+Redirect 301 /tag/wizishop-en/white https://hipay.com/
+Redirect 301 /blog-en/ https://hipay.com/
+Redirect 301 /online-video-games-in-germany-a-sector-which-is-doing-well/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2015/11/HiPay-Group-2015-a-year-of-Business-and-technological-developments-26-janv-2016.pdf https://hipay.com/
+Redirect 301 /hipay-offers-bitcoin-payments/ https://hipay.com/
+Redirect 301 /we-make-your-content-available-to-everyone-whether-they-have-a-bank-account-or-not/ https://hipay.com/
+Redirect 301 /post/merchant/id/357 https://hipay.com/
+Redirect 301 /post/merchant/id/238 https://hipay.com/
+Redirect 301 /allopass-la-plateforme-de-micropaiement-du-groupe-hi-media-developpe-son-offre-sur-le-marche-italien-avec-lintegration-de-mobilepay/ https://hipay.com/
+Redirect 301 /e-commerce-one-to-one/ https://hipay.com/
+Redirect 301 /fight-against-fraud-sales-22/ https://hipay.com/
+Redirect 301 /adopting-responsive-design-to-adapt-to-mobile-usage/ https://hipay.com/
+Redirect 301 /info/popup-terms https://hipay.com/
+Redirect 301 /evolution-of-hipay-groups-executive-team-2/ https://hipay.com/
+Redirect 301 /keys-to-expand-your-business-abroad-the-netherlands/ https://hipay.com/
+Redirect 301 /notre-engagement-quotidien/ https://hipay.com/
+Redirect 301 /hipay-will-be-attending-eshow-madrid/ https://hipay.com/
+Redirect 301 /next-generation-payment/feed/ https://hipay.com/
+Redirect 301 /post/merchant/id/488 https://hipay.com/
+Redirect 301 /diner-top-100-ecommerce/ https://hipay.com/
+Redirect 301 /our-management-team/ https://hipay.com/
+Redirect 301 /ouverture-dune-filiale-en-espagne-et-au-portugal/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^lang=en$
+RewriteRule ^new/$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^err=1$
+RewriteRule ^auth$ https://hipay.com/? [R=301,L]
+Redirect 301 /post/buyer/id/59 https://hipay.com/
+Redirect 301 /winter-sales-mixed-result-for-the-e-commerce/ https://hipay.com/
+Redirect 301 /2nd-of-the-top-30-hipay-enters-a-new-phase/ https://hipay.com/
+Redirect 301 /hipay-group-2015-revenue-of-e26-million-fueled-by-the-fullservice-business/ https://hipay.com/
+Redirect 301 /2015-a-year-of-business-and-technological-developments-2/ https://hipay.com/
+Redirect 301 /online-clothes-shopping-a-very-unique-sector-2/ https://hipay.com/
+Redirect 301 /results-of-the-votes-of-the-combined-shareholders-meeting-of-may-2nd-2016/ https://hipay.com/
+Redirect 301 /e-commerce-xpo-belgique/ https://hipay.com/
+Redirect 301 /en;jsessionid=MypH-QmbiQs5MajuKBrYKOlNHn5Ka0qfeTvF04MgHSSwYV3ZFEr2!508855059 https://hipay.com/
+Redirect 301 /en;jsessionid=8DVH-Oz4ydTNjzuganFkbnwNhTCKgoLg0rZp3PA9Kc_T1gPylRy3!508855059 https://hipay.com/
+Redirect 301 /category/carrieres/carrieres-admin/ https://hipay.com/
+Redirect 301 /payment-via-direct-carrier-billing-a-trendy-solution/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=186$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /creation-of-the-hipay-payment-division-within-the-himedia-company-in-paris-2/ https://hipay.com/
+Redirect 301 /author/ttek/ https://hipay.com/
+Redirect 301 /beneficiez-des-maintenant-dune-experience-de-paiement-unique/ https://hipay.com/
+Redirect 301 /post/merchant/id/494 https://hipay.com/
+Redirect 301 /french-e-commerce-in-2014-figures-are-out/ https://hipay.com/
+Redirect 301 /acsel-fintech-day-2/ https://hipay.com/
+Redirect 301 /post/merchant/id/490 https://hipay.com/
+Redirect 301 /hipay-est-le-1er-acteur-a-obtenir-la-licence-detablissement-de-monnaie-electronique-par-la-banque-nationale-de-belgique/ https://hipay.com/
+Redirect 301 /2eme-du-top-30-hipay-entre-dans-une-nouvelle-phase-2/ https://hipay.com/
+Redirect 301 /acsel-fintech-day/ https://hipay.com/
+Redirect 301 /images/hipay_69x2= https://hipay.com/
+Redirect 301 /delivery-of-hipay-group-shares-granted-under-the-distribution-in-kind-2/ https://hipay.com/
+Redirect 301 /post/merchant/id/496 https://hipay.com/
+Redirect 301 /une-gestion-des-paiements-simplifiee/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^lang=fr$
+RewriteRule ^new/$ https://hipay.com/? [R=301,L]
+Redirect 301 /turning-chatbot-conversations-conversions-developing-world-chatbots/ https://hipay.com/
+Redirect 301 /12-millions-de-transactions-par-mois-transitent-via-les-plateformes-hipay-developpement-de-la-solution-de-business-intelligence-pour-les-clients-hipay-tpp/ https://hipay.com/
+Redirect 301 /quarterly-results-3-rd-quarter-2015-after-market-closing/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^key=4de19cb4ef37e$
+RewriteRule ^js/keypad.js$ https://hipay.com/? [R=301,L]
+Redirect 301 /keys-to-develop-your-business-abroad-portugal/ https://hipay.com/
+Redirect 301 /casual-connect-europe/ https://hipay.com/
+Redirect 301 /important-information-hipay-group/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=230$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=231$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /overview-of-the-hipaymirakl-conference-dedicated-to-marketplaces/ https://hipay.com/
+Redirect 301 /online-payment-really-popular-in-russia/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=233$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /generez-des-revenus-des-maintentant-avec-hipay-mobile/ https://hipay.com/
+Redirect 301 /info/prices-merchant https://hipay.com/
+Redirect 301 /tag/developpeur/ https://hipay.com/
+Redirect 301 /easily-manage-your-revenues/ https://hipay.com/
+Redirect 301 /business-intelligence/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^utm_source=news_oxatis&utm_medium=email&utm_campaign=Oxatis_News$
+RewriteRule ^oxatis/6e5326c5c/prices.html$ https://hipay.com/? [R=301,L]
+Redirect 301 /wp-content/uploads/2015/11/HiPay-Group_Progression-de-la-rentabilité-opérationnelle.pdf https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=238$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /script/merchant-kit https://hipay.com/
+Redirect 301 /hipay-announces-availability-of-their-payment-solutions-on-kooomo/ https://hipay.com/
+Redirect 301 /category/widget-en/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=237$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=234$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /interview-of-gabriel-de-montessus-ceo-of-hipay/ https://hipay.com/
+Redirect 301 /questions-ecrites-gouvernance-en-action-2/ https://hipay.com/
+Redirect 301 /category/histoire/ https://hipay.com/
+Redirect 301 /launching-of-hipay-tpp-banking-solution-platform-launching-of-fps-fraud-protection-service/ https://hipay.com/
+Redirect 301 /author/ttek/page/2/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/03/Formulaire-de-vote-par-correspondance-et-de-procuration-de-lAGM-de-Hipay-Group.pdf https://hipay.com/
+Redirect 301 /join-hipay-mobile-and-immediately-start-generating-revenues/ https://hipay.com/
+Redirect 301 /dl/HiPay_Wallet_Configuration_Module_Prestashop_FR.pdf https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=243$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /category/event/ https://hipay.com/
+Redirect 301 /category/histoire-en/page/2/ https://hipay.com/
+Redirect 301 /bargento-2/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=245$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=249$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=246$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /mrc-european-congress/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=247$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /gamescom-cologne/ https://hipay.com/
+Redirect 301 /marketplaces-challenges-and-strategies/ https://hipay.com/
+Redirect 301 /registration/register/type/merchant https://hipay.com/
+Redirect 301 /infography-e-commerce-in-germany/ https://hipay.com/
+Redirect 301 /fight-against-fraud-winter-sales-½/ https://hipay.com/
+Redirect 301 /category/blog-en/page/2/ https://hipay.com/
+Redirect 301 /hipay-group-guides-auchan-in-the-development-of-its-marketplace/ https://hipay.com/
+Redirect 301 /mrc-european-congress-2/ https://hipay.com/
+Redirect 301 /meet-hipays-teams-in-milan-at-e-commerce-netcomm-forum-2016/ https://hipay.com/
+Redirect 301 /category/mobile/ https://hipay.com/
+Redirect 301 /customers/exception/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=252$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /conseil-dadministration/ https://hipay.com/
+Redirect 301 /category/widget/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=251$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /frances-got-e-talent/ https://hipay.com/
+Redirect 301 /notice-prior-to-the-combined-shareholders-meeting/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=250$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /post/merchant/id/204 https://hipay.com/
+Redirect 301 /post/merchant/id/684 https://hipay.com/
+Redirect 301 /hipay-will-be-present-at-mrc-eu-congress-in-seville/ https://hipay.com/
+Redirect 301 /post/merchant/id/200 https://hipay.com/
+Redirect 301 /en/news/blog https://hipay.com/
+Redirect 301 /boost-your-online-sales-in-europe-with-sepa-direct-debit/ https://hipay.com/
+Redirect 301 /chez-hipay-nous-traitons-plus-de-10-millions-de-transactions-chaque-mois/ https://hipay.com/
+Redirect 301 /creation-of-hipay-wallet-electronic-wallet-and-of-the-cash-out-regulatory-solution-for-marketplaces/ https://hipay.com/
+Redirect 301 /category/blog-en/page/3/ https://hipay.com/
+Redirect 301 /dl/HiPay_Wallet_Prestashop_Configuration_Guide_EN.pdf https://hipay.com/
+Redirect 301 /creation-du-porte-monnaie-electronique-hipay-wallet-et-solution-reglementaire-et-cash-out-pour-marketplaces/ https://hipay.com/
+Redirect 301 /hipays-payment-experts-will-be-waiting-for-you-at-game-connection/ https://hipay.com/
+Redirect 301 /info/terms https://hipay.com/
+Redirect 301 /meet-hipay-at-prestashop-day/ https://hipay.com/
+Redirect 301 /nabil-naimy-product-and-strategy-director-at-hipay-gives-4-tips-to-e-commerce-mag-readers-on-how-to-protect-ones-business-from-fraud-during-holiday-period-2/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/11/HiPayMobile-Internet-SubscriptionDeveloperStarterGuide_v1.1.pdf https://hipay.com/
+Redirect 301 /hipay-fullservice-your-payment-hub/ https://hipay.com/
+Redirect 301 /netcomm-ecommerce-forum-milan-2/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/03/HIPAY-Rapport-Comptes-annuels-31122015.pdf https://hipay.com/
+Redirect 301 /eshow-madrid-2/ https://hipay.com/
+Redirect 301 /post/merchant/id/697 https://hipay.com/
+Redirect 301 /post/merchant/id/216 https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=252$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /category/event/page/2/ https://hipay.com/
+Redirect 301 /hipay-is-the-first-stakeholder-in-the-payment-industry-to-obtain-a-licence-as-an-electronic-money-institution-from-the-national-bank-of-belgium/ https://hipay.com/
+Redirect 301 /post/merchant/id/330 https://hipay.com/
+Redirect 301 /2nd-in-top-30-hipay-enters-in-a-new-phase/ https://hipay.com/
+Redirect 301 /category/blog-en/page/4/ https://hipay.com/
+Redirect 301 /post/merchant/id/693 https://hipay.com/
+Redirect 301 /2015-a-year-of-business-and-technological-developments/ https://hipay.com/
+Redirect 301 /auth https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=251$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=250$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /embed/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/03/Hipay-Rapport-CAC-Comptes-Consolidés-31.12.2015.pdf https://hipay.com/
+Redirect 301 /expand-your-business-abroad/ https://hipay.com/
+Redirect 301 /keys-to-develop-your-business-abroad-germany/ https://hipay.com/
+Redirect 301 /prestashop-day-paris/ https://hipay.com/
+Redirect 301 /our-day-to-day-commitment/ https://hipay.com/
+Redirect 301 /author/ttek/feed/ https://hipay.com/
+Redirect 301 /opening-of-a-subsidiary-in-belgium/ https://hipay.com/
+Redirect 301 /registration/register/type/buyer https://hipay.com/
+Redirect 301 /info/popup-compra-facil-info https://hipay.com/
+Redirect 301 /mrc-congress-brussels/ https://hipay.com/
+Redirect 301 /hipay-group-latest-developments-outlook-for-2016/ https://hipay.com/
+Redirect 301 /post/merchant/id/501 https://hipay.com/
+Redirect 301 /auth/lost-check-mail https://hipay.com/
+Redirect 301 /e-commerce-netcomm-forum-2/ https://hipay.com/
+Redirect 301 /notices https://hipay.com/
+Redirect 301 /key/ASWD56425CSA https://hipay.com/
+Redirect 301 /plug-play-en/ https://hipay.com/
+Redirect 301 /charges-de-relations-operateurs-2/ https://hipay.com/
+Redirect 301 /data/ https://hipay.com/
+Redirect 301 /zoom-e-commerce-in-belgium/ https://hipay.com/
+Redirect 301 /auth/login https://hipay.com/
+Redirect 301 /news-it/ https://hipay.com/
+Redirect 301 /the-repurchase-of-fintechs-by-banks-may-make-them-lose-their-soul/ https://hipay.com/
+Redirect 301 /e-commerce-and-international-expansion-what-are-the-hindrances-for-french-e-tailers/ https://hipay.com/
+Redirect 301 /tag/fraude/feed/ https://hipay.com/
+Redirect 301 /sales-e-commerce/ https://hipay.com/
+Redirect 301 /tag/frenchweb/ https://hipay.com/
+Redirect 301 /documentation-en https://hipay.com/
+Redirect 301 /tag/event/page/2/ https://hipay.com/
+Redirect 301 /overview-of-e-commerce-in-belgium/ https://hipay.com/
+Redirect 301 /www.google.com/nos-bureaux/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^version=1$
+RewriteRule ^js/hipay.js$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=203$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /hipays-experts-are-waiting-for-you-at-magento-live-day/ https://hipay.com/
+Redirect 301 /e-commerce-et-international-comment-adapter-ses-moyens-de-paiement-2/ https://hipay.com/
+Redirect 301 /partners-3/ https://hipay.com/
+Redirect 301 /applepay-opportunity-or-threat/ https://hipay.com/
+Redirect 301 /accueil https://hipay.com/
+Redirect 301 /hipay-collaborates-to-the-wizishop-white-paper-27-conseils-advice-to-succeed-your-e-commerce-in-2015/ https://hipay.com/
+Redirect 301 /category/carrieres-en/carrieres-admin-en/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^page_id=1268$
+RewriteRule ^$ https://hipay.com/? [R=301,L]
+Redirect 301 /category/carrieres/carrieres-finance/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=217$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /wp-content/uploads/2016/03/HiPay-Group-Comptes-consolidés-2015.pdf https://hipay.com/
+Redirect 301 /ouverture-de-filiales-en-italie-et-au-bresil/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=218$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=213$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=212$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /les-big-boss-font-du-ski/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=215$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=214$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /e-commerce-xpo-2/ https://hipay.com/
+Redirect 301 /script/delete/id/2927545 https://hipay.com/
+Redirect 301 /12-million-transactions-are-processed-every-month-through-hipay-platformsthe-company-is-listed-on-the-euronext-paris-stock-exchange-opening-of-a-subsidiary-in-the-united-states/ https://hipay.com/
+Redirect 301 /mrc-congress-brussels-2/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^ver=cde2c797f8612226dd7d7c8d2ac58e3b$
+RewriteRule ^wp-content/plugins/popups/public/assets/css/public.css$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=220$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /crossborder-summit-1to1/ https://hipay.com/
+Redirect 301 /25-to-30-of-online-payments-end-in-failure/ https://hipay.com/
+Redirect 301 /author/ttek/page/mentions-legales/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=228$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /hipay-exerce-ses-activites-dans-le-cadre-de-deux-licences-europeennes-detablissement-de-paiement-et-demetteur-de-monnaie-electronique/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=229$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /post/merchant/id/535 https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=223$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /category/presse/page/4/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=226$
+RewriteRule ^jobs$ https://hipay.com/? [R=301,L]
+Redirect 301 /hipay-mobilises-in-support-of-the-telethon-by-enabling-the-french-to-make-donations-via-their-mobile-phones/ https://hipay.com/
+Redirect 301 /4232-2/ https://hipay.com/
+Redirect 301 /gamescom/ https://hipay.com/
+Redirect 301 /magento-live-paris/ https://hipay.com/
+Redirect 301 /sabonner-a-la-newsletter/ https://hipay.com/
+Redirect 301 /prestashop-day-paris-2/ https://hipay.com/
+Redirect 301 /payment-data-serving-the-rentability-of-e-commerce-websites/ https://hipay.com/
+Redirect 301 /8363-2/ https://hipay.com/
+Redirect 301 /hipay-fullservice-est-votre-hub-de-paiement/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=208$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /embed/page/2/ https://hipay.com/
+Redirect 301 /fr/clients/etude-de-cas-etude-de-cas-kusmi-tea https://hipay.com/
+Redirect 301 /notre-histoire/ https://hipay.com/
+Redirect 301 /hipay-is-accredited-as-a-payment-institution-by-the-acpr-banque-de-france-french-prudential-supervisory-authority/ https://hipay.com/
+Redirect 301 /info/legal-notices https://hipay.com/
+Redirect 301 /mirakl-summit/ https://hipay.com/
+Redirect 301 /himedia-group-invests-on-innovation-and-international/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/04/Prior-Notice-HPG-VA.pdf https://hipay.com/
+Redirect 301 /eshop-expo-brussels/ https://hipay.com/
+Redirect 301 /plug-play/ https://hipay.com/
+Redirect 301 /christina-fontana/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=204$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=203$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /meet-hipay-at-bordeaux-fintech/ https://hipay.com/
+Redirect 301 /category/blog-en/page/9/ https://hipay.com/
+Redirect 301 /magento-live-paris-2/ https://hipay.com/
+Redirect 301 /tag/hipay-en/page/3/ https://hipay.com/
+Redirect 301 /benedicta-simas/ https://hipay.com/
+Redirect 301 /info/services-buyer https://hipay.com/
+Redirect 301 /info/services-merchant https://hipay.com/
+Redirect 301 /category/carrieres/carrieres-support-it/ https://hipay.com/
+Redirect 301 /4-tips-to-e-commerce-mag-readers-on-how-to-protect-ones-business-from-fraud-during-holiday-period/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/04/HiPay-Consolidated-financial-statement-31.12.2015.pdf https://hipay.com/
+Redirect 301 /growth-acceleration-in-q2/ https://hipay.com/
+Redirect 301 /admission-to-hipay-group-shares-trading-on-euronext-paris/ https://hipay.com/
+Redirect 301 /prospectus/ https://hipay.com/
+Redirect 301 /how-kusmi-tea-suits-online-payments-in-europe/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/11/HiPay-Mobile-_-Internet-Mobile-Developer-Starter-Guide_v1.0.pdf https://hipay.com/
+Redirect 301 /augmentez-votre-chiffre-daffaires/ https://hipay.com/
+Redirect 301 /post/merchant/id/710 https://hipay.com/
+Redirect 301 /author/ttek/page/9/ https://hipay.com/
+Redirect 301 /10378-2/ https://hipay.com/
+Redirect 301 /e-tailers-are-optimistic/ https://hipay.com/
+Redirect 301 /category/histoire-en/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^ver=cde2c797f8612226dd7d7c8d2ac58e3b$
+RewriteRule ^wp-content/themes/hipay-theme3/library/js/scripts.js$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^page_id=1268$
+RewriteRule ^board-of-directors/$ https://hipay.com/? [R=301,L]
+Redirect 301 /keys-to-expand-your-business-abroad-germany/ https://hipay.com/
+Redirect 301 /tag/hipay-en/page/2/ https://hipay.com/
+Redirect 301 /post/merchant/id/703 https://hipay.com/
+Redirect 301 /creation-of-hipay-mobile-aka-allopass-2/ https://hipay.com/
+Redirect 301 /general-meeting-form/ https://hipay.com/
+Redirect 301 /tag/e-commerce-en/page/3/ https://hipay.com/
+Redirect 301 /2015-consolidated-financial-statements/ https://hipay.com/
+Redirect 301 /keys-to-expand-your-business-abroad-italy/ https://hipay.com/
+Redirect 301 /info/about-us https://hipay.com/
+Redirect 301 /author/ttek/page/8/ https://hipay.com/
+Redirect 301 /answers-to-shareholders-questions-in-regards-to-the-general-meeting-on-may-2nd-2016-availability/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/03/Avis-de-r https://hipay.com/
+Redirect 301 /post/merchant/id/718 https://hipay.com/
+Redirect 301 /category/fullservice-en/ https://hipay.com/
+Redirect 301 /post/merchant/id/714 https://hipay.com/
+Redirect 301 /luttez-intelligemment-contre-la-fraude/ https://hipay.com/
+Redirect 301 /tag/fraude/page/2/ https://hipay.com/
+Redirect 301 /press-releases https://hipay.com/
+Redirect 301 /website/detail/id/2170/script/149429 https://hipay.com/
+Redirect 301 /beneficiez-de-reversements-attractifs/ https://hipay.com/
+Redirect 301 /e-commerce-xpo-belgium/ https://hipay.com/
+Redirect 301 /documentation-financiere https://hipay.com/
+Redirect 301 /payment-in-several-installments-via-bank-card/ https://hipay.com/
+Redirect 301 /2694/ https://hipay.com/
+Redirect 301 /author/ttek/page/7/ https://hipay.com/
+Redirect 301 /category/team/team-management/ https://hipay.com/
+Redirect 301 /financial-report-half-year-2015/ https://hipay.com/
+Redirect 301 /game-connection-europe/ https://hipay.com/
+Redirect 301 /eshop-expo-brussels-2/ https://hipay.com/
+Redirect 301 /increase-your-sales-revenue-2/ https://hipay.com/
+Redirect 301 /keys-to-expand-your-business-abroad-scandinavia/ https://hipay.com/
+Redirect 301 /gerez-vos-revenus-en-toute-simplicite/ https://hipay.com/
+Redirect 301 /tag/oclio/ https://hipay.com/
+Redirect 301 /franklin-marshall-choose-hipay-to-handle-all-payments-for-their-new-online-store/ https://hipay.com/
+Redirect 301 /eshow-madrid/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=249$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /category/cta-footer/ https://hipay.com/
+Redirect 301 /history/ https://hipay.com/
+Redirect 301 /casual-connect-europe-2/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=244$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /oxatis/6e5326c5c/prices.html https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=243$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /faq-reverse-stock-split/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=246$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /financial-report-half-year-2016/ https://hipay.com/
+Redirect 301 /the-end-of-the-year-a-period-more-exposed-to-the-risk-of-fraud-for-e-tailers/ https://hipay.com/
+Redirect 301 /category/blog-en/page/5/ https://hipay.com/
+Redirect 301 /get-a-unique-payment-experience-right-now/ https://hipay.com/
+Redirect 301 /winter-sales-2016-2-5-times-more-online-transactions-than-in-2016/ https://hipay.com/
+Redirect 301 /blog-2/ https://hipay.com/
+Redirect 301 /paysafecard-online-cash-for-1-billion-customers/ https://hipay.com/
+Redirect 301 /author/ttek/page/6/ https://hipay.com/
+Redirect 301 /post/buyer/id/313 https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/04/HiPay-Group-Financial-statements-31.12.2015-Social.pdf https://hipay.com/
+Redirect 301 /abonnez-vous-a-notre-newsletter/ https://hipay.com/
+Redirect 301 /trading-resumption/ https://hipay.com/
+Redirect 301 /hipay-online-payment-solution-now-available-for-40000-wizishop-e-stores/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/02/Oclio_HiPay_FR.pdf https://hipay.com/
+Redirect 301 /e-commerce-paris-2/ https://hipay.com/
+Redirect 301 /category/home/ https://hipay.com/
+Redirect 301 /oclio-develops-its-marketplace-with-hipay/ https://hipay.com/
+Redirect 301 /subscription/unlogged https://hipay.com/
+Redirect 301 /info/who-are-we https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=233$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /hipay-operates-within-the-framework-of-two-banking-licences-payment-institution-and-e-money-issuer/ https://hipay.com/
+Redirect 301 /adapt-your-payment-methods-to-your-clients/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/02/Oclio_HiPay_EN.pdf https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=230$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /hipay-will-attend-the-e-shop-expo-trade-show-on-march-18th-and-19th/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=237$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=234$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=236$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /kusmi-tea-goes-for-online-payments-in-europe-with-hipay/ https://hipay.com/
+Redirect 301 /category/blog-en/page/6/ https://hipay.com/
+Redirect 301 /info/popup-glossary https://hipay.com/
+Redirect 301 /hi-medias-secure-online-payment-hipay-obtained-ideal-certificate-in-the-netherlands/ https://hipay.com/
+Redirect 301 /author/ttek/page/5/ https://hipay.com/
+Redirect 301 /payment-order/ https://hipay.com/
+Redirect 301 /lutte-contre-la-fraude-les-soldes-22-2/ https://hipay.com/
+Redirect 301 /the-100-most-influential-e-tailers-of-french-e-commerce/ https://hipay.com/
+Redirect 301 /today-25-to-30-of-online-payments-will-still-end-up-in-a-failure/ https://hipay.com/
+Redirect 301 /apprenti-controleur-de-gestion/ https://hipay.com/
+Redirect 301 /les-big-boss-font-du-ski-2/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=228$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /www.google.com/mentions-legales/ https://hipay.com/
+Redirect 301 /tous-les-utilisateurs/ https://hipay.com/
+Redirect 301 /website/detail/id/2170 https://hipay.com/
+Redirect 301 /casual-connect-europe-4/ https://hipay.com/
+Redirect 301 /the-french-fintech-top-30/ https://hipay.com/
+Redirect 301 /netcomm-ecommerce-forum-milan/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=224$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+RewriteCond %{QUERY_STRING} ^job_id=223$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /category/blog-en/page/7/ https://hipay.com/
+Redirect 301 /category/carrieres-en/carrieres-sales-en/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^page_id=8730$
+RewriteRule ^$ https://hipay.com/? [R=301,L]
+Redirect 301 /category/newsletter-en/ https://hipay.com/
+Redirect 301 /payment-data-support-merchants-websites-profitability/ https://hipay.com/
+Redirect 301 /author/ttek/page/4/ https://hipay.com/
+Redirect 301 /author/ttek/page/11/ https://hipay.com/
+Redirect 301 /script/create/website/2170/id/149428 https://hipay.com/
+Redirect 301 /back-office-assistant/ https://hipay.com/
+Redirect 301 /keys-to-expand-your-business-abroad-portugal/ https://hipay.com/
+Redirect 301 /script/create/website/2170/id/149429 https://hipay.com/
+Redirect 301 /subscribe-to-our-newsletter/ https://hipay.com/
+Redirect 301 /ankama-is-using-hipay-fullservice-to-simplify-online-payments-management/ https://hipay.com/
+Redirect 301 /e-commerce-what-are-the-specificities-of-spanish-e-shoppers/ https://hipay.com/
+Redirect 301 /account/report/menu/buy https://hipay.com/
+Redirect 301 /annual-report-2015-french-version/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=217$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /hipay-will-be-attending-the-e-commerce-paris-trade-show/ https://hipay.com/
+Redirect 301 /2016-off-to-a-good-start/ https://hipay.com/
+Redirect 301 /online-payment-for-one-e-tailer-over-two-fraud-is-the-main-priority/ https://hipay.com/
+Redirect 301 /category/blog-en/page/8/ https://hipay.com/
+Redirect 301 /hipay-group-is-eligible-for-the-pea-pme-funds-2/ https://hipay.com/
+Redirect 301 /casual-connect-europe-3/ https://hipay.com/
+Redirect 301 /author/ttek/page/10/ https://hipay.com/
+Redirect 301 /m/societe/partenaires/ https://hipay.com/
+Redirect 301 /post/buyer/id/321 https://hipay.com/
+Redirect 301 /prestashop-day/ https://hipay.com/
+RewriteCond %{QUERY_STRING} ^job_id=212$
+RewriteRule ^recrutement$ https://hipay.com/? [R=301,L]
+Redirect 301 /author/ttek/page/3/ https://hipay.com/
+Redirect 301 /meet-hipay-at-eshow-lisbon/ https://hipay.com/
+Redirect 301 /meet-hipay-at-payvolution-payment-conference/ https://hipay.com/
+Redirect 301 /post/buyer/id/325 https://hipay.com/
+Redirect 301 /info/prices https://hipay.com/
+Redirect 301 /who-are-the-french-fintech-actors/ https://hipay.com/
+Redirect 301 /wp-content/uploads/2016/11/HiPayMobile-SDKDeveloperReferenceManual_v1.0.pdf https://hipay.com/
+
+
+# Redirects End #

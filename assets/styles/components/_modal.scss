@@ -1,18 +1,44 @@
 @import "buttons";
 
-.modal {
+.hbspt-form {
+  padding: 0 25px 25px 25px;
+  .hs-form-field {
+    margin-bottom: 15px;
+  }
+  input.hs-input {
+    width: 100%;
+  }
+  .hs_submit {
+    padding-top: 10px;
+  }
+}
+
+.modal, .hbspt-form {
+  .submitted-message {
+    text-align: center;
+  }
   .modal-dialog {
     margin: 7% auto 0;
   }
   input, select, textarea {
     border: 1px solid $grey;
     @include border-radius(3px);
-    font-size: 1.4rem;
+    font-size: $font-size-sm;
     outline: medium none;
     padding: 5px;
   }
-  label {
+  .hs_submit .hs-button {
+    background-color: $yellow;
+    color: rgba(0, 0, 0, 0.4);
     font-size: 1.4rem;
+    letter-spacing: 0;
+    font-weight: 500;
+    padding: 4px 14px;
+    border: medium none;
+    min-height: 36px;
+  }
+  label {
+    font-size: $font-size-sm;
   }
   .btn {
     margin-top: 0;
@@ -27,6 +53,7 @@
     }
     h5 {
       text-align: center;
+      padding-bottom: 0;
     }
   }
   .modal-footer {
@@ -38,13 +65,17 @@
       @extend .btn;
       @include btn-color($green);
       margin-top: 0;
+      color: rgba(0,0,0,0.4);
+      &:hover, &:focus {
+        color: rgba(0,0,0,0.4);
+      }
     }
     .btn {
       margin-top: 0;
     }
   }
   small {
-    font-size: 1.2rem;
+    font-size: $font-size-xsm;
     float: left;
     padding: 10px 20px;
     width: 100%;
@@ -64,6 +95,37 @@
       width: calc(100% - 72px);
     }
   }
+}
+
+div.leadinModal {
+  .leadinModal-content {
+    h1, h2, h3, h4 {
+      font-weight: 500;
+    }
+  }
+}
+
+.modal-content {
+  box-shadow: none;
+  border: 0 none;
+  background-color: white;
+}
+
+.close {
+  color: #ffffff;
+  float: right;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 1;
+  opacity: 0.7;
+  text-shadow: none;
+  &:hover, &:focus {
+    color: #ffffff;
+  }
+}
+
+.modal-body {
+  padding: 0;
 }
 
 @media screen and (max-width: 768px) {

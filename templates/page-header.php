@@ -28,7 +28,7 @@
     ?>
 
     <?php if($cta_button != '') {?>
-      <a class="btn blue-tpp" large squar"e" href="<?php echo $cta_link; ?>"><?php echo $cta_button; ?></a>
+      <a class="btn blue-tpp" href="<?php echo $cta_link; ?>"><?php echo $cta_button; ?></a>
     <?php } ?>
     <div class="page-header-darklayer"></div>
   </div>

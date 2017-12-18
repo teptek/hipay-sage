@@ -9,10 +9,6 @@ p {
   text-align: justify;
 }
 
-.page-header-darklayer {
-  opacity: 0.38;
-}
-
 #career-intro.vc_row.wpb_row.vc_row-fluid:not(#subscribe) {
   margin-bottom: 50px;
 }
@@ -36,6 +32,7 @@ p {
 
 #job-offers-sticky-wrapper {
   float: left;
+  margin-bottom: 50px;
   & > #job-offers {
     @include transition(top);
   }
@@ -60,7 +57,9 @@ p {
   width: 220px;
   & > li {
     display: table;
-    font-weight: 500;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0;
     padding: 0 0 5px;
     text-align: left;
     text-transform: uppercase;
@@ -101,14 +100,15 @@ p {
   }
 
   .item-content {
-    font-size: 1.4rem;
+    font-size: $font-size-sm;
     padding: 15px 25px 25px;
     text-align: left;
+    line-height: 1.5;
   }
 
   h3 {
     padding: 25px 25px 0;
-    font-size: 1.4rem;
+    font-size: $font-size-sm;
     text-align: left;
   }
 
@@ -142,11 +142,15 @@ p {
   }
 
   .category-carrieres-partners {
-    @include article-tag($blue-tpp);
+    @include article-tag($midnight-blue);
   }
 
-  .category-carrieres-customers {
+  .category-carrieres-rh {
     @include article-tag($blue-mobile);
+  }
+
+  .category-carrieres-support {
+    @include article-tag($think-purple);
   }
 
   .category-carrieres-others {
@@ -171,7 +175,7 @@ p {
     color: $blue;
     display: table;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
     margin: 0 0 0 25px;
     padding: 3px 10px;
   }

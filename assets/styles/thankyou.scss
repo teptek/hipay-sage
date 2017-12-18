@@ -1,0 +1,26 @@
+.page-header, .page-header-darklayer {
+  height: 420px;
+}
+
+.page-header-darklayer {
+  opacity: 0.75;
+}
+
+body {
+  background-color: #ecf0f9;
+}
+.thankyou {
+  h2 {
+    line-height: 1.2;
+    margin: 0 auto 50px !important;
+    max-width: 520px;
+  }
+  img {
+    -webkit-box-shadow: 0 5px 20px -5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 5px 20px -5px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 20px -5px rgba(0,0,0,0.3);
+  }
+  a.btn {
+    margin: 0 0 25px;
+  }
+}

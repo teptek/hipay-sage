@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){e(".carousel").slick({autoplay:!0,autoplaySpeed:7e3,fade:!0,dots:!0,infinite:!0,speed:500}),e(".client-carousel").on("beforeChange",function(a,n,o){var t=o;e("#home-success").attr("bg-current",t)})});

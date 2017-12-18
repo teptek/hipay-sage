@@ -5,22 +5,40 @@ body {
   background-color: $background-grey;
 }
 
+.page-header {
+  @include saturate(110%);
+}
+
 .vc_column_container > .vc_column-inner {
   padding-left: 0;
   padding-right: 0;
 }
 
-.board-of-directors {
+.board-of-directors, .conseil-dadministration {
   .vc_row .vc_column_container {
     min-height: 123px;
+    width: calc(50% - 10px);
   }
   .page-header-darklayer {
     opacity: 0.55;
   }
+  .board-extra-row {
+    text-align: center;
+    .vc_column_container {
+      float: inherit;
+      display: inline-block;
+    }
+  }
+  .main > .vc_row.wpb_row.vc_row-fluid:not(#subscribe) {
+    margin: 10px auto 0;
+  }
+  .page-header {
+    margin-bottom: 70px;
+  }
 }
 
 .page-header-darklayer {
-  opacity: 0.65;
+  opacity: 0.4;
 }
 
 .page-header {
@@ -91,9 +109,19 @@ footer {
       width: calc(50% - 10px);
     }
   }
-  .board-of-directors {
+  .board-of-directors, .conseil-dadministration {
     .main > .vc_row.wpb_row.vc_row-fluid:not(#subscribe) {
       margin-top: 0;
+    }
+    .vc_column_container {
+      &.vc_col-sm-6, &.vc_col-sm-4 {
+        margin-bottom: 10px;
+        min-height: inherit;
+        width: 100%;
+        p {
+          text-align: center;
+        }
+      }
     }
   }
   .leadership {
@@ -123,7 +151,7 @@ footer {
       }
     }
   }
-  .leadership {
+  .leadership, .equipe-dirigeante {
     .vc_row.row3 {
       width: 100%;
     }

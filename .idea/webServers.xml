@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="d56bdbac-b54e-42fc-b3f5-2ce6257fc5bc" name="wpdev-hipay" url="http://192.168.27.187">
+      <webServer id="6750d920-63d4-4ce8-a1ab-07daede8374f" name="wpdev-hipay (project level)" url="http://192.168.27.187">
         <fileTransfer host="192.168.27.187" port="22" privateKey="$USER_HOME$/Workspace/id_rsa" accessType="SFTP" passphrase="dfe0dfdfdff8df99dfc1df9edffddffd" username="ttek" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />

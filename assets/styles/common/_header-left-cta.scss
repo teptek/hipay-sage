@@ -1,0 +1,38 @@
+.page-header {
+  @include saturate(100%);
+  background-position: center 35%;
+  background-repeat: no-repeat;
+  filter: saturate(115%);
+  min-height: 70vh;
+  .page-header-content {
+    display: table;
+    padding: 15vh 25px;
+    text-align: left;
+    h1 {
+      line-height: 1;
+      font-size: 3.8rem;
+    }
+    h1, .page-description {
+      max-width: 520px;
+      padding: 10px 0 0;
+    }
+  }
+  .btn {
+    position: relative;
+    z-index: 1;
+  }
+  .btn.empty {
+    margin-left: 5px;
+  }
+  .page-description {
+    line-height: 1.4;
+    font-size: 2rem;
+    opacity: 1;
+    span {
+      opacity: 0.75;
+    }
+    strong {
+      color: white;
+    }
+  }
+}

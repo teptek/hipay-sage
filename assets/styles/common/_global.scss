@@ -7,6 +7,12 @@ body {
   font-size: $font-size;
   font-weight: 300;
   line-height: 1.6;
+  letter-spacing: 0.022em;
+  margin: 0 auto;
+  max-width: 100%;
+  -webkit-box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 4px 1px rgba(0,0,0,0.15);
+  box-shadow: 0 0 4px 1px rgba(0,0,0,0.15);
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -20,7 +26,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 h2, .h2 {
   color: $black;
   font-size: $h2;
-  font-weight: 300;
+  font-weight: 400;
   padding: 0;
   text-transform: inherit;
   letter-spacing: -0.025em;
@@ -29,13 +35,14 @@ h2, .h2 {
 h3, .h3 {
   color: $black;
   font-size: 1.6rem;
+  letter-spacing: 0;
 }
 
 h5 {
   color: #aaa;
-  font-size: 1.4rem;
-  font-weight: 300;
-  letter-spacing: 0.01em;
+  font-size: $font-size-sm;
+  font-weight: 400;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   padding-bottom: 5px;
 }
@@ -64,10 +71,17 @@ b, strong, label {
   letter-spacing: -0.01rem;
 }
 
+p {
+  & > a {
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+}
+
 input, textarea, select {
   @include border-radius(3px);
   font-family: $main-font;
-  font-size: 1.5rem;
+  font-size: $font-size-sm;
   padding: 8px;
   outline: medium none;
 }
@@ -123,8 +137,9 @@ small, .small {
 
 .more-link {
   font-family: $main-font;
-  font-size: 1.2rem;
-  font-weight: 400;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 0;
 }
 
 .highlight, .highlight-small  {
@@ -144,7 +159,7 @@ small, .small {
 
 .meta, .updated {
   color: #aaaaaa;
-  font-size: 1.4rem;
+  font-size: $font-size-sm;
   font-weight: 300;
   letter-spacing: 0.01em;
   text-transform: uppercase;
@@ -152,20 +167,6 @@ small, .small {
 
 .required {
   color: $dark-red;
-}
-
-.usp-features {
-  text-align: center;
-  .ico-features {
-    height: 55px;
-    margin-bottom: 25px;
-  }
-  img {
-    max-height: 55px;
-    max-width: 55px;
-    padding-bottom: 7px;
-    width: auto;
-  }
 }
 
 .row {
@@ -233,11 +234,40 @@ canvas {
 }
 
 .last-articles-blog {
-  right: calc((100% - 1390px) / 2);
-  width: calc(1390px / 3);
+  position: fixed;
+  &.up {
+    margin-top: -50px;
+    @include transition(margin-top);
+  }
+  &.col-md-4 {
+    right: calc((100% - 1390px) / 2);
+    width: calc(1390px / 3);
+  }
+  &.col-md-12 {
+    position: relative;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 992px) {
+  .col-md-12.last-articles-blog {
+    & > h4 {
+      text-align: center;
+    }
+  }
+  .job-content {
+    & > .job-title {
+      & > h1 {
+        font-size: 2.4rem;
+      }
+      & > h5 {
+        border: medium none;
+        display: block;
+        padding: 5px 0 0;
+        text-align: left;
+      }
+    }
+  }
   h2 {
     font-size: 28px;
   }
@@ -247,7 +277,7 @@ canvas {
     display: table;
     margin: 0 auto;
     padding: 6px 6px 4px 6px;
-    font-size: 1.2rem;
+    font-size: $font-size-xsm;
     margin-bottom: 10px;
   }
   .vc_column-inner {

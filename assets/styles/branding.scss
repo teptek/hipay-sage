@@ -1,0 +1,209 @@
+@import "common/variables";
+@import "common/mixins";
+@import "common/header-block";
+
+.page-header, .page-header-darklayer {
+  height: inherit;
+}
+
+.page-header {
+  background-image: none;
+  h1 {
+    color: $black;
+  }
+}
+
+.page-header-darklayer {
+  display: none;
+}
+
+.color-set {
+  font-size: 1.2rem;
+  max-width: 780px;
+  text-align: center;
+  h5 {
+    color: $black;
+    letter-spacing: 0;
+  }
+}
+
+.color-shape {
+  background-color: $blue;
+  @include border-radius(100px);
+  display: block;
+  height: 110px;
+  margin: 0 auto 25px;
+  width: 110px;
+  text-align: center;
+}
+
+.color-shape-yellow {
+  .color-shape {
+    background-color: #ffba00;
+  }
+}
+
+.color-shape-blue {
+  .color-shape {
+    background-color: #00a5e1;
+  }
+}
+
+.color-shape-gradient {
+  .color-shape {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00a5e1+0,79e2d3+100 */
+    background: rgb(0,165,225); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(0,165,225,1) 0%, rgba(121,226,211,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(0,165,225,1) 0%,rgba(121,226,211,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(0,165,225,1) 0%,rgba(121,226,211,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a5e1', endColorstr='#79e2d3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
+}
+
+.color-shape-turk {
+  .color-shape {
+    background-color: $blue-teal;
+  }
+}
+
+.color-shape-midnight-blue {
+  .color-shape {
+    background-color: $midnight-blue;
+  }
+}
+
+.color-shape-think-purple {
+  .color-shape {
+    background-color: $think-purple;
+  }
+}
+
+.color-shape-sky-blue {
+  .color-shape {
+    background-color: $sky-blue;
+  }
+}
+
+.color-shape-ready-orange {
+  .color-shape {
+    background-color: $orange;
+  }
+}
+
+.color-shape-cool-grey {
+  .color-shape {
+    background-color: $cool-grey;
+  }
+}
+
+.color-shape-charcoal-grey {
+  .color-shape {
+    background-color: $charcoal-grey;
+  }
+}
+
+.color-shape-go-green {
+  .color-shape {
+    background-color: $green;
+  }
+}
+
+.color-set {
+  .vc_row.vc_row-fluid {
+    width: inherit;
+  }
+}
+
+#logo-set {
+  p {
+    padding-top: 15px;
+  }
+  small {
+    color: $black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0;
+  }
+  .logo-main {
+    img {
+      max-width: 250px;
+    }
+  }
+  .logos-alt {
+    margin-top: 35px;
+    max-width: 780px;
+    img {
+      max-width: 210px;
+      background-color: #ebebeb;
+      padding: 25px 25px 20px;
+      @include border-radius(6px);
+    }
+  }
+}
+
+#typography {
+  background-color: $background-grey;
+
+  .vc_column-inner {
+    & > .wpb_wrapper {
+      & > .wpb_text_column {
+        padding-bottom: 25px;
+        & > .wpb_wrapper {
+          width: initial;
+          display: table;
+          margin: 0 auto;
+          a {
+            font-size: 1.2rem;
+            font-weight: 500;
+            letter-spacing: 0;
+            margin-top: 20px;
+            display: table;
+          }
+        }
+      }
+    }
+  }
+  h2 {
+      margin-bottom: 40px;
+  }
+  h4 {
+    padding-bottom: 0;
+    text-align: left;
+    & ~ p {
+      padding-bottom: 15px;
+    }
+  }
+  p {
+    text-align: left;
+  }
+  div {
+    &[class*="rubik-"], &[class*="arial-"] {
+      color: $blue;
+      text-align: left;
+      letter-spacing: -0.02em;
+      line-height: 1;
+    }
+    &[class*="arial-"] {
+      font-family: Arial;
+      font-size: 4.2rem;
+    }
+  }
+  .rubik-medium {
+    font-weight: 500;
+    font-size: 5.2rem;
+  }
+  .rubik-regular {
+    font-weight: 400;
+    font-size: 5rem;
+  }
+  .rubik-light {
+    font-weight: 300;
+    font-size: 5rem;
+  }
+  .arial-bold {
+    font-weight: bold;
+  }
+  .arial-regular {
+    font-weight: normal;
+  }
+}

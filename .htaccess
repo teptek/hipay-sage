@@ -1,0 +1,303 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+Redirect 301 /hipay-group/ https://hipay.com/
+Redirect 301 /media/ https://hipay.com/news/
+Redirect 301 /recrutement/ https://hipay.com/societe/carrieres/
+Redirect 301 /fr/ https://hipay.com/
+Redirect 301 /management-team/ https://hipay.com/company/leadership/
+Redirect 301 /legal-notices/ https://hipay.com/terms/
+Redirect 301 /investors/ https://hipay.com/company/investors/
+Redirect 301 /nos-bureaux/ https://hipay.com/societe/contactez-nous/
+Redirect 301 /4232/ https://hipay.com/
+Redirect 301 /investors-overview/ https://hipay.com/company/investors/
+Redirect 301 /who-are-we/ https://hipay.com/company/
+Redirect 301 /le-groupe/ https://hipay.com/
+Redirect 301 /careers/ https://hipay.com/company/leadership/
+Redirect 301 /press-releases/ https://hipay.com/news/press/
+Redirect 301 /mentions-legales/ https://hipay.com/conditions-generales-dutilisation/
+Redirect 301 /qui-sommes-nous/ https://hipay.com/societe/
+Redirect 301 /blog/ https://hipay.com/news/blog/
+Redirect 301 /partenaires/ https://hipay.com/societe/partenaires/
+Redirect 301 /partners-3/ https://hipay.com/company/partners/
+Redirect 301 /conseil-dadministration/ https://hipay.com/conseil-dadministration/
+Redirect 301 /questions-ecrites-gouvernance-en-action/ https://hipay.com/
+Redirect 301 /share-price/ https://hipay.com/company/investors/share-price/
+Redirect 301 /2694/ https://hipay.com/
+Redirect 301 /jobs/ https://hipay.com/company/careers/
+Redirect 301 /carrieres/ https://hipay.com/societe/carrieres/
+Redirect 301 /lutte-contre-la-fraude-les-soldes-22-2/ https://hipay.com/actualites/blog/
+Redirect 301 /cours-de-bourse/ https://hipay.com/societe/investisseurs/cours-de-bourse/
+Redirect 301 /communiques-de-presse/ https://hipay.com/actualites/presse/
+Redirect 301 /marketplace/ https://hipay.com/product-marketplace/
+Redirect 301 /documentation-financiere/ https://hipay.com/societe/investisseurs/documentation/
+Redirect 301 /events/ https://hipay.com/news/events/
+Redirect 301 /fullservice-en/ https://hipay.com/product-enterprise/
+Redirect 301 /dans-les-medias/ https://hipay.com/actualites/presse/
+Redirect 301 /documentation-en/ https://hipay.com/company/investors/documentation/
+Redirect 301 /cap-sur-le-commerce-belge-avec-e-commerce-xpo/ https://hipay.com/actualites/blog/
+Redirect 301 /blog-en/ https://hipay.com/news/blog/
+Redirect 301 /management/ https://hipay.com/company/leadership/
+Redirect 301 /prospectus-2/ https://hipay.com/company/investors/
+Redirect 301 /fullservice/ https://hipay.com/product-enterprise/
+Redirect 301 /investisseurs/ https://hipay.com/societe/investisseurs/
+Redirect 301 /mobile/ http://hipaymobile.com/
+Redirect 301 /evenements/ https://hipay.com/news/events/
+Redirect 301 /mobile-en/ http://hipaymobile.com/
+Redirect 301 /offices/ https://hipay.com/company/offices/
+
+Redirect 301 /tag/legal-notices/ https://hipay.com/
+Redirect 301 /tag/offices/ https://hipay.com/
+Redirect 301 /media/page/offices/ https://hipay.com/
+Redirect 301 /tag/paiementenligne/page/mentions-legales/ https://hipay.com/
+Redirect 301 /tag/hipay/page/mentions-legales/ https://hipay.com/
+Redirect 301 /documentation-en/page/legal-notices/ https://hipay.com/
+Redirect 301 /tag/hipay-en/page/legal-notices/ https://hipay.com/
+Redirect 301 /media/page/legal-notices/ https://hipay.com/
+Redirect 301 /tag/paiement-en-ligne/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /tag/nos-bureaux/ https://hipay.com/
+Redirect 301 /documentation-financiere/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /blog-en/page/legal-notices/ https://hipay.com/
+Redirect 301 /documentation-en/page/offices/ https://hipay.com/
+Redirect 301 /tag/paiement-en-ligne/page/mentions-legales/ https://hipay.com/
+Redirect 301 /tag/e-commerce-en/page/legal-notices/ https://hipay.com/
+Redirect 301 /tag/e-commerce-en/page/offices/ https://hipay.com/
+Redirect 301 /tag/mentions-legales/ https://hipay.com/
+Redirect 301 /tag/evenement/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /tag/evenement/page/mentions-legales/ https://hipay.com/
+Redirect 301 /tag/solutionsdepaiement/page/mentions-legales/ https://hipay.com/
+Redirect 301 /communiques-de-presse/page/mentions-legales/ https://hipay.com/
+Redirect 301 /communiques-de-presse/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /fr/author/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/team/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/legal-notices/ https://hipay.com/
+Redirect 301 /category/offices/ https://hipay.com/
+Redirect 301 /fr/author/ttek/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/presse/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/articles-blog-en/page/legal-notices/ https://hipay.com/
+Redirect 301 /category/articles-blog-en/page/offices/ https://hipay.com/
+Redirect 301 /category/presse-en/page/legal-notices/ https://hipay.com/
+Redirect 301 /category/presse-en/page/offices/ https://hipay.com/
+Redirect 301 /category/presse/page/mentions-legales/ https://hipay.com/
+Redirect 301 /category/carrieres/mentions-legales/ https://hipay.com/
+Redirect 301 /category/carrieres/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/blog/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/blog/page/mentions-legales/ https://hipay.com/
+Redirect 301 /category/documentation_en/legal-notices/ https://hipay.com/
+Redirect 301 /category/documentation_en/offices/ https://hipay.com/
+Redirect 301 /en/author/ttek/page/offices/ https://hipay.com/
+Redirect 301 /en/author/offices/ https://hipay.com/
+Redirect 301 /category/documentation/mentions-legales/ https://hipay.com/
+Redirect 301 /category/mentions-legales/ https://hipay.com/
+Redirect 301 /en/author/legal-notices/ https://hipay.com/
+Redirect 301 /category/documentation/cp_finance/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/documentation/cp_finance/page/mentions-legales/ https://hipay.com/
+Redirect 301 /category/histoire/page/mentions-legales/ https://hipay.com/
+Redirect 301 /category/documentation/nos-bureaux/ https://hipay.com/
+Redirect 301 /fr/author/ttek/page/mentions-legales/ https://hipay.com/
+Redirect 301 /category/team/mentions-legales/ https://hipay.com/
+Redirect 301 /category/event/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/event-en/page/legal-notices/ https://hipay.com/
+Redirect 301 /category/event/page/mentions-legales/ https://hipay.com/
+Redirect 301 /en/author/ttek/page/legal-notices/ https://hipay.com/
+Redirect 301 /tag/e-commerce/page/mentions-legales/ https://hipay.com/
+Redirect 301 /press-releases/page/offices/ https://hipay.com/
+Redirect 301 /tag/e-commerce/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /press-releases/page/legal-notices/ https://hipay.com/
+Redirect 301 /category/histoire-en/page/offices/ https://hipay.com/
+Redirect 301 /tag/hipay/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /documentation-financiere/page/mentions-legales/ https://hipay.com/
+Redirect 301 /tag/onlinepayment/page/legal-notices/ https://hipay.com/
+Redirect 301 /dans-les-medias/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /dans-les-medias/page/mentions-legales/ https://hipay.com/
+Redirect 301 /tag/paiementenligne/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /tag/paiements-en-ligne/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /tag/paiements-en-ligne/page/mentions-legales/ https://hipay.com/
+Redirect 301 /tag/solutionsdepaiement/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /tag/event/page/offices/ https://hipay.com/
+Redirect 301 /tag/event/page/legal-notices/ https://hipay.com/
+Redirect 301 /category/event-en/page/offices/ https://hipay.com/
+Redirect 301 /category/documentation_en/cp_finance_en/page/legal-notices/ https://hipay.com/
+Redirect 301 /tag/hipay-en/page/offices/ https://hipay.com/
+Redirect 301 /tag/onlinepayment/page/offices/ https://hipay.com/
+Redirect 301 /category/histoire-en/page/legal-notices/ https://hipay.com/
+Redirect 301 /tag/ecommerce/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /tag/ecommerce/page/mentions-legales/ https://hipay.com/
+Redirect 301 /blog/page/mentions-legales/ https://hipay.com/
+Redirect 301 /blog/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/carrieres-en/legal-notices/ https://hipay.com/
+Redirect 301 /category/offices https://hipay.com/
+Redirect 301 /fr/author/mentions-legales/ https://hipay.com/
+Redirect 301 /category/documentation_en/cp_finance_en/page/offices/ https://hipay.com/
+Redirect 301 /category/carrieres-en/offices/ https://hipay.com/
+Redirect 301 /category/histoire/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /blog-en/page/offices/ https://hipay.com/
+
+Redirect 301 /images/bt_payment3.gif https://hipay.com/
+Redirect 301 /images/visa-mastercard-maestro_160.gif https://hipay.com/
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+Redirect 301 /hipay-group/ https://hipay.com/
+Redirect 301 /media/ https://hipay.com/news/
+Redirect 301 /recrutement/ https://hipay.com/societe/carrieres/
+Redirect 301 /fr/ https://hipay.com/
+Redirect 301 /management-team/ https://hipay.com/company/leadership/
+Redirect 301 /legal-notices/ https://hipay.com/terms/
+Redirect 301 /investors/ https://hipay.com/company/investors/
+Redirect 301 /nos-bureaux/ https://hipay.com/societe/contactez-nous/
+Redirect 301 /4232/ https://hipay.com/
+Redirect 301 /investors-overview/ https://hipay.com/company/investors/
+Redirect 301 /who-are-we/ https://hipay.com/company/
+Redirect 301 /le-groupe/ https://hipay.com/
+Redirect 301 /careers/ https://hipay.com/company/leadership/
+Redirect 301 /press-releases/ https://hipay.com/news/press/
+Redirect 301 /mentions-legales/ https://hipay.com/conditions-generales-dutilisation/
+Redirect 301 /qui-sommes-nous/ https://hipay.com/societe/
+Redirect 301 /blog/ https://hipay.com/news/blog/
+Redirect 301 /partenaires/ https://hipay.com/societe/partenaires/
+Redirect 301 /partners-3/ https://hipay.com/company/partners/
+Redirect 301 /conseil-dadministration/ https://hipay.com/conseil-dadministration/
+Redirect 301 /questions-ecrites-gouvernance-en-action/ https://hipay.com/
+Redirect 301 /share-price/ https://hipay.com/company/investors/share-price/
+Redirect 301 /2694/ https://hipay.com/
+Redirect 301 /jobs/ https://hipay.com/company/careers/
+Redirect 301 /carrieres/ https://hipay.com/societe/carrieres/
+Redirect 301 /lutte-contre-la-fraude-les-soldes-22-2/ https://hipay.com/actualites/blog/
+Redirect 301 /cours-de-bourse/ https://hipay.com/societe/investisseurs/cours-de-bourse/
+Redirect 301 /communiques-de-presse/ https://hipay.com/actualites/presse/
+Redirect 301 /marketplace/ https://hipay.com/product-marketplace/
+Redirect 301 /documentation-financiere/ https://hipay.com/societe/investisseurs/documentation/
+Redirect 301 /events/ https://hipay.com/news/events/
+Redirect 301 /fullservice-en/ https://hipay.com/product-enterprise/
+Redirect 301 /dans-les-medias/ https://hipay.com/actualites/presse/
+Redirect 301 /documentation-en/ https://hipay.com/company/investors/documentation/
+Redirect 301 /cap-sur-le-commerce-belge-avec-e-commerce-xpo/ https://hipay.com/actualites/blog/
+Redirect 301 /blog-en/ https://hipay.com/news/blog/
+Redirect 301 /management/ https://hipay.com/company/leadership/
+Redirect 301 /prospectus-2/ https://hipay.com/company/investors/
+Redirect 301 /fullservice/ https://hipay.com/product-enterprise/
+Redirect 301 /investisseurs/ https://hipay.com/societe/investisseurs/
+Redirect 301 /mobile/ http://hipaymobile.com/
+Redirect 301 /evenements/ https://hipay.com/news/events/
+Redirect 301 /mobile-en/ http://hipaymobile.com/
+Redirect 301 /offices/ https://hipay.com/company/offices/
+
+Redirect 301 /tag/legal-notices/ https://hipay.com/
+Redirect 301 /tag/offices/ https://hipay.com/
+Redirect 301 /media/page/offices/ https://hipay.com/
+Redirect 301 /tag/paiementenligne/page/mentions-legales/ https://hipay.com/
+Redirect 301 /tag/hipay/page/mentions-legales/ https://hipay.com/
+Redirect 301 /documentation-en/page/legal-notices/ https://hipay.com/
+Redirect 301 /tag/hipay-en/page/legal-notices/ https://hipay.com/
+Redirect 301 /media/page/legal-notices/ https://hipay.com/
+Redirect 301 /tag/paiement-en-ligne/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /tag/nos-bureaux/ https://hipay.com/
+Redirect 301 /documentation-financiere/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /blog-en/page/legal-notices/ https://hipay.com/
+Redirect 301 /documentation-en/page/offices/ https://hipay.com/
+Redirect 301 /tag/paiement-en-ligne/page/mentions-legales/ https://hipay.com/
+Redirect 301 /tag/e-commerce-en/page/legal-notices/ https://hipay.com/
+Redirect 301 /tag/e-commerce-en/page/offices/ https://hipay.com/
+Redirect 301 /tag/mentions-legales/ https://hipay.com/
+Redirect 301 /tag/evenement/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /tag/evenement/page/mentions-legales/ https://hipay.com/
+Redirect 301 /tag/solutionsdepaiement/page/mentions-legales/ https://hipay.com/
+Redirect 301 /communiques-de-presse/page/mentions-legales/ https://hipay.com/
+Redirect 301 /communiques-de-presse/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /fr/author/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/team/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/legal-notices/ https://hipay.com/
+Redirect 301 /category/offices/ https://hipay.com/
+Redirect 301 /fr/author/ttek/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/presse/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/articles-blog-en/page/legal-notices/ https://hipay.com/
+Redirect 301 /category/articles-blog-en/page/offices/ https://hipay.com/
+Redirect 301 /category/presse-en/page/legal-notices/ https://hipay.com/
+Redirect 301 /category/presse-en/page/offices/ https://hipay.com/
+Redirect 301 /category/presse/page/mentions-legales/ https://hipay.com/
+Redirect 301 /category/carrieres/mentions-legales/ https://hipay.com/
+Redirect 301 /category/carrieres/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/blog/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/blog/page/mentions-legales/ https://hipay.com/
+Redirect 301 /category/documentation_en/legal-notices/ https://hipay.com/
+Redirect 301 /category/documentation_en/offices/ https://hipay.com/
+Redirect 301 /en/author/ttek/page/offices/ https://hipay.com/
+Redirect 301 /en/author/offices/ https://hipay.com/
+Redirect 301 /category/documentation/mentions-legales/ https://hipay.com/
+Redirect 301 /category/mentions-legales/ https://hipay.com/
+Redirect 301 /en/author/legal-notices/ https://hipay.com/
+Redirect 301 /category/documentation/cp_finance/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/documentation/cp_finance/page/mentions-legales/ https://hipay.com/
+Redirect 301 /category/histoire/page/mentions-legales/ https://hipay.com/
+Redirect 301 /category/documentation/nos-bureaux/ https://hipay.com/
+Redirect 301 /fr/author/ttek/page/mentions-legales/ https://hipay.com/
+Redirect 301 /category/team/mentions-legales/ https://hipay.com/
+Redirect 301 /category/event/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/event-en/page/legal-notices/ https://hipay.com/
+Redirect 301 /category/event/page/mentions-legales/ https://hipay.com/
+Redirect 301 /en/author/ttek/page/legal-notices/ https://hipay.com/
+Redirect 301 /tag/e-commerce/page/mentions-legales/ https://hipay.com/
+Redirect 301 /press-releases/page/offices/ https://hipay.com/
+Redirect 301 /tag/e-commerce/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /press-releases/page/legal-notices/ https://hipay.com/
+Redirect 301 /category/histoire-en/page/offices/ https://hipay.com/
+Redirect 301 /tag/hipay/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /documentation-financiere/page/mentions-legales/ https://hipay.com/
+Redirect 301 /tag/onlinepayment/page/legal-notices/ https://hipay.com/
+Redirect 301 /dans-les-medias/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /dans-les-medias/page/mentions-legales/ https://hipay.com/
+Redirect 301 /tag/paiementenligne/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /tag/paiements-en-ligne/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /tag/paiements-en-ligne/page/mentions-legales/ https://hipay.com/
+Redirect 301 /tag/solutionsdepaiement/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /tag/event/page/offices/ https://hipay.com/
+Redirect 301 /tag/event/page/legal-notices/ https://hipay.com/
+Redirect 301 /category/event-en/page/offices/ https://hipay.com/
+Redirect 301 /category/documentation_en/cp_finance_en/page/legal-notices/ https://hipay.com/
+Redirect 301 /tag/hipay-en/page/offices/ https://hipay.com/
+Redirect 301 /tag/onlinepayment/page/offices/ https://hipay.com/
+Redirect 301 /category/histoire-en/page/legal-notices/ https://hipay.com/
+Redirect 301 /tag/ecommerce/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /tag/ecommerce/page/mentions-legales/ https://hipay.com/
+Redirect 301 /blog/page/mentions-legales/ https://hipay.com/
+Redirect 301 /blog/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /category/carrieres-en/legal-notices/ https://hipay.com/
+Redirect 301 /category/offices https://hipay.com/
+Redirect 301 /fr/author/mentions-legales/ https://hipay.com/
+Redirect 301 /category/documentation_en/cp_finance_en/page/offices/ https://hipay.com/
+Redirect 301 /category/carrieres-en/offices/ https://hipay.com/
+Redirect 301 /category/histoire/page/nos-bureaux/ https://hipay.com/
+Redirect 301 /blog-en/page/offices/ https://hipay.com/
+
+
+Redirect 301 /wp-content/themes/hipay-theme3/hipay.png https://hipay.com/wp-content/uploads/2016/10/hipay-full-color.png
+Redirect 301 /category/event-en/ https://hipay.com/news/events/
+Redirect 301 /favicon.gif https://hipay.com/wp-content/themes/hipay-sage-1.2/favicon.png
+
+
+Redirect 301 "/wp-content/uploads/2016/02/hip ay_mobile.png" https://hipay.com/wp-content/uploads/2016/02/hipay_mobile.png
+Redirect 301 "/wp-content/upl oads/2016/02/hipay_mobile.png" https://hipay.com/wp-content/uploads/2016/02/hipay_mobile.png
+Redirect 301 "/wp-content/uploads/2016/02 /hipay_mobile.png" https://hipay.com/wp-content/uploads/2016/02/hipay_mobile.png
+Redirect 301 "/wp-co ntent/uploads/2016/02/hipay_mobile.png" https://hipay.com/wp-content/uploads/2016/02/hipay_mobile.png
+

@@ -26,7 +26,6 @@
   <?php if (($wp_query->current_post +1) == ($wp_query->post_count)) {
     echo 'This is the last post';
   } ?>
-
   <?php get_template_part('templates/previous-post'); ?>
   <?php get_template_part('templates/next-post'); ?>
 </div>

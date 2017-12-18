@@ -40,11 +40,12 @@ require('lang/content.php');
                     <li class="btn filter-name" data-filter="category-carrieres-sales<?php echo $career_data_fix; ?>"><?php echo $career_sales; ?></li>
                     <li class="btn filter-name" data-filter="category-carrieres-marketing<?php echo $career_data_fix; ?>"><?php echo $career_marketing; ?></li>
                     <li class="btn filter-name" data-filter="category-carrieres-finance<?php echo $career_data_fix; ?>"><?php echo $career_finance; ?></li>
-                    <li class="btn filter-name" data-filter="category-carrieres-administration"<?php echo $career_data_fix; ?>><?php echo $career_administration; ?></li>
+                    <li class="btn filter-name" data-filter="category-carrieres-administration<?php echo $career_data_fix; ?>"><?php echo $career_administration; ?></li>
                     <li class="btn filter-name" data-filter="category-carrieres-it<?php echo $career_data_fix; ?>"><?php echo $career_it; ?></li>
                     <li class="btn filter-name" data-filter="category-carrieres-bi<?php echo $career_data_fix; ?>"><?php echo $career_bi; ?></li>
-                    <li class="btn filter-name" data-filter="category-carrieres-customers<?php echo $career_data_fix; ?>"><?php echo $career_customers; ?></li>
+                    <li class="btn filter-name" data-filter="category-carrieres-rh<?php echo $career_data_fix; ?>"><?php echo $career_rh; ?></li>
                     <li class="btn filter-name" data-filter="category-carrieres-partners<?php echo $career_data_fix; ?>"><?php echo $career_partners; ?></li>
+                    <li class="btn filter-name" data-filter="category-carrieres-support<?php echo $career_data_fix; ?>"><?php echo $career_support; ?></li>
                     <li class="btn filter-name" data-filter="category-carrieres-others<?php echo $career_data_fix; ?>"><?php echo $career_others; ?></li>
                 </ul>
                 <div id="masonry-container">
@@ -70,9 +71,13 @@ require('lang/content.php');
                                 $administration = stripos($job->category, 'Administration');
                                 $it = stripos($job->category, 'coms');
                                 $sales = stripos($job->category, 'Ventes');
+                                $am = stripos($job->category, 'Account');
                                 $bi = stripos($job->category, 'Analysis');
-                                $customers = stripos($job->category, 'clients');
+                                $rh = stripos($job->category, 'Humaines');
+                                $legal = stripos($job->category, 'Juridique');
                                 $partners = stripos($job->category, 'Partenaires');
+                                $operator = stripos($job->category, 'opérateurs');
+                                $support = stripos($job->category, 'Business support');
                                 $others = stripos($job->category, 'Autres');
 
                                 if ( $finance !== false ) {
@@ -95,6 +100,11 @@ require('lang/content.php');
                                     $category_txt = $career_sales;
                                 }
 
+                                if ( $am !== false ) {
+                                    $category = 'category-carrieres-sales';
+                                    $category_txt = $career_sales;
+                                }
+
                                 if ( $marketing !== false ) {
                                     $category = 'category-carrieres-marketing';
                                     $category_txt = $career_marketing;
@@ -105,14 +115,29 @@ require('lang/content.php');
                                     $category_txt = $career_bi;
                                 }
 
-                                if ( $customers !== false ) {
-                                    $category = 'category-carrieres-customers';
-                                    $category_txt = $career_customers;
+                                if ( $rh !== false ) {
+                                    $category = 'category-carrieres-rh';
+                                    $category_txt = $career_rh;
+                                }
+
+                                if ( $legal !== false ) {
+                                    $category = 'category-carrieres-rh';
+                                    $category_txt = $career_rh;
                                 }
 
                                 if ( $partners !== false ) {
                                     $category = 'category-carrieres-partners';
                                     $category_txt = $career_partners;
+                                }
+
+                                if ( $support !== false ) {
+                                    $category = 'category-carrieres-support';
+                                    $category_txt = $career_support;
+                                }
+
+                                if ( $operator !== false ) {
+                                    $category = 'category-carrieres-support';
+                                    $category_txt = $career_support;
                                 }
 
                                 if ( $others !== false ) {

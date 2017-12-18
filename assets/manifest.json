@@ -30,6 +30,12 @@
       ],
       "main": true
     },
+    "branding.css": {
+      "files": [
+        "styles/branding.scss"
+      ],
+      "main": true
+    },
     "sitemap.css": {
       "files": [
         "styles/sitemap.scss"
@@ -42,9 +48,27 @@
       ],
       "main": true
     },
+    "home-1.1.css": {
+      "files": [
+        "styles/home-1.1.scss"
+      ],
+      "main": true
+    },
     "home_test.css": {
       "files": [
         "styles/home_test.scss"
+      ],
+      "main": true
+    },
+    "applepay.css": {
+      "files": [
+        "styles/applepay.scss"
+      ],
+      "main": true
+    },
+    "tag.css": {
+      "files": [
+        "styles/tag.scss"
       ],
       "main": true
     },
@@ -120,6 +144,18 @@
       ],
       "main": true
     },
+    "pos.css": {
+      "files": [
+        "styles/pos.scss"
+      ],
+      "main": true
+    },
+    "thankyou.css": {
+      "files": [
+        "styles/thankyou.scss"
+      ],
+      "main": true
+    },
     "customers.css": {
       "files": [
         "styles/customers.scss"
@@ -132,15 +168,57 @@
       ],
       "main": true
     },
-    "about.css": {
+    "partners.css": {
       "files": [
-        "styles/about.scss"
+        "styles/partners.scss"
+      ],
+      "main": true
+    },
+    "company.css": {
+      "files": [
+        "styles/company.scss"
+      ],
+      "main": true
+    },
+    "belfius.css": {
+      "files": [
+        "styles/belfius.scss"
+      ],
+      "main": true
+    },
+    "simple.css": {
+      "files": [
+        "styles/simple.scss"
       ],
       "main": true
     },
     "case-study.css": {
       "files": [
         "styles/case-study.scss"
+      ],
+      "main": true
+    },
+    "ressources.css": {
+      "files": [
+        "styles/ressources.scss"
+      ],
+      "main": true
+    },
+    "payment-methods.css": {
+      "files": [
+        "styles/payment-methods.scss"
+      ],
+      "main": true
+    },
+    "sentinel.css": {
+      "files": [
+        "styles/sentinel.scss"
+      ],
+      "main": true
+    },
+    "intelligence.css": {
+      "files": [
+        "styles/intelligence.scss"
       ],
       "main": true
     },
@@ -167,6 +245,11 @@
         "scripts/classie.js"
       ]
     },
+    "gradient.js": {
+      "files": [
+        "scripts/gradient.js"
+      ]
+    },
     "multipleFilterMasonry.js": {
       "files": [
         "scripts/multipleFilterMasonry.js"
@@ -177,9 +260,24 @@
         "scripts/fixed-scroll-listener.js"
       ]
     },
-    "masonry-config.js.js": {
+    "masonry-config.js": {
       "files": [
         "scripts/masonry-config.js"
+      ]
+    },
+    "ressources-masonry.js": {
+      "files": [
+        "scripts/ressources-masonry.js"
+      ]
+    },
+    "slick-config.js": {
+      "files": [
+        "scripts/slick-config.js"
+      ]
+    },
+    "popover.js": {
+      "files": [
+        "scripts/popover.js"
       ]
     },
     "home-test.js": {

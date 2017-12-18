@@ -2,7 +2,7 @@
 @import "../common/_variables";
 
 .wrap {
-  margin-top: 70px;
+  margin-top: 68px;
 }
 
 header {
@@ -29,7 +29,7 @@ header {
     }
   }
 
-  .nav > li {
+  .nav > .menu-item {
     padding: 10px 0;
     @include transition-multi(padding 0.3s ease 0s, background-color 0.3s ease 0s);
     & > a {
@@ -63,6 +63,7 @@ header {
         opacity: 1;
         padding: 8px 16px;
         @include transition-multi(background-color 0.3s ease 0s, opacity 0.3s ease 0s);
+        margin-top: 8px;
         &:focus, &:hover, &:active {
           opacity: 0.75;
           outline: medium none;

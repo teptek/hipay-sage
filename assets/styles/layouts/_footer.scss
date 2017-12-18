@@ -9,18 +9,47 @@
 footer {
 
   background-color: $black;
-  padding: 70px 0 20px;
+  padding: 70px 0 10px;
 
-  .menu-footer-container, .menu-footer-english-container {
+  & > .container {
+    padding: 0 30px;
+    & > div[class*="col-md-"] {
+      padding: 0;
+    }
+  }
+
+  .footer-wp-links {
+    margin-bottom: 40px;
+  }
+
+  .follow-txt {
+    color: white;
+    font-size: 1.2rem;
+    display: block;
+    margin: 6px 15px 0 0;
+    float: left;
+  }
+  .orange-link {
+    color: $orange;
+    font-weight: bold;
+    background-color: transparent;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  div[class^="menu-footer"] {
     & > ul {
       & > li {
         float: left;
-        margin-right: 10%;
+        margin-right: 7%;
         & > a {
           color: #fff;
           font-family: $main-font;
-          font-size: 14px;
-          font-weight: 400;
+          font-size: $font-size-sm;
+          font-weight: 500;
+          letter-spacing: -0.012em;
           &:hover, &:focus {
             opacity: 1;
           }
@@ -28,12 +57,13 @@ footer {
         & > .sub-menu {
           margin-top: 10px;
           & > li {
-            margin-bottom: -5px;
+            line-height: 0;
             & > a {
               color: $medium-grey;
-              font-size: 1.4rem;
               font-weight: 300;
-              line-height: 1.4;
+              font-size: 1.2rem;
+              letter-spacing: 0.2px;
+              line-height: 2;
             }
           }
         }
@@ -83,8 +113,7 @@ footer {
 
   .social-zone {
 
-    padding-top: 5px;
-    text-align: right;
+    padding-top: 75px;
 
     div {
 
@@ -111,9 +140,9 @@ footer {
     }
 
     .social-links {
+      display: inline-block;
       & > div {
         display: inline-block;
-        margin-left: 5px;
       }
     }
 
@@ -227,18 +256,21 @@ footer {
   }
 
   .footer-end {
-    border-top: 1px solid #555;
+    border-top: 1px solid #555555;
     margin-top: 35px;
-    padding-top: 35px;
+    padding-top: 10px;
+
+    .col-md-6 {
+      padding: 0;
+    }
 
     .attribution {
       color: $medium-grey;
-      margin-top: 25px;
       text-align: right;
       font-family: $main-font;
 
       .legal-link {
-        color: $medium-grey;
+        color: white;
         font-weight: 400;
         letter-spacing: 0.01em;
       }
@@ -267,6 +299,15 @@ footer {
   footer {
     padding-bottom: 35px;
     padding-top: 35px;
+    .logo-tri-container {
+      & > a {
+        margin: 0 auto;
+        display: table;
+      }
+    }
+    .follow-txt {
+      display: none;
+    }
     div[class*="col-md-"], article[class*="col-md-"] {
       margin-bottom: 0;
       width: 100%;
@@ -282,6 +323,10 @@ footer {
     .social-zone {
       text-align: center;
       margin: 0;
+      padding-top: 0;
+      .social-links {
+        margin-top: 25px;
+      }
       .news-links {
         margin-top: 0;
         display: inherit;
@@ -289,8 +334,8 @@ footer {
         text-align: center;
       }
       div a svg {
-        height: 40px;
-        width: 40px;
+        height: 30px;
+        width: 30px;
       }
     }
     .links-zone {

@@ -27,7 +27,7 @@ article {
   position: relative;
 }
 
-.category-media, .category-media-en {
+.category-presse, .category-presse-en, .category-presse-it {
   .article-tag {
     background-color: $blue-turk;
     &::after {
@@ -36,16 +36,16 @@ article {
   }
 }
 
-.category-cp, .category-cp-en {
+.category-cp, .category-cp-en, .category-cp-it{
   .article-tag {
     background-color: $green-turk;
     &::after {
-      border-color: rgba(0, 0, 0, 0) darken($blue-turk, 10%) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+      border-color: rgba(0, 0, 0, 0) darken($green-turk, 10%) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
     }
   }
 }
 
-.page-template-cp {
+.page-template-cp, .page-template-cp-it, .page-template-cp-en {
   .article-content {
     padding: 30px 25px 25px;
     width: 100%;
@@ -68,7 +68,7 @@ article {
   }
   .post_content {
     p, span {
-      font-size: 1.2rem;
+      font-size: $font-size-sm;
       font-weight: 300 !important;
     }
   }
@@ -112,14 +112,6 @@ article {
 .articles-feed, .last-articles-blog {
   margin-top: 20px;
   @include transition(margin-top);
-}
-
-.last-articles-blog {
-  position: fixed;
-  &.up {
-    margin-top: -50px;
-    @include transition(margin-top);
-  }
 }
 
 .cat-name {

@@ -1,17 +1,1 @@
-.page-header-darklayer {
-  opacity: 0.63; }
-
-#marketplace-scheme {
-  max-width: 720px; }
-
-.marketplace-usp img {
-  width: 55px; }
-.marketplace-usp .full-txt {
-  font-size: 1.4rem;
-  opacity: 1;
-  text-align: justify; }
-
-#marketplace-licenses {
-  background-color: #f0f0f0; }
-
-/*# sourceMappingURL=marketplace.css.map */
+.slick-slider{box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list,.slick-slider{position:relative;display:block}.slick-list{overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:none}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slider .slick-list,.slick-slider .slick-track{-webkit-transform:translateZ(0);transform:translateZ(0)}.slick-track{position:relative;top:0;left:0;display:block;margin-left:auto;margin-right:auto}.slick-track:after,.slick-track:before{display:table;content:''}.slick-track:after{clear:both}.slick-loading .slick-track{visibility:hidden}.slick-slide{display:none;float:left;height:100%;min-height:1px}[dir=rtl] .slick-slide{float:right}.slick-slide img{display:block}.slick-slide.slick-loading img{display:none}.slick-slide.dragging img{pointer-events:none}.slick-initialized .slick-slide{display:block}.slick-loading .slick-slide{visibility:hidden}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}.slick-arrow.slick-hidden{display:none}.page-header{filter:saturate(100%);-webkit-filter:saturate(100%);-moz-filter:saturate(100%);-o-filter:saturate(100%);-ms-filter:saturate(100%);background-position:center 35%;background-repeat:no-repeat;-webkit-filter:saturate(115%);filter:saturate(115%);min-height:70vh}.page-header .page-header-content{display:table;padding:15vh 25px;text-align:left}.page-header .page-header-content h1{line-height:1;font-size:3.8rem}.page-header .page-header-content .page-description,.page-header .page-header-content h1{max-width:520px;padding:10px 0 0}.page-header .btn{position:relative;z-index:1}.page-header .btn.empty{margin-left:5px}.page-header .page-description{line-height:1.4;font-size:2rem;opacity:1}.page-header .page-description span{opacity:.75}.page-header .page-description strong{color:#fff}.page-header h1{margin-top:100px}.page-header,.page-header-darklayer{height:569px}.page-header-darklayer{background:transparent -webkit-linear-gradient(270deg,rgba(0,0,0,.65) 20%,transparent) repeat scroll 0 0;background:transparent linear-gradient(180deg,rgba(0,0,0,.65) 20%,transparent) repeat scroll 0 0;height:569px;opacity:.35}#marketplace-scheme{max-width:720px}.marketplace-usp img{width:55px}.marketplace-usp .full-txt{font-size:1.5rem;opacity:1;text-align:justify}#marketplace-licenses{background-color:#f0f0f0}

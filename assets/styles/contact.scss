@@ -7,13 +7,47 @@ body {
   background-color: $background-grey;
 }
 
-.page-header h1 {
-  margin-top: 0;
+.page-header {
+  background-position: center top;
+  @include saturate(135%);
+  h1 {
+    margin-top: 0;
+  }
+}
+
+.main {
+  .btn-default {
+    margin-bottom: 40px;
+  }
+  & > .vc_row {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 720px;
+    &:last-child {
+      margin-bottom: 70px;
+      @include border-radius(0 0 6px 6px);
+    }
+  }
+  .page-description {
+    margin-top: -85px;
+    position: relative;
+    @include border-radius(6px 6px 0 0);
+    padding: 40px 0 0;
+    h3 {
+      color: $black;
+      font-size: 2.2rem;
+      font-weight: 400;
+      margin: 0 auto;
+      max-width: 500px;
+      padding: 0;
+      text-align: center;
+    }
+  }
 }
 
 small {
   color: #2c383d;
-  font-size: 1.2rem;
+  font-size: $font-size-xsm;
 }
 
 .vc_row.vc_row-fluid.full-half .vc_column_container, .vc_row.vc_row-fluid.full-half .vc_col-sm-6, .vc_row.vc_row-fluid.full-half .col-md-6, .row.full-half .vc_column_container, .row.full-half .vc_col-sm-6, .row.full-half .col-md-6 {
@@ -51,6 +85,7 @@ input, textarea, select {
 .row .container-sm {
   background-color: #ffffff;
   padding: 0 0 25px;
+  margin: -115px auto 70px;
   & > .vc_row-fluid {
     background-color: #ffffff;
     @include border-radius(3px);
@@ -70,29 +105,18 @@ input, textarea, select {
   }
 }
 
-.page-template-contact {
-  .navbar {
-    .navbar-collapse {
-      .nav-btn {
-        //margin-top: 40px;
-      }
-    }
-  }
-}
-
-.vc_row.vc_row-fluid {
-  width: 992px;
-}
-
 .text-blue {
   color: $blue;
+}
+
+form p {
+  margin: 0;
 }
 
 .contact-form {
   margin-bottom: 0;
   background-color: #ffffff;
-  @include border-radius(6px);
-  padding: 40px 15px;
+  padding: 40px 0;
   position: relative;
   z-index: 99;
   .wpcf7 {
@@ -104,12 +128,12 @@ input, textarea, select {
   }
 
   .form-select {
-    border-bottom: 1px solid #dddddd;
-    margin-bottom: 25px;
-    padding-bottom: 40px;
-    .col-md-6 {
-      float: inherit;
-      margin: 0;
+    border-bottom: 1px dashed $grey;
+    display: table;
+    margin: 0 auto 20px;
+    width: calc(100% - 30px);
+    & > .col-md-12 {
+      padding: 0;
     }
   }
   .contact-form-content {
@@ -134,6 +158,7 @@ input, textarea, select {
   }
   .captcha {
     padding: 25px 25px 0 15px;
+    display: table;
   }
   .terms-content {
     margin: 25px 0 15px;
@@ -142,7 +167,8 @@ input, textarea, select {
     padding: 0 15px;
   }
   .contact-submit {
-    padding: 15px 15px 25px;
+    padding: 15px 15px 0;
+    margin-bottom: 0;
     input {
       margin: 0;
     }
@@ -152,13 +178,162 @@ input, textarea, select {
 .contact-number {
   border: 1px solid $green-turk;
   @include border-radius(3px);
-  padding: 20px 0;
-  strong, p {
+  display: table;
+  float: inherit;
+  margin: 0 auto;
+  padding: 25px;
+  width: initial;
+  h1, h2, h3, h4, strong, p {
     color: $green-turk;
   }
 }
 
+.hs-error-msgs.inputs-list {
+  float: left;
+  margin: 15px 0;
+  text-align: left;
+  width: 100%;
+}
+
+.hs-form-required {
+  color: $dark-red;
+}
+
+
+.hbspt-form {
+  .hs-form.stacked {
+    .field {
+      margin-bottom: 7px;
+    }
+    fieldset {
+      text-align: left;
+      margin: 0 auto;
+      width: calc(100% - 40px);
+      max-width: inherit;
+      &.form-columns-2 .input {
+        margin-right: 25px;
+      }
+    }
+    label {
+      color: $black;
+      display: inline-block;
+      font-family: Rubik,sans-serif;
+      font-weight: 400;
+      letter-spacing: -0.01rem;
+      margin-bottom: 5px;
+      max-width: 100%;
+      font-size: 1.4rem;
+    }
+    .hs-error-msgs.inputs-list {
+      label {
+        background-color: #ffffff;
+        border: 1px solid $red;
+        border-radius: 3px;
+        color: $red;
+        font-size: 1.3rem;
+        padding: 3px 10px;
+      }
+    }
+    input, textarea, select {
+      &.hs-input {
+        font-family: $main-font;
+        box-shadow: none;
+        border: $border;
+        color: #888888;
+        font-size: 1.3rem;
+        height: initial;
+        padding: 7px 10px;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+      }
+    }
+    .hs_contact_type {
+      width: calc(50% - 15px);
+    }
+    .hs-button {
+      background-color: $yellow;
+      color: rgba(0, 0, 0, 0.4);
+      @include border-radius(3px);
+      border: medium none;
+      font-family: $main-font;
+      font-size: 1.4rem;
+      font-weight: 500;
+      letter-spacing: -0.015em;
+      padding: 14px 18px;
+      height: initial;
+      width: initial;
+      outline: medium none;
+      white-space: normal;
+      opacity: 1;
+      background-image: none;
+      box-shadow: none;
+      text-shadow: none;
+      transition: none;
+      line-height: inherit;
+      &:hover, &:focus, &:active {
+        background-color: darken( $yellow, 3% );
+        border: medium none;
+        box-shadow: none;
+        text-shadow: none;
+        transition: none;
+      }
+    }
+    .hs-form-booleancheckbox {
+      text-align: left;
+      span {
+        color: #888888;
+        font-size: 1.3rem;
+        font-weight: 300;
+        line-height: 0;
+        &.hs-form-required {
+          color: $dark-red;
+        }
+      }
+      input.hs-input {
+        margin-right: 7px;
+        width: initial;
+      }
+    }
+    .hs_recaptcha {
+      padding: 25px 20px;
+    }
+    .hs_submit {
+      float: left;
+      margin: 0 20px;
+    }
+  }
+}
+
+
+
 @media screen and (max-width: 992px) {
+  .contact-form .terms-content {
+    display: table;
+  }
+  .main {
+    .vc_row.vc_row-fluid p, h, h4 {
+      text-align: left;
+    }
+    .wpb_wrapper p {
+      max-width: inherit;
+    }
+    & > .vc_row {
+      width: 100%;
+      &:last-child {
+        margin-bottom: 0;
+        @include border-radius(0);
+      }
+    }
+    .page-description {
+      margin-top: 0;
+      @include border-radius(0);
+      padding: 40px 0 0;
+      h3 {
+        text-align: center;
+      }
+    }
+  }
   .vc_column_container {
     margin-bottom: 0;
   }
@@ -204,5 +379,35 @@ input, textarea, select {
   }
   .contact-form .wpcf7 {
     margin-bottom: 0;
+  }
+  .hs-form.stacked fieldset {
+    &.form-columns-1 {
+      .input {
+        margin: 0 15px;
+      }
+      .hs_contact_type {
+        margin-left: 15px;
+        width: calc(100% - 25px);
+        .input {
+          margin: 0;
+        }
+      }
+    }
+  }
+  .hbspt-form .hs-form.stacked fieldset {
+    width: 100%;
+    &.form-columns-2 {
+      .hs-form-field {
+        float: inherit;
+        margin: 0 auto 15px;
+        width: calc(100% - 25px);
+      }
+      .input {
+        margin-right: 0;
+      }
+    }
+  }
+  .hbspt-form .hs-form.stacked fieldset.form-columns-2 .input {
+    margin-right: 0;
   }
 }

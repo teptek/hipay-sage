@@ -14,25 +14,10 @@ require('lang/content.php');
     <?php get_template_part('templates/page', 'header'); ?>
 <?php endwhile; ?>
 
-<div class="timeline timeline-white">
-    <div class="container">
-        <div class="timeline-bar"></div>
-        <?php
-        $args = array( 'post_type' =>   'post',
-            'category_name' =>    'event',
-            'posts_per_page' =>  4,
-            'offset' =>  1
-        );
-        query_posts( $args );
-        ?>
-        <?php get_template_part('templates/timeline'); ?>
-    </div>
-</div>
-
 <div class="row blog-one full">
     <?php
     $args = array( 'post_type' =>   'post',
-        'category_name' =>    'blog',
+        'category_name' =>    'blog-en',
         'posts_per_page' =>  1
     );
     query_posts( $args );
@@ -78,7 +63,7 @@ require('lang/content.php');
         <a href="/blog" class="category-link category-link-blue"><h5><?php echo $tag_blog; ?></h5></a>
         <?php
         $args = array( 'post_type' =>   'post',
-            'category_name' =>    'blog',
+            'category_name' =>    'blog-en',
             'posts_per_page' =>  3,
             'offset' =>  1
         );
@@ -124,10 +109,10 @@ require('lang/content.php');
 <div class="row list-end">
     <div class="container">
         <div class="cp-list col-md-6">
-            <a href="/press" class="category-link category-link-green"><h5><?php echo $tag_cp; ?></h5></a>
+            <a href="<?php echo $news_tag_link; ?>" class="category-link category-link-green"><h5><?php echo $tag_cp; ?></h5></a>
             <?php
             $args = array( 'post_type' =>   'post',
-                'category_name' =>    'cp',
+                'category_name' =>    'cp-en',
                 'posts_per_page' =>  3
             );
             query_posts( $args );
@@ -135,10 +120,10 @@ require('lang/content.php');
             <?php get_template_part('templates/articles', 'list'); ?>
         </div>
         <div class="col-md-6">
-            <a href="/press" class="category-link category-link-blue"><h5><?php echo $tag_press; ?></h5></a>
+            <a href="<?php echo $news_tag_link; ?>" class="category-link category-link-blue"><h5><?php echo $tag_press; ?></h5></a>
             <?php
             $args = array( 'post_type' =>   'post',
-                'category_name' =>    'media',
+                'category_name' =>    'presse-en',
                 'posts_per_page' =>  3
             );
             query_posts( $args );

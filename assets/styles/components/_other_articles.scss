@@ -15,14 +15,14 @@
   .previous-article {
     .article-content {
       .article-bg {
-        background-color: $blue-turk;
+        background-color: $orange;
       }
     }
   }
   .next-article {
     .article-content {
       .article-bg {
-        background-color: $green-turk;
+        background-color: $midnight-blue;
       }
     }
   }
@@ -41,7 +41,7 @@
     &:hover, &:focus {
       .article-bg {
         transform: scale(1.04);
-        @include brightness(0.45);
+        @include brightness(0.65);
         @include transition-multi(transform 0.5s ease 0s, filter 0.5s ease 0s);
       }
     }
@@ -56,15 +56,13 @@
       top: 0;
       width: 100%;
       z-index: -1;
-      @include brightness(0.25);
+      @include brightness(0.5);
       @include transition-multi(transform 0.5s ease 0s, filter 0.5s ease 0s);
     }
 
     h2 {
       color: #ffffff;
-      font-weight: 400;
       margin-bottom: 15px;
-      font-size: 2.4rem;
     }
   }
 }

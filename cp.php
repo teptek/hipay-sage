@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Press
+ * Template Name: Press FR
  */
 ?>
 
@@ -14,8 +14,11 @@ require('lang/content.php');
     <div class="col-md-7 articles-feed">
 
         <?php
+
+        $site_lang = get_bloginfo('language');
+
         $args = array( 'post_type' =>   'post',
-            'category_name' =>    'media, cp',
+            'category_name' =>    'presse, cp',
             'posts_per_page' =>  6,
             'paged' =>  $paged
         );
@@ -31,7 +34,7 @@ require('lang/content.php');
 
                     <div class="article-tag">
                         <?php
-                        if ( in_category( array( 'media', 'media-en')) ) {
+                        if ( in_category( array( 'presse', 'presse-en', 'presse-it')) ) {
                             echo $tag_press;
                         } else {
                             echo $invest_cp_press_title;
@@ -87,7 +90,7 @@ require('lang/content.php');
         <h4><?php echo $last_cp; ?></h4>
         <?php
         $args = array( 'post_type' =>   'post',
-            'category_name' =>    'media, cp',
+            'category_name' =>    'presse, cp',
             'posts_per_page' =>  4
         );
         query_posts( $args );

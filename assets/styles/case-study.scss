@@ -7,9 +7,24 @@ body {
 }
 
 .page-header {
-  height: 400px;
-  h1 {
-    font-size: 42px;
+  background-repeat: no-repeat;
+}
+
+.wpb_wrapper {
+  .highlight, .highlight-small {
+    text-align: center;
+  }
+  p {
+    padding-bottom: 15px;
+    text-align: justify;
+    &:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+  h1, h2 {
+    margin: 0 auto 25px;
+    max-width: 720px;
   }
 }
 
@@ -17,7 +32,227 @@ body {
   background-position: center center;
 }
 
+.kusmi-tea {
+  .page-header {
+    @include saturate(125%);
+  }
+  h3 {
+    margin-bottom: 5px;
+    margin-top: 25px;
+    padding: 0;
+  }
+}
+
+.ankama {
+  .page-header {
+    @include saturate(110%);
+  }
+}
+
+.lexception {
+  .page-header {
+    @include saturate(125%);
+  }
+  .vc_row.vc_row-o-full-height {
+    min-height: 50vh;
+  }
+  #lexception-logo {
+    img {
+      margin-bottom: 40px;
+      max-width: 450px;
+    }
+  }
+  #lexception-scheme {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.promod, .etude-de-cas-promod {
+  .page-header {
+    @include saturate(115%);
+  }
+  .wpb_wrapper p {
+    padding-bottom: 15px;
+    text-align: justify;
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+  .page-header {
+    background-position: center center;
+  }
+  strong {
+    display: table;
+    float: right;
+    margin-top: 25px;
+    text-align: right;
+  }
+  #promod-logo {
+    img {
+      border: 12px solid white;
+    }
+  }
+  .promod-border {
+    border: 20px solid #d8e0d2;
+    padding: 70px 25px;
+  }
+  #promod-habits {
+    h2 {
+      margin-bottom: 40px;
+    }
+    .promod-habits-txt {
+      text-align: left;
+    }
+    .promod-habits-img {
+      display: table;
+      margin: 15px 0 0 25px;
+      text-align: center;
+      width: calc(100% - 120px);
+    }
+  }
+  .promod-testimonial {
+    position: relative;
+    width: 960px;
+    padding-bottom: 67px;
+    .promod-testimonial-txt {
+      background-color: #ffffff;
+      padding: 70px 40px;
+      width: 60%;
+      z-index: 1;
+    }
+    .promod-testimonial-img {
+      position: absolute;
+      right: 0;
+      top: 115px;
+    }
+  }
+  #promod-testimonial2 {
+    .promod-testimonial-txt {
+      z-index: 0;
+      padding: 70px 140px 70px 40px;
+    }
+    .promod-testimonial-full-color {
+      background-color: #d8e0d2;
+      position: absolute;
+      right: 0;
+      top: 90px;
+      padding: 70px 40px;
+      p {
+        color: rgba(0, 0, 0, 0.4);
+        font-weight: 500;
+        letter-spacing: -0.022em;
+        z-index: 2;
+      }
+    }
+  }
+  #promod-fraud {
+    margin-bottom: 25px;
+    h2 {
+      margin: 0 auto 40px;
+      max-width: 720px;
+    }
+  }
+  #promod-testimonial3 {
+    margin-top: 0;
+    border: 1px solid $black;
+    color: $black;
+    padding: 40px;
+    width: 720px;
+    strong {
+      display: block;
+      margin: 0;
+      text-align: right;
+      width: 100%;
+    }
+  }
+  #promod-end {
+    background-color: #d8e0d2;
+    padding: 40px;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+    letter-spacing: -0.022em;
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 1406px) {
+  .promod {
+    .container, .vc_row.vc_row-fluid:not(.other-articles) {
+      width: 960px;
+    }
+  }
+}
+
+@media screen and (max-width: 1094px) {
+  .promod {
+    .container, .vc_row.vc_row-fluid:not(.other-articles) {
+      width: 750px;
+    }
+  }
+}
+
 @media screen and (max-width: 992px) {
+  .promod {
+    .container, .vc_row.vc_row-fluid:not(.other-articles) {
+      margin-left: 25px;
+      margin-right: 25px;
+      width: calc(100% - 50px);
+    }
+    #promod-habits {
+      .vc_col-sm-6 {
+        width: 100%;
+      }
+      .promod-habits-img {
+        margin: 15px 0 0;
+        width: 100%;
+      }
+    }
+    .promod-testimonial {
+      .vc_col-sm-6 {
+        width: 100%;
+      }
+      .promod-testimonial-txt {
+        width: 100%;
+        margin: 0;
+      }
+      .promod-testimonial-img {
+        position: relative;
+        right: 0;
+        top: 0;
+        .vc_column-inner {
+          padding: 0;
+          height: 310px;
+          overflow: hidden;
+          p {
+            max-width: inherit;
+          }
+        }
+      }
+    }
+    #promod-p24 {
+      img {
+        max-width: 320px;
+      }
+    }
+    #promod-testimonial2 {
+      .promod-testimonial-txt {
+        padding: 70px 40px;
+      }
+      .promod-testimonial-full-color {
+        position: relative;
+        top: 0;
+      }
+      strong {
+        text-align: center;
+        width: 100%;
+      }
+    }
+    #promod-testimonial3, #promod-end {
+      width: calc(100% - 50px);
+    }
+  }
   .main {
     img {
       width: 100%;

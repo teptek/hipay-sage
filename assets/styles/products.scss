@@ -5,6 +5,13 @@ body {
   background-color: $background-grey;
 }
 
+p {
+  & > a {
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+}
+
 .page-header-darklayer {
   opacity: 0.6;
 }
@@ -27,7 +34,7 @@ body {
 }
 
 .wpb_text_column {
-  min-height: 700px;
+  min-height: 690px;
   padding: 40px 25px;
 }
 
@@ -62,11 +69,14 @@ a.btn {
     font-size: 1.6rem;
     line-height: 2;
   }
+  ul {
+    margin-bottom: 40px;
+  }
   li {
     background-image: url("../images/check.svg");
     background-position: -2px 0;
     background-repeat: no-repeat;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1.2;
     padding: 0 0 15px 25px;
   }
@@ -81,4 +91,14 @@ a.btn {
   left: 0;
   position: absolute;
   width: 100%
+}
+
+@media screen and (max-width: 768px) {
+  .wpb_text_column {
+    min-height: inherit;
+    padding: 40px 25px;
+  }
+  .vc_column_container {
+    margin-bottom: 15px;
+  }
 }

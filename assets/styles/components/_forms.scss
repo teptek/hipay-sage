@@ -61,10 +61,96 @@ div.wpcf7-validation-errors, div.wpcf7-mail-sent-ok {
   width: 100%;
 }
 
+.terms-content {
+  span[class*="checkbox-"] {
+    display: inline;
+    width: initial;
+    input {
+      float: left;
+      margin: 3px 0 0;
+    }
+  }
+}
+
+span.wpcf7-not-valid-tip {
+  font-size: 1.2rem;
+  padding: 0 15px;
+}
+
 .modal-footer {
   .btn {
     margin-top:  0;
   }
+}
+
+div.wpcf7-response-output {
+  font-weight: 400;
+  margin: 0 0.5em 1em;
+}
+
+div.wpcf7-mail-sent-ok {
+  border: medium none;
+  color: $green-turk;
+}
+
+.wpcf7-form {
+  &.sent {
+    & > div, & > p {
+      display: none;
+    }
+    div{
+      &.modal-footer, &.contact-submit {
+        border: medium none;
+        display: block;
+        padding: 0;
+        text-align: center;
+        input[type="submit"].btn.wpcf7-submit {
+          display: none;
+        }
+        .btn.btn-default {
+          float: inherit;
+        }
+        .ajax-loader {
+          display: none;
+        }
+        div.wpcf7-response-output {
+          border: medium none;
+          color: $green;
+          font-size: 2rem;
+          font-weight: 400;
+          letter-spacing: 0;
+        }
+      }
+    }
+  }
+  &.failed, &.spam, &.invalid {
+    & > div:not(.modal-footer), & > div:not(.contact-submit), & > p {
+      //display: none;
+    }
+    .modal-footer, .contact-submit {
+
+    }
+  }
+  div.wpcf7-response-output {
+    border: medium none;
+    color: #ff0000;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+}
+
+div.wpcf7 .screen-reader-response {
+  color: $green;
+  display: none;
+  font-size: 2.4rem;
+  font-weight: 400;
+  height: auto;
+  letter-spacing: -0.012em;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,26 +1,53 @@
 @import "common/variables";
 @import "common/mixins";
+@import "common/header-left-cta";
 
 .admin-bar header.nav-down, header.nav-down {
   top: -97px;
 }
 
 .page-header {
-  height: 455px;
+  //height: 455px;
+  h1 {
+    margin-top: 50px;
+  }
+  min-height: inherit;
+  .page-header-content {
+    display: table;
+    padding: 15vh 25px;
+    text-align: left;
+  }
 }
 
 .page-header-darklayer {
   opacity: 0.55;
-  height: 455px;
+}
+
+.main {
+  .page-header, .page-header-darklayer {
+    height: 70vh;
+  }
+}
+
+.admin-bar {
+  #sticky-wrapper.is-sticky .page-header-links {
+    top: 32px !important;
+  }
 }
 
 #sticky-wrapper {
+  background-color: rgba(0, 0, 0, 0.3);
   bottom: 0;
   position: absolute;
   width: 100%;
   z-index: 2;
+  top: calc(70vh - 59px);
+  font-weight: 400;
+  letter-spacing: -0.012em;
   .page-header-links {
     ul {
+      display: table;
+      margin: 0 auto;
       li {
         display: inline;
         padding: 0 15px;
@@ -28,7 +55,7 @@
           color: #fff;
           cursor: pointer;
           font-weight: 400;
-          font-size: 1.4rem;
+          font-size: $font-size-sm;
           padding-bottom: 15px;
           display: inline-block;
           padding-top: 20px;
@@ -131,10 +158,10 @@
 
 #dashboard {
   background: #00899b;
-  background: -moz-linear-gradient(-45deg, #00899b 0%, $blue-tpp 100%);
-  background: -webkit-linear-gradient(-45deg, #00899b 0%,$blue-tpp 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #00899b 0%,$blue-tpp 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00899b', endColorstr='$blue-tpp',GradientType=1 );
+  background: -moz-linear-gradient(-45deg, #00899b 0%, $midnight-blue 100%);
+  background: -webkit-linear-gradient(-45deg, #00899b 0%,$midnight-blue 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #00899b 0%,$midnight-blue 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00899b', endColorstr='$midnight-blue',GradientType=1 );
   color: #ffffff;
   padding: 90px 0 0 calc((100% - 1170px) / 2);
   width: 100%;
@@ -175,7 +202,7 @@
   }
   strong {
     display: block;
-    font-size: 1.2rem;
+    font-size: $font-size-xsm;
     line-height: 1.6;
     margin: 10px 0 0;
   }
@@ -207,32 +234,21 @@
     padding: 10px 0 20px;
   }
   .full-txt {
-    font-size: 1.4rem;
+    font-size: $font-size-sm;
     opacity: 0.85;
     padding-bottom: 0;
   }
 }
 
 #data {
-  background-color: $black;
-  color: white;
-  padding: 90px calc((100% - 1170px) / 2);
-  width: 100%;
-  margin-bottom: 0;
-  margin-top: 0;
-  h2 {
-    color: white;
-  }
   h5 {
-    color: #ffffff;
     margin: 0;
-    opacity: 0.5;
   }
   img {
     margin-top: 40px;
   }
   .full-txt {
-    opacity: 0.7;
+    opacity: 1;
     padding-bottom: 25px;
     text-align: justify;
     &:last-child {
@@ -286,7 +302,25 @@
   }
 }
 
+@media screen and (max-width: 1600px) {
+  #sticky-wrapper {
+    top: calc(70vh - 59px);
+  }
+}
+
+@media screen and (max-width: 1405px) {
+  #sticky-wrapper {
+    top: calc(70vh - 59px);
+  }
+}
+
 @media screen and (max-width: 1185px) {
+  #sticky-wrapper {
+    display:none;
+    .page-header-links ul li {
+      padding: 0;
+    }
+  }
   #payment-methods .container-logos {
     .vc_col-sm-2 {
       display: table;
@@ -302,6 +336,12 @@
 }
 
 @media screen and (max-width: 992px) {
+  #sticky-wrapper {
+    top: 241px;
+    .page-header-links ul li {
+      display: none;
+    }
+  }
   #payment-hub img {
     max-width: 100%;
   }

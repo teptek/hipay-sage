@@ -86,7 +86,7 @@ function display_sidebar() {
   isset($display) || $display = in_array(true, [
     // The sidebar will be displayed if ANY of the following return true.
     // @link https://codex.wordpress.org/Conditional_Tags
-    is_404(),
+    // is_404(),
     //is_front_page()
     //is_page_template('news-home.php'),
     //is_page_template('page.php')
@@ -99,13 +99,27 @@ function display_sidebar() {
  * Theme assets
  */
 function assets() {
-  wp_enqueue_style('sage/css', Assets\asset_path('styles/main.css'), false, null);
+  //wp_enqueue_style('sage/css', Assets\asset_path('styles/main.css'), false, null);
+
+    wp_enqueue_style( 'sage/css', get_stylesheet_directory_uri() . '/dist/styles/main.css', array(), filemtime( get_stylesheet_directory() . '/dist/styles/main.css' ) );
+
+
+  // css pages dependencies
+  require('css.php');
+
+    wp_enqueue_style( $page_css_url, get_stylesheet_directory_uri() . '/dist/styles/' . $page_css_url . '.css', array(), filemtime( get_stylesheet_directory_uri() . '/dist/styles/' . $page_css_url . '.css' ) );
 
   if (is_single() && comments_open() && get_option('thread_comments')) {
     wp_enqueue_script('comment-reply');
   }
 
   wp_enqueue_script('sage/js', Assets\asset_path('scripts/main.js'), ['jquery'], null, true);
+  wp_enqueue_script('ga', get_template_directory_uri() . '/ext/ga.js', [], null, true);
+  wp_enqueue_script('hotjar', get_template_directory_uri() . '/ext/hotjar.js', [], null, true);
+
+    if ( is_page_template( 'intelligence.php' ) ) {
+        wp_enqueue_script('gradient', get_template_directory_uri() . '/ext/gradient.js', [], null, true);
+    }
 
   if ( is_page_template( 'bourse.php' ) ) {
     wp_enqueue_script('amcharts', get_template_directory_uri() . '/ext/amcharts/amcharts.js', [], null, true);
@@ -115,6 +129,17 @@ function assets() {
     wp_enqueue_script('amconfig', Assets\asset_path('scripts/amconfig.js'), [], null, true);
   }
 
+  if ( is_page_template( 'home-1.1.php' ) ) {
+    wp_enqueue_style('slickcss', Assets\asset_path('styles/slick.css'), [], null, true);
+    wp_enqueue_script('slickjs', Assets\asset_path('scripts/slick.min.js'), array (), filemtime( Assets\asset_path('scripts/slick.min.js' )), true);
+    wp_enqueue_script('slickjs-init', Assets\asset_path('scripts/slick-config.js'), filemtime( Assets\asset_path('scripts/slick-config.js' )), true);
+    //wp_enqueue_script('popover', Assets\asset_path('scripts/popover.js'), [], null, true);
+  }
+
+    if ( is_page_template( 'partners.php' ) ) {
+        wp_enqueue_script('partners', Assets\asset_path('scripts/bootstrap.min.js'), [], null, true);
+        wp_enqueue_script('popover', Assets\asset_path('scripts/popover.js'), [], null, true);
+    }
 
   if ( is_page_template( 'career.php' ) ) {
     wp_enqueue_script('classie', Assets\asset_path('scripts/classie.js'), [], null, true);
@@ -122,18 +147,24 @@ function assets() {
     wp_enqueue_script('multipleFilterMasonry', Assets\asset_path('scripts/multipleFilterMasonry.js'), [], null, true);
     wp_enqueue_script('masonry-config', Assets\asset_path('scripts/masonry-config.js'), [], null, true);
   }
-  if ( is_page_template( 'press.php' ) || is_page_template( 'cp.php' ) || is_page_template( 'blog.php' ) || is_page_template( 'documentation.php' )) {
-    //wp_register_script('infinite-scroll', get_template_directory_uri().'/bower_components/jquery-infinite-scroll/jquery.infinitescroll.min.js', ['jquery'], null, true);
-    //wp_enqueue_script( 'infinite-scroll' );
-    //wp_enqueue_script('infinite-scroll-config', Assets\asset_path('scripts/infinite-scroll-config.js'), [], null, true);
+    if ( is_page_template( 'ressources.php' ) ) {
+        wp_enqueue_script('classie', Assets\asset_path('scripts/classie.js'), [], null, true);
+        wp_enqueue_script( 'masonry' );
+        wp_enqueue_script('multipleFilterMasonry', Assets\asset_path('scripts/multipleFilterMasonry.js'), [], null, true);
+        wp_enqueue_script('ressources-masonry', Assets\asset_path('scripts/ressources-masonry.js'), [], null, true);
+    }
+  if ( is_page_template( 'press.php' ) || is_page_template( 'cp.php' ) || is_page_template( 'blog.php' ) || is_page_template( 'documentation.php' ) || is_page_template( 'single-job.php' ) ) {
     wp_enqueue_script('fixed-scroll-listener', Assets\asset_path('scripts/fixed-scroll-listener.js'), [], null, true);
   }
-    if ( is_page_template( 'enterprise.php' ) ) {
-        wp_enqueue_script('sticky', Assets\asset_path('scripts/jquery.sticky.js'), [], null, true);
-    }
-  if ( is_page_template( 'home_test.php' ) ) {
-    wp_enqueue_script('particles', get_template_directory_uri() . '/bower_components/particles.js/particles.min.js', [], null, true);
-    wp_enqueue_script('home_test',  Assets\asset_path('scripts/home-test.js'), [], null, true);
+  if ( is_page_template( 'enterprise.php' ) ) {
+    wp_enqueue_script('sticky', Assets\asset_path('scripts/jquery.sticky.js'), [], null, true);
   }
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);
+
+
+// Shortcode to output custom PHP in Visual Composer
+function my_vc_shortcode( $atts ) {
+    include( get_template_directory() . '/svg/intelligence-scheme.php' );
+}
+add_shortcode( 'intelligence_php_tag', __NAMESPACE__ . '\\my_vc_shortcode');

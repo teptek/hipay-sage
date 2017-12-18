@@ -12,12 +12,14 @@ if (empty($thumb['0'])) {
 } else {
   $url = 'style="background-image:url('.$thumb['0'].');"';
 }
+
+require('lang/content.php');
 ?>
 
 
 <?php while (have_posts()) : the_post(); ?>
   <div class="page-header" <?=$url?>>
-    <div class="page-header-content">
+    <div class="page-header-content container">
       <h1><?= Titles\title(); ?></h1>
 
       <?php
@@ -32,24 +34,30 @@ if (empty($thumb['0'])) {
 
       $cta_link = get_post_meta($post->ID, "cta_link", true);
       $cta_button = get_post_meta($post->ID, "cta_button", true);
+      $cta_secondary_link = get_post_meta($post->ID, "cta_secondary_link", true);
+      $cta_secondary_button = get_post_meta($post->ID, "cta_secondary_button", true);
 
       ?>
 
       <?php if($cta_button != '') {?>
-        <a class="btn blue-tpp" large squar"e" href="<?php echo $cta_link; ?>"><?php echo $cta_button; ?></a>
+        <a class="btn white large" href="<?php echo $cta_link; ?>"><?php echo $cta_button; ?></a>
       <?php } ?>
-      <div class="page-header-links">
-        <ul class="nav nav-enterprise" role="tablist">
-          <li><a href="#payment-methods">Payment methods</a></li>
-          <li><a href="#risk">Risk management</a></li>
-          <li><a href="#data">Data & Analytics</a></li>
-          <li><a href="#dashboard">Real-time monitoring</a></li>
-          <li><a href="#user-experience" >User Experience</a></li>
-          <li><a href="#payment-hub" >Payment Hub</a></li>
-        </ul>
-      </div>
-      <div class="page-header-darklayer"></div>
+      <?php if($cta_secondary_button != '') {?>
+        <a class="btn empty white large downscroll" href="<?php echo $cta_secondary_link; ?>"><?php echo $cta_secondary_button; ?></a>
+      <?php } ?>
+
     </div>
+    <div class="page-header-darklayer"></div>
+  </div>
+  <div class="page-header-links">
+    <ul class="nav nav-enterprise" role="tablist">
+      <li><a href="#payment-methods"><?php echo $enterprise_payment; ?></a></li>
+      <li><a href="#risk"><?php echo $enterprise_risk; ?></a></li>
+      <li><a href="#data"><?php echo $enterprise_data; ?></a></li>
+      <li><a href="#dashboard"> <?php echo $enterprise_monitoring; ?></a></li>
+      <li><a href="#user-experience" ><?php echo $enterprise_ux; ?></a></li>
+      <li><a href="#payment-hub"><?php echo $enterprise_hub; ?></a></li>
+    </ul>
   </div>
   <?php get_template_part('templates/content', 'page'); ?>
 <?php endwhile; ?>

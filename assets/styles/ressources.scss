@@ -1,0 +1,126 @@
+@import "common/variables";
+@import "common/mixins";
+
+.page-header, .page-header-darklayer {
+  height: 320px;
+}
+
+.page-header {
+  filter: none;
+  div.page-description {
+    color: #ffffff;
+    line-height: 1.2;
+    margin: 0 auto;
+    max-width: 620px;
+    opacity: 1;
+  }
+}
+
+.ressources-category {
+  .ressources-cards {
+    a {
+      background-repeat: no-repeat;
+      padding: 1px 0 8px 30px;
+    }
+  }
+  &.ressources-download {
+    .ressources-cards {
+      a {
+        background-image: url("../images/ressources-download-ico.svg");
+      }
+    }
+  }
+  &.ressources-watch {
+    .ressources-cards {
+      a {
+        background-image: url("../images/ressources-video-ico.svg");
+      }
+    }
+  }
+  &.ressources-read {
+    .ressources-cards {
+      a {
+        background-image: url("../images/ressources-read-ico.svg");
+      }
+    }
+  }
+  h2 {
+    text-align: left;
+    padding: 0 5px 25px;
+  }
+  .vc_row.wpb_row {
+
+  }
+  img {
+    @include border-radius(3px 3px 0 0);
+  }
+  .ressources-cards {
+    border-left: 1px solid $grey;
+    border-right: 1px solid $grey;
+    border-bottom: 2px solid $grey;
+    padding: 25px;
+    @include border-radius(0 0 3px 3px);
+    h3 {
+      font-size: 1.4rem;
+      text-align: left;
+      padding-bottom: 20px;
+    }
+    a {
+      font-size: 1.4rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      &:hover, &:focus {
+        color: $blue;
+      }
+      span {
+        display: inline-block;
+        height: 20px;
+        margin-right: 10px;
+        width: 20px;
+      }
+    }
+  }
+  .see-all {
+    float: left;
+    a {
+      margin: 25px 5px 0;
+    }
+  }
+}
+
+.main {
+  .vc_column_container > .vc_column-inner {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+p {
+  text-align: justify;
+}
+
+@media screen and (max-width: 992px) {
+  .ressources-category {
+    .see-all a {
+      margin: 0 5px;
+    }
+    .vc_col-sm-3 {
+      width: 50%;
+      h3 {
+        text-align: center;
+      }
+    }
+    .vc_column_container.vc_col-sm-3 img, .vc_column_container.vc_col-sm-4 img {
+      max-width: inherit;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ressources-category {
+    .vc_col-sm-3 {
+      width: 100%;
+    }
+  }
+}

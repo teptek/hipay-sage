@@ -1,0 +1,19 @@
+@import "common/variables";
+@import "common/mixins";
+@import "common/header-block";
+@import "feed";
+
+body{
+  background-color: $background-grey;
+}
+
+.page-header {
+  background-image: none;
+  height: inherit;
+  h2 {
+    color: $black;
+    text-align: left;
+    margin-bottom: 25px;
+    padding: 0 15px;
+  }
+}

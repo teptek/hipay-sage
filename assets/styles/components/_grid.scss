@@ -85,7 +85,7 @@
     //background-color: white;
     @include border-radius(3px);
     padding: 40px 15px;
-    margin: -70px auto 70px;
+    margin: -100px auto 70px;
     width: 720px;
     h5 {
       text-align: center;
@@ -221,10 +221,16 @@
   }
 }
 
-@mixin container-queries($browser-width, $container-width, $padding-vertical) {
+@mixin container-queries($browser-width, $container-width, $padding-vertical, $header-height) {
   @media screen and (max-width: $browser-width) {
+    .page-header, .page-header-darklayer {
+      height: $header-height;
+    }
     .container, .vc_row.vc_row-fluid {
       width: $container-width;
+    }
+    .page-header-content {
+      left: calc((100% - #{$container-width})/2);
     }
     .container-left {
       padding-left: calc((100% - #{$container-width})/2);
@@ -259,8 +265,10 @@
   }
 }
 
-@include container-queries(1920px, 1170px, 70px);
-@include container-queries(1405px, 1170px, 70px);
-@include container-queries(1185px, 992px, 70px);
-@include container-queries(992px, 750px, 60px);
-@include container-queries(768px, 100%, 40px);
+@include container-queries(2560px, 1170px, 70px, 520px);
+@include container-queries(1920px, 1170px, 70px, 520px);
+@include container-queries(1600px, 1170px, 70px, 440px);
+@include container-queries(1405px, 1170px, 70px, 380px);
+@include container-queries(1185px, 992px, 70px, 320px);
+@include container-queries(992px, 750px, 60px, 300px);
+@include container-queries(768px, 100%, 40px, 320px);

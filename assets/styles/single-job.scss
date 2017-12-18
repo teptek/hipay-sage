@@ -1,100 +1,70 @@
 @import "common/variables";
 @import "common/mixins";
+@import "common/header-block";
 
-header {
-  background-color: $black;
-  //border-bottom: 1px solid #ebebeb;
-  top: 0;
-  @include transition-multi(top 0.5s ease 0s, padding 0.3s ease 0s);
 
-  .navbar-brand {
-    //background-image: url("../images/hipay-color.svg");
-    //background-position: center top;
-    //background-repeat: no-repeat;
-    //background-size: 96px auto;
-
-    height: 37px;
-    margin: 18px 0 0;
-    @include transition-multi(height 0.3s ease 0s, margin 0.3s ease 0s);
-
-    & > svg {
-      & > path {
-        fill: #fff;
-        @include transition(fill);
-      }
-    }
-  }
-
-  .dropdown-menu > .active > a {
-    color: #fff;
-    opacity: 1;
-  }
-
-  .nav > li {
-    padding: 10px 0;
-    @include transition-multi(padding 0.3s ease 0s, background-color 0.3s ease 0s);
-    & > a {
-      color: $grey-txt;
-      &:hover, &:focus {
-        color: #fff;
-        background-color: rgba(0, 0, 0, 0);
-        border: medium none;
-        opacity: 1;
-      }
-    }
-    &.sub-menu {
-      margin-top: 10px;
-    }
-    &:hover, &:focus {
-      color: #fff;
-    }
-    &.current-menu-parent, &.current-menu-item {
-      & > a {
-        color: #fff;
-        opacity: 1;
-      }
-    }
-  }
-  .nav-secondary {
-    & > li:last-child {
-      & > a {
-        background-color: $blue;
-        border: medium none;
-        color: #fff;
-        opacity: 1;
-        padding: 8px 16px;
-        @include transition-multi(background-color 0.3s ease 0s, opacity 0.3s ease 0s);
-        &:focus, &:hover, &:active {
-          opacity: 0.75;
-          outline: medium none;
-          @include transition(opacity);
-        }
-      }
-    }
+.main {
+  & > .container {
+    margin: 0 auto 40px;
   }
 }
 
-.main {
-  background-color: #fff;
-  margin-top: 70px;
+h3 {
+  font-size: 2.2rem;
+}
+
+a {
+  font-weight: 400;
 }
 
 .job-content {
-  color: $read-txt;
-  font-size: 2rem;
-  font-weight: 200;
-  line-height: 1.75em;
-  margin: 60px 0 120px;
   width: 700px;
+  & > div {
+    & > p > span {
+      font-size: 1.6rem !important;
+      font-family: $main-font !important;
+      color: inherit !important;
+      & > a {
+        color: $blue !important;
+        & > strong {
+          color: $blue;
+          font-weight: 500;
+        }
+      }
+      & > strong {
+        font-weight: 500;
+      }
+    }
+    & > ul > li > p > span {
+      font-size: 1.6rem !important;
+      font-family: $main-font !important;
+      color: inherit !important;
+    }
+  }
   h1 {
     padding: 0;
+  }
+  ul {
+    margin: 25px 0 0;
+    & > li {
+      color: $black;
+      font-size: 1.4rem;
+      font-weight: 400;
+      line-height: 1.2em;
+      list-style-type: initial;
+      margin-bottom: 15px;
+      margin-left: 25px;
+    }
   }
   section {
     padding: 1.75em 0;
   }
   p {
-    letter-spacing: 0.01rem;
-    margin: 0 0 1.75em;
+    font-family: $serif;
+    color: $read-txt;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75em;
   }
   a, b, strong {
     &:not(.tag) {
@@ -115,20 +85,20 @@ header {
 
 .last-articles-blog {
   position: fixed;
-  margin-top: 60px;
   @include transition(margin-top);
   .article-title {
     cursor: pointer;
   }
   &.up {
-    margin-top: -30px;
     @include transition(margin-top);
   }
 }
 
-button {
-  @include border-radius(6px);
-  @include btn-color($blue);
-  font-size: 14px;
-  padding: 6px 22px;
+.main {
+  button {
+    @include border-radius(3px);
+    @include btn-color($blue);
+    font-size: 1.6rem;
+    padding: 14px 22px;
+  }
 }
